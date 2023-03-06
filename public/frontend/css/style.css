@@ -1,0 +1,181 @@
+body {
+
+}
+
+#_CRM_BIZFLY_VN_ROOT {
+
+}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_OVERLAY {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0.68;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CLOSE {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+    height: 40px;
+    width: 40px;
+    justify-content: center;;
+}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CLOSE i{margin: 0 -8px;font-size: 24px;font-weight: 700;}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: transformer 0.15s ease-in 0s 1;
+    animation: transformer 0.15s ease-in 0s 1;
+}
+@-webkit-keyframes transformer {
+    from {
+        -webkit-transform: scale(0.5);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+@keyframes transformer {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+    min-width: 720px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    bottom:0;
+    background: none !important;
+}
+#_CRM_BIZFLY_VN_ROOT #_CRM_BIZFLY_2_FRAME_CONTAINER_bmdhbm52XzI ._CRM_CONTENT_CONTAINER,
+#_CRM_BIZFLY_VN_ROOT #_CRM_BIZFLY_2_FRAME_CONTAINER_bmdhbm52XzE ._CRM_CONTENT_CONTAINER{max-width: 630px;}
+@media (min-width: 1300px) {
+    #_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER {
+        max-width: 1280px;
+    }
+    #_CRM_BIZFLY_VN_ROOT #_CRM_BIZFLY_2_FRAME_CONTAINER_bmdhbm52XzI ._CRM_CONTENT_CONTAINER,
+    #_CRM_BIZFLY_VN_ROOT #_CRM_BIZFLY_2_FRAME_CONTAINER_bmdhbm52XzE ._CRM_CONTENT_CONTAINER{max-width: 630px;}
+}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER_BOTTOM_RIGHT {
+    z-index: 1001;
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    max-width: 1360px;
+    min-width: 1025px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+    right: 0;
+}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER_CENTER {
+    z-index: 1001;
+    position: fixed;
+    bottom: 25%;
+    width: 40%;
+    max-width: 1360px;
+    min-width: 1025px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+    right: 20%;
+}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER_BOTTOM_RIGHT_2 {
+    z-index: 1001;
+    position: fixed;
+    bottom: 0;
+    min-width: 1025px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+    right: 0;
+}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_LOADER {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("modal-client/icon/loading1.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_FRAME {
+    max-height: calc(100vh) !important;
+}
+
+#_CRM_BIZFLY_VN_ROOT ._CRM_IMPORT_EXCEL {
+    width: 86% !important;
+    max-width: 100%;
+}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CLOSE i{display: none}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CLOSE{background: url(../backend-ui/assets/images/close.png) center center no-repeat #fff;background-size: 20px 20px}
+#_CRM_BIZFLY_VN_ROOT ._CRM_CLOSE:hover{background-color: #f6f6f6;}
+
+@media (max-width: 820px) {
+    #_CRM_BIZFLY_VN_ROOT ._CRM_CONTENT_CONTAINER {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+.visited{
+    color: blueviolet;
+}
+
+.label.visited{
+    background-color: #e37114;
+    color: white;
+    border-color: #e37114;
+}
