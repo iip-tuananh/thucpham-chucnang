@@ -10,7 +10,7 @@ class Services extends Model
     public function saveServices($request)
     {
     	$id = $request->id;
-        $cate = ServiceCategory::findOrFail($request->category_id);
+        $cate = ServiceCategory::findOrFail($request->cate_id);
         if($id != ""){
             $query = Services::where([
                 'id' => $id
@@ -22,7 +22,7 @@ class Services extends Model
                 $query->description = json_encode($request->description);
                 $query->status = $request->status;
                 $query->image = $request->image;
-                $query->cate_id = $request->category_id;
+                $query->cate_id = $request->cate_id;
                 $query->cate_slug = $cate->slug;
                 $query->save();
             }else{
@@ -33,7 +33,7 @@ class Services extends Model
                 $query->description = json_encode($request->description);
                 $query->status = $request->status;
                 $query->image = $request->image;
-                $query->cate_id = $request->category_id;
+                $query->cate_id = $request->cate_id;
                 $query->cate_slug = $cate->slug;
                 $query->save();
             }
@@ -46,7 +46,7 @@ class Services extends Model
                 $query->description = json_encode($request->description);
                 $query->status = $request->status;
                 $query->image = $request->image;
-                $query->cate_id = $request->category_id;
+                $query->cate_id = $request->cate_id;
                 $query->cate_slug = $cate->slug;
                 $query->save();
             

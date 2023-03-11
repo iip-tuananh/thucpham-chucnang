@@ -103,7 +103,7 @@
                   <vs-select-item value="0" text="Ẩn" />
                 </vs-select>
               </div>
-              <!-- <div class="form-group">
+              <div class="form-group">
                 <label>Loại danh mục</label>
                 <vs-select class="selectExample"
                   v-model="objData.type_cate"
@@ -121,7 +121,7 @@
                   />
                 </vs-select>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
               <label>Bài viết liên quan đến danh mục sản phẩm</label>
               <vs-select
                   class="selectExample"

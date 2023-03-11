@@ -34,14 +34,26 @@
                       type="text"
                       v-model="item.position"
                       size="default"
+                      placeholder="Chức vụ founder"
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>Mô tả</label>
+                    <label style="float: right;cursor: pointer" title="Xóa founder" v-if="key != 0" @click="removeObjBanner(key)">
+                      <vs-icon icon="clear"></vs-icon>
+                    </label>
+                    <vs-input
+                      type="text"
+                      v-model="item.content"
+                      size="default"
                       placeholder="Mô tả founder"
                       class="w-100"
                     />
                   </div>
                   <div class="form-group">
                     <label>Trạng thái</label>
-                    <vs-select v-model="item.status"
-                  >
+                    <vs-select v-model="item.status">
                       <vs-select-item  value="1" text="Hiện" />
                       <vs-select-item  value="0" text="Ẩn" />
                     </vs-select>
@@ -73,6 +85,7 @@ export default {
           status:1,
           name:"",
           position:"",
+          content:"",
         }
       ] 
     };
@@ -98,6 +111,7 @@ export default {
           status:1,
           name:"",
           position:"",
+          content:"",
         });
     },
     removeObjBanner(i){

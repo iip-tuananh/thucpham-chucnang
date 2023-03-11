@@ -50,6 +50,8 @@ Route::group(['namespace'=>'Client','middleware' => ['checkLanguage']], function
     });
     Route::get('quickview/{id}','PageController@quickview')->name('quickview');
     Route::get('nhan-bao-gia.html','PageController@baogia')->name('baogia');
+    Route::get('chung-nhan.html','PageController@chungnhan')->name('chungnhan');
+    Route::get('allvideo.html','PageController@allvideo')->name('allvideo');
 
     Route::get('gio-hang.html', 'CartController@listCart')->name('listCart');
     Route::post('add-to-cart', 'CartController@addToCart')->name('add.to.cart');

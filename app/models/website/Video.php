@@ -9,3 +9,4 @@ class Video extends Model
     protected $table = "video";
     protected $fillable = ['id','name', 'image', 'status', 'link', 'cate_slug', 'product_id'];
 }
+?>

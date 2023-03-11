@@ -1,0 +1,13 @@
+.img-me {
+    height: 20px;
+    width: 20px;
+}
+.limit-text-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    list-style: none !important;
+}

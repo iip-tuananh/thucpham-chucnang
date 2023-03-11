@@ -10,7 +10,9 @@ use App\models\blog\Blog;
 use App\models\product\TypeProduct;
 use App\models\construction\Construction;
 use  App\models\product\TypeProductTwo;
+use App\models\Services;
 use Session;
+use App\models\website\Video;
 
 class ProductController extends Controller
 {
@@ -132,7 +134,8 @@ class ProductController extends Controller
         return response()->json(['html'=>$view]);
     }
     public function detail_product($slug)
-    {   
+    {   $data['chungnhansp'] = Services::where('status','1')->get();
+        $data['video_sp'] = Video::where('status','1')->get();
         $data['product'] = Product::with([
             'typeCate' => function ($query) {
                 $query->select('id', 'name','avatar','slug'); 

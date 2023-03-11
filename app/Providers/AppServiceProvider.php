@@ -52,6 +52,7 @@ class AppServiceProvider extends ServiceProvider
             $servicehome = Services::where('status',1)->limit(4)->orderBy('id','DESC')->get();
             $setting = Setting::first();
             $lang = Language::get();
+            
             $pageContent = PageContent::where(['language'=>$language_current,'status'=> 1])->get();
             $categoryhome = Category::with([
                 'typeCate' => function ($query) {
@@ -72,7 +73,10 @@ class AppServiceProvider extends ServiceProvider
             ])
             ->where('status',1)
             ->orderBy('id','DESC')
-            ->get(['id','name','slug','avatar']);
+            ->get(['id','name','slug','avatar'])->map(function ($query) {
+                $query->setRelation('listBlog', $query->listBlog->take(5));
+                return $query;
+            });;
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();

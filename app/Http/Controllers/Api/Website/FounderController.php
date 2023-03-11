@@ -19,7 +19,8 @@ class FounderController extends Controller
                         'image' => $value['image'],
 				        'status' =>$value['status'],
                         'name' => $value['name'],
-                        'position' => $value['position']
+                        'position' => $value['position'],
+                        'content' => $value['content']
 				 	]
 				);
 	    	}

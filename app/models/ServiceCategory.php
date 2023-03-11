@@ -10,7 +10,7 @@ class ServiceCategory extends Model
 
     public function services() 
     {
-        return $this->hasMany(Services::class, 'category_id', 'id');
+        return $this->hasMany(Services::class, 'cate_id', 'id');
     }
 
     public function saveServiceCategory($request)

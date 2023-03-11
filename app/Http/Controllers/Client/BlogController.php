@@ -13,10 +13,12 @@ use App\models\product\Product;
 use App\models\website\Partner;
 use Session;
 
+
 class BlogController extends Controller
 {
     public function list()
     {
+    
         $data['blog'] = Blog::where(['status'=>1])
         ->orderBy('id','DESC')
         ->select(['id','title','image','description','created_at','slug'])
@@ -48,6 +50,8 @@ class BlogController extends Controller
         ->select(['id','title','image','description','created_at','slug'])
         ->paginate(9);
         $cate = BlogTypeCate::where('slug', $slug)->first(['name']);
+        $typec = BlogTypeCate::where('slug', $slug)->first(['slug']);
+        $data['slug_page'] = $typec->slug;
         $data['title_page'] = languageName($cate->name);
         return view('blog.list',$data);
     }

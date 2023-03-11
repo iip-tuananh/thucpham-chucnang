@@ -27,11 +27,12 @@ class HomeController extends Controller
         ])->orderBy('id','DESC')->limit(6)->get(['id','title','slug','created_at','image','description','content']);
         $data['typePro'] = TypeProduct::with(['category'])->where('status',1)->get();
         $data['partner'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
-        $data['video'] = Video::where(['status'=>1])->get(['id','image','name','link']);
+        $data['video'] = Video::where(['status'=>1,'cate_slug'=>'danh-gia-khach-hang'])->get(['id','image','name','link']);
         $data['albumaffter'] = AlbumAffter::where(['status'=>1])->get(['id','image','name','link']);
         $data['album'] = Prize::where(['status'=>1])->get(['id','image','name','link']);
         $data['founder'] = Founder::where(['status'=>1])->get(['id','image','name']);
         $data['reviewcus'] = ReviewCus::where(['status'=>1])->get();
+        $data['prosp']= Product::where(['status'=>1])->get();
         $data['gioithieu'] = PageContent::where(['slug'=>'gioi-thieu','language'=>'vi'])->first(['id','title','content','image','description']);
         $data['homePro'] = Product::where(['status'=>1,'discountStatus'=>1])
             ->limit(6)

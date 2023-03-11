@@ -19,7 +19,10 @@ use App\models\website\Founder;
 use App\models\website\Partner;
 use App\models\PageContent;
 use App\models\Project;
+use App\models\ReviewCus;
+use App\models\ServiceCategory;
 use App\models\website\Setting;
+use App\models\website\Video;
 
 class PageController extends Controller
 {
@@ -49,7 +52,7 @@ class PageController extends Controller
     }
     public function aboutUs(){
         $data['partner'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
-        $data['founder'] = Founder::where(['status'=>1])->get(['id','name','position','image']);
+        $data['founders'] = Founder::where(['status'=>1])->get();
         $data['album'] = Prize::where(['status'=>1])->get(['id','name','image']);
         $data['gioithieu'] = PageContent::where(['slug'=>'gioi-thieu'])->first(['id','title','content']);
         $data['founder'] = Founder::where(['status'=>1])->get(['id','image','name']);
@@ -154,4 +157,16 @@ class PageController extends Controller
         $data['detail_project'] = Project::where('slug', $slug)->first();
         return view('projectdetail', $data);
     }
+    public function chungnhan(){
+        $data['list']= ServiceCategory::with('services')->where('status','1')->get();
+      
+     return view('chungnhan',$data);
+    }
+    public function allvideo(){
+        $data['danhgiachuyengia']= Video::where(['status'=>'1','cate_slug'=>'danh-gia-chuyen-gia'])->get();
+        $data['danhgiakhachhang']= Video::where(['status'=>'1','cate_slug'=>'danh-gia-khach-hang'])->get();
+    //   dd($data);
+     return view('allvideo',$data);
+    }
+  
 }
