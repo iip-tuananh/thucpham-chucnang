@@ -156,17 +156,13 @@
       </script>
       <script type='text/javascript' src='{{asset('frontend/js/regenerator-runtime.min.js')}}' id='regenerator-runtime-js'></script>
       <script type='text/javascript' src='{{asset('frontend/js/wp-polyfill.min.js')}}' id='wp-polyfill-js'></script>
-      <script type='text/javascript' id='contact-form-7-js-extra'>
+      {{-- <script type='text/javascript' id='contact-form-7-js-extra'>
          /* <![CDATA[ */
          var wpcf7 = {"api":{"root":"https:\/\/vlive-international.vn\/wp-json\/","namespace":"contact-form-7\/v1"}};
          /* ]]> */
-      </script>
+      </script> --}}
       <script type='text/javascript' src='{{asset('frontend/js/index.js')}}' id='contact-form-7-js'></script>
-      <script type='text/javascript' id='kk-star-ratings-js-extra'>
-         /* <![CDATA[ */
-         var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/vlive-international.vn\/wp-admin\/admin-ajax.php","nonce":"3c81d0b84d"};
-         /* ]]> */
-      </script>
+   
       <script type='text/javascript' src='{{asset('frontend/js/kk-star-ratings.min.js')}}' id='kk-star-ratings-js'></script>
       <script type='text/javascript' src='{{asset('frontend/js/jquery.blockUI.min.js')}}' id='jquery-blockui-js'></script>
       <script type='text/javascript' src='{{asset('frontend/js/js.cookie.min.js')}}' id='js-cookie-js'></script>

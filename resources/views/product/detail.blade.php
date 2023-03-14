@@ -17,10 +17,10 @@ P2
 @endsection
 @section('content')
 <div id="content" class="site-content">
-    <div class="k2-page-title" style="background-color: #ee3e73">
+    <div class="k2-page-title" style="background-color: #3BB44A">
        <div class="container">
           <h1 class="woocommerce-products-header__title">
-             V-Oxy+        
+            {{languageName($product->name)}}   
           </h1>
        </div>
     </div>
