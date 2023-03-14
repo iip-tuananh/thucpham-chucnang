@@ -3,9 +3,12 @@
     width: 20px;
 }
 .bg-web{
-    background-color: red;
+    background-color: #3BB44A;
 }
 #text-white p{
+    color: white !important;
+}
+#text-white p span{
     color: white !important;
 }
 .limit-text-3 {
