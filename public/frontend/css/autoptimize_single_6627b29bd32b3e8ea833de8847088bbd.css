@@ -137,11 +137,11 @@ main,footer {
 }
 
 .logotop {
-    width: calc(100% - 945px)
+    width: calc(100% - 821px);
 }
 
 .logotop img {
-    max-width: 160px
+    max-width: 251px;
 }
 
 .box_menu nav {
