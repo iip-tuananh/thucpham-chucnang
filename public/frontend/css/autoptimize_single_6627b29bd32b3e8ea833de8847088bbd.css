@@ -168,7 +168,7 @@ main,footer {
 }
 
 .box_menu nav>ul>li>a {
-    color: #bd221e;
+    color: #3BB44A;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase
@@ -179,7 +179,7 @@ main,footer {
     font-family: 'FontAwesome';
     position: absolute;
     right: 0;
-    color: #bd221e;
+    color: #3BB44A;
     font-size: 12px;
     top: 10px
 }
@@ -258,7 +258,7 @@ main,footer {
 }
 
 .submenu1>li:hover>a,.submenu2>li:hover a {
-    color: #bd221e
+    color: #3BB44A
 }
 
 .giohang_header>a {
@@ -285,7 +285,7 @@ main,footer {
     width: 100%;
     text-align: right;
     padding-top: 10%;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700;
     font-size: 40px
 }
@@ -310,7 +310,7 @@ main,footer {
 
 span.count {
     position: absolute;
-    border: 1px solid #bd221e;
+    border: 1px solid #3BB44A;
     border-radius: 50%;
     width: 16px;
     height: 17px;
@@ -326,7 +326,7 @@ span.count {
 .title_about h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -357,7 +357,7 @@ span.count {
 .title_about .h3 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -388,7 +388,7 @@ span.count {
 .title_about h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -429,7 +429,7 @@ span.count {
 }
 
 .reademore_about a {
-    background: #bd221e;
+    background: #3BB44A;
     padding: 10px 30px;
     color: #fff;
     font-size: 14px;
@@ -437,7 +437,7 @@ span.count {
 }
 
 .section2 {
-    background: #bd221e;
+    background: #3BB44A;
     padding: 50px 0;
     margin-top: 50px
 }
@@ -477,7 +477,7 @@ span.count {
 .box_gtsp .box_item .box_left .title h2 {
     font-size: 40px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700;
     margin-top: 0
 }
@@ -487,7 +487,7 @@ span.count {
 }
 
 .box_gtsp .box_item .box_left .title.title_box1 h2 {
-    color: #bd221e
+    color: #3BB44A
 }
 
 .box_gtsp .box_item .box_left .title.title_box2 h2 {
@@ -790,7 +790,7 @@ span.count {
 .khungsanglap .title h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -1460,7 +1460,7 @@ div.images_list {
 }
 
 .item_3buoc:hover .des_3buoc h3 {
-    color: #bd221e
+    color: #3BB44A
 }
 
 .item_3buoc:hover p {
@@ -1574,7 +1574,7 @@ div.images_list {
 .title_daily h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -1624,7 +1624,7 @@ div.images_list {
 .title_chungnhan h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -1746,7 +1746,7 @@ div.images_list {
 }
 
 .xemtatcaphanhoi a {
-    background: #bd221e;
+    background: #3BB44A;
     padding: 10px 30px;
     color: #fff;
     font-size: 14px;
@@ -1941,7 +1941,7 @@ div.images_list {
 }
 
 .content_detailnews a {
-    color: #bd221e!important
+    color: #3BB44A!important
 }
 
 .mangxh_news {
@@ -1995,7 +1995,7 @@ div.images_list {
 .title_lienhe h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #bd221e;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -2223,7 +2223,7 @@ div.images_list {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #bd221e
+    color: #3BB44A
 }
 
 #payment {
@@ -2300,7 +2300,7 @@ div.images_list {
     transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s,-webkit-transform .3s;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
-    background-color: #bd221e;
+    background-color: #3BB44A;
     color: #fff;
     outline: none
 }
@@ -2443,7 +2443,7 @@ div.images_list {
 }
 
 a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
-    background: #bd221e;
+    background: #3BB44A;
     border-radius: 3px;
     color: #fff;
     display: flex;
@@ -2462,7 +2462,7 @@ a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
 }
 
 .btn_site_2 {
-    background: #bd221e;
+    background: #3BB44A;
     border: 1px solid #b72126;
     border-radius: 3px;
     color: #fff;
@@ -2581,7 +2581,7 @@ a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
 }
 
 .block_menu_profile {
-    border-top: 3px solid #bd221e;
+    border-top: 3px solid #3BB44A;
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
@@ -2622,12 +2622,12 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_menu_profile:hover {
-    color: #bd221e
+    color: #3BB44A
 }
 
 .item_menu_profile.active {
     background: #f7f7f7;
-    color: #bd221e
+    color: #3BB44A
 }
 
 .item_menu_profile i {
@@ -2658,7 +2658,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_sodiachi.active {
-    background: #bd221e;
+    background: #3BB44A;
     color: #fff
 }
 
@@ -2669,7 +2669,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_sodiachi .txt_macdinh span.edit-address {
-    color: #bd221e;
+    color: #3BB44A;
     cursor: pointer
 }
 
@@ -2697,7 +2697,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .btn2 {
-    background: #bd221e;
+    background: #3BB44A;
     border-radius: 3px;
     color: #fff;
     display: inline-block;
@@ -3870,7 +3870,7 @@ table.affwp-table td,table.affwp-table th {
     font-weight: 700;
     padding: 10px;
     padding-left: 0;
-    border-top: 3px solid #bd221e;
+    border-top: 3px solid #3BB44A;
     margin-bottom: 10px
 }
 
@@ -3973,7 +3973,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 #box_input_comment .block_input_comment .btn21 {
-    background: #bd221e;
+    background: #3BB44A;
     border-radius: 3px;
     color: #fff;
     outline: none;

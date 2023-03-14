@@ -155,7 +155,7 @@
                      <div class="content_dd">
                         <div>Nhà Sáng lập &amp; cũng là Chủ Tịch Hội đồng Quản Trị Công ty VIM Consultancy (vim2u.com) – Công ty Tư vấn Đăng ký Kinh doanh, Dự án Đầu tư Đông Nam Á, BOT, BTO, BOO, BT, PPP, Đầu tư tại Đông Nam Á; Ông cũng là người sáng lập kiêm Giám đốc điều hành toàn cầu của V Live International.</div>
                         <div>&nbsp;</div>
-                        <div>* Ông vinh dự được trao quyền đăng cai tổ chức Hội nghị thượng đỉnh Châu Á Thái Bình Dương của Phòng Thương mại Thanh niên Quốc tế (JCI) năm 2004 tại Penang, Malaysia và là Giám đốc Hội nghị. (<a href="https://www.youtube.com/watch?v=wAx0i8NyewM" target="_blank"><span style="color:#bd221e;">XEM VIDEO</span></a>)</div>
+                        <div>* Ông vinh dự được trao quyền đăng cai tổ chức Hội nghị thượng đỉnh Châu Á Thái Bình Dương của Phòng Thương mại Thanh niên Quốc tế (JCI) năm 2004 tại Penang, Malaysia và là Giám đốc Hội nghị. (<a href="https://www.youtube.com/watch?v=wAx0i8NyewM" target="_blank"><span style="color:#3BB44A;">XEM VIDEO</span></a>)</div>
                         <div>* Ông đã thu hút thành công khoảng 5.000 người tham gia từ 20 quốc gia và tạo <span style="white-space: pre;">r</span>a khoản đầu tư lên đến 30 triệu RM;&nbsp;</div>
                         <div>* Ông còn là diễn giả của MATRADE Malaysia về chủ đề “Cách đầu tư vào một chuỗi cửa hàng ở Hà Nội tại Việt Nam”;&nbsp;</div>
                         <div>* Ông chịu trách nhiệm về các hoạt động đối ngoại cao cấp trong các chuyến thăm từ thiện kéo dài ba ngày của cựu Thủ tướng Malaysia, Tun Abdullah đến Thành phố Hồ Chí Minh, Việt Nam</div>
