@@ -154,10 +154,10 @@
                      <div class="box_item bg-web">
                         <div class="box_left box_left1">
                            <div class="title title_box1">
-                              <h2>{{languageName($pro->name)}}</h2>
+                              <h2 style="color: white">{{languageName($pro->name)}}</h2>
                            </div>
                            <div class="des">
-                             <div class="limit-text-4">
+                             <div class="limit-text-4" style="color: white">
                                 {!!languageName($pro->description)!!}
                              </div>
                              <br>
