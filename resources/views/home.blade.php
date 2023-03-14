@@ -157,7 +157,7 @@
                               <h2 style="color: white">{{languageName($pro->name)}}</h2>
                            </div>
                            <div class="des">
-                             <div class="limit-text-4" style="color: white">
+                             <div class="limit-text-4" style="color: white" id="text-white">
                                 {!!languageName($pro->description)!!}
                              </div>
                              <br>

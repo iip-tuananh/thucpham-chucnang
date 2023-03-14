@@ -5,6 +5,9 @@
 .bg-web{
     background-color: red;
 }
+#text-white p{
+    color: white !important;
+}
 .limit-text-3 {
     overflow: hidden;
     text-overflow: ellipsis;
