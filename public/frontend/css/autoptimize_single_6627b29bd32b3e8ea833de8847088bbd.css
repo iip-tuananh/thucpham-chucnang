@@ -560,7 +560,7 @@ span.count {
 
 .footer_bottom {
     padding: 70px 0 0;
-    background: #d82027
+    background: #3BB44A
 }
 
 .khungf {
@@ -1754,7 +1754,7 @@ div.images_list {
 }
 
 .section_tieudecauhoi {
-    background: #d82027;
+    background: #3BB44A;
     padding: 50px 0
 }
 
@@ -1787,9 +1787,9 @@ div.images_list {
 
 .accordion-title.active {
     font-weight: 700;
-    color: #d82027!important;
+    color: #3BB44A!important;
     border-top: none;
-    border-bottom: 2px solid #d82027
+    border-bottom: 2px solid #3BB44A
 }
 
 .toggle1 {
@@ -1821,7 +1821,7 @@ div.images_list {
 
 .toggle1 i {
     font-weight: 700;
-    color: #d82027
+    color: #3BB44A
 }
 
 .accordion-inner {
@@ -2886,7 +2886,7 @@ div.mage-error[generated] {
 }
 
 table.affwp-table th {
-    background: #d82027;
+    background: #3BB44A;
     color: #fff
 }
 
@@ -2975,7 +2975,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 .section_tieudetuyendung {
-    background: #d82027;
+    background: #3BB44A;
     padding: 100px 0 70px
 }
 
