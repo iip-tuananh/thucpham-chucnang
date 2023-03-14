@@ -132,7 +132,7 @@
                            <div class="title title_box0">
                               <h2>{{languageName($pro->name)}}</h2>
                            </div>
-                           <div class="des">
+                           <div class="des limit-text-4">
                              
                              {!!languageName($pro->description)!!}
                               <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
