@@ -35,10 +35,10 @@
    <div class="footer_bottom">
       <div class="container">
          <div class="khungf w-100">
-            <div class="col1">
+            <div class="col4">
                <a href="{{route('home')}}"><img src="{{$setting->logo}}"></a>
             </div>
-            <div class="col2">
+            <div class="col4">
                <div class="motaf">
                   <p>
                     {{$setting->company}}
@@ -60,16 +60,6 @@
                      <strong>Chiều:</strong> 13h30 đến 17h30<br>
                      Từ thứ 2 đến thứ 7 hàng tuần.
                   </p>
-               </div>
-            </div>
-            <div class="col3">
-               <div class="menuf">
-                  <ul>
-                     <li><a href="{{route('home')}}">HOME</a></li>
-                     <li><a href="{{route('allvideo')}}">VIDEO ĐÁNH GIÁ</a></li>
-                     <li><a href="{{route('chungnhan')}}">CHỨNG NHẬN</a></li>
-                     
-                  </ul>
                </div>
             </div>
             <div class="col4">
