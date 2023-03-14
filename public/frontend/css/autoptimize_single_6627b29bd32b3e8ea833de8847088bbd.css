@@ -7,7 +7,7 @@
 }
 
 .site-main a {
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 body {
@@ -30,7 +30,7 @@ main,footer {
 }
 
 .topbar {
-    background: #bc1f1b;
+    background: #3BB44A;
     height: 45px
 }
 
@@ -692,7 +692,7 @@ span.count {
 }
 
 .ngaytao-bv span {
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 .section_trietly {
@@ -708,9 +708,9 @@ span.count {
 .left_trietly .title,.left_gioithieusp .title {
     font-size: 30px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     padding-top: 70px;
-    border-top: 3px solid #bc1f1b;
+    border-top: 3px solid #3BB44A;
     min-width: 260px;
     margin-top: 20px
 }
@@ -722,7 +722,7 @@ span.count {
 .right_trietly .title {
     font-size: 30px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     text-transform: uppercase
 }
 
@@ -741,7 +741,7 @@ span.count {
 .right_gioithieusp .title {
     font-size: 30px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     text-transform: uppercase
 }
 
@@ -760,7 +760,7 @@ span.count {
 }
 
 .title2_gtsp h2 {
-    color: #bc1f1b;
+    color: #3BB44A;
     font-weight: 700;
     font-size: 60px;
     text-transform: uppercase
@@ -880,7 +880,7 @@ span.count {
 .left_tamnhin .title {
     font-size: 40px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     min-width: 260px
 }
 
@@ -904,9 +904,9 @@ span.count {
 .left_sumenh .title {
     font-size: 40px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     padding-top: 30px;
-    border-top: 3px solid #bc1f1b
+    border-top: 3px solid #3BB44A
 }
 
 .mota_sumenh {
@@ -936,7 +936,7 @@ span.count {
 }
 
 .item_muctieu .des_muctieu span {
-    color: #bc1f1b;
+    color: #3BB44A;
     font-weight: 700;
     font-size: 18px
 }
@@ -1118,7 +1118,7 @@ div.images_list {
 
 .title_detail h2 {
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     font-size: 30px
 }
 
@@ -1338,7 +1338,7 @@ div.images_list {
     padding: 10px 0;
     border-top: 2px solid #484c62;
     border-bottom: 2px solid #484c62;
-    color: #bc1f1b;
+    color: #3BB44A;
     font-size: 22px;
     margin-bottom: 10px
 }
@@ -1379,7 +1379,7 @@ div.images_list {
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 .khungvideodangky {
@@ -1557,7 +1557,7 @@ div.images_list {
 
 .title_3buoc1 h3 {
     font-size: 24px;
-    color: #bc1f1b;
+    color: #3BB44A;
     font-weight: 700
 }
 
@@ -1704,7 +1704,7 @@ div.images_list {
 }
 
 .khungphanhoi_left ul li span.active {
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 .content_phanhoi {
@@ -1856,7 +1856,7 @@ div.images_list {
 #loadMore {
     padding: 10px 20px;
     text-align: center;
-    background-color: #bc1f1b;
+    background-color: #3BB44A;
     color: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
@@ -1871,7 +1871,7 @@ div.images_list {
 
 #loadMore:hover {
     background-color: #fff;
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 .item_tintuc .img_tintuc {
@@ -1899,7 +1899,7 @@ div.images_list {
 }
 
 .item_tintuc h3 a:hover,.item_tintuc .h4 a:hover {
-    color: #bc1f1b
+    color: #3BB44A
 }
 
 .item_tintuc span,.thoigiandangbai span {
@@ -4115,7 +4115,7 @@ table.affwp-table td,table.affwp-table th {
 .title_kq {
     font-size: 30px;
     font-weight: 700;
-    color: #bc1f1b;
+    color: #3BB44A;
     text-transform: uppercase
 }
 
@@ -4351,7 +4351,7 @@ table.affwp-table td,table.affwp-table th {
 
     .menumobile {
         display: block;
-        background: #bc1f1b;
+        background: #3BB44A;
         padding: 5px 10px;
         border-radius: 3px
     }
