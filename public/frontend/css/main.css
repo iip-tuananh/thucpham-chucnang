@@ -16,6 +16,8 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 4;
+    line-height: 20px;
+    
     line-clamp: 4;
     -webkit-box-orient: vertical;
     list-style: none !important;

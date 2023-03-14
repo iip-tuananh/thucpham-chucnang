@@ -132,11 +132,12 @@
                            <div class="title title_box0">
                               <h2>{{languageName($pro->name)}}</h2>
                            </div>
-                           <div class="des limit-text-4">
-                             
-                             {!!languageName($pro->description)!!}
+                           <div class="des">
+                             <div class="limit-text-4">
+                                {!!languageName($pro->description)!!}
+                             </div>
+                              <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                            </div>
-                           <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                         </div>
                         <div class="box_right ">
                            <img src="{{$img[0]}}" alt="voxy-v-live">
@@ -148,11 +149,12 @@
                            <div class="title title_box1">
                               <h2>{{languageName($pro->name)}}</h2>
                            </div>
-                           <div class="des limit-text-4">
-                             
-                             {!!languageName($pro->description)!!}
+                           <div class="des">
+                             <div class="limit-text-4">
+                                {!!languageName($pro->description)!!}
+                             </div>
+                              <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                            </div>
-                           <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                         </div>
                         <div class="box_right ">
                            <img src="{{$img[0]}}" alt="voxy-v-live">
