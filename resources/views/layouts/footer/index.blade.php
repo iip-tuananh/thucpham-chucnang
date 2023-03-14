@@ -34,11 +34,11 @@
    </div>
    <div class="footer_bottom">
       <div class="container">
-         <div class="khungf w-100">
-            <div class="col4">
+     
+            <div class="col-md-4 col-xs-12">
                <a href="{{route('home')}}"><img src="{{$setting->logo}}"></a>
             </div>
-            <div class="col4">
+            <div class="col-md-4 col-xs-12">
                <div class="motaf">
                   <p>
                     {{$setting->company}}
@@ -62,12 +62,12 @@
                   </p>
                </div>
             </div>
-            <div class="col4">
+            <div class="col-md-4 col-xs-12">
                <div class="mangxhf w-100">
                   {!!$setting->iframe_map!!}
                </div>
             </div>
-         </div>
+     
          <div class="linef2 w-100">
             <p>© Copyright 2023 , all rights reserved. Designed &amp; developed by SBT</p>
          </div>
