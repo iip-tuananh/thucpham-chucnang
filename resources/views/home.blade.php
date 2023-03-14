@@ -118,6 +118,11 @@
       },
     });
   </script>
+  <style>
+   .title.title_box0 {
+    padding: 43px;
+}
+  </style>
           <section class="section3">
              <div class="container">
                 <div class="box_gtsp">
@@ -146,7 +151,7 @@
                         </div>
                      </div>
                      @else
-                     <div class="box_item">
+                     <div class="box_item bg-web">
                         <div class="box_left box_left1">
                            <div class="title title_box1">
                               <h2>{{languageName($pro->name)}}</h2>

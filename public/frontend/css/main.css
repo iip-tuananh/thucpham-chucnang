@@ -2,6 +2,9 @@
     height: 20px;
     width: 20px;
 }
+.bg-web{
+    background-color: red;
+}
 .limit-text-3 {
     overflow: hidden;
     text-overflow: ellipsis;
