@@ -36,7 +36,7 @@
       <div class="container">
          <div class="khungsanglap w-100">
             <div class="title">
-               <h2><span style="text-transform:uppercase">giới thiệu chung</span></h2>
+               <h2><span style="text-transform:uppercase">Giới thiệu chung</span></h2>
             </div>
          </div>
          <div class="khungsumenh">
@@ -46,7 +46,7 @@
                </div>
             </div>
             <div class="right_sumenh">
-             
+            
                <div class="content_sumenh">
                   {!!$gioithieu->content!!}
                </div>
@@ -167,146 +167,6 @@
          </div>
       </div>
    </section>
-   {{-- <section class="section_gioithieusp" id="giatrikhacbiet">
-      <div class="container">
-         <div class="khunggioithieusp w-100">
-            <div class="left_gioithieusp">
-               <div class="title">
-               </div>
-            </div>
-            <div class="right_gioithieusp">
-               <div class="title">
-                  <span>Giá trị khác biệt</span>
-               </div>
-               <div class="mota_gioithieusp w-100">
-                  Bạn có biết cơ thể cần hơn 160 yếu tố sức khỏe không? Nhưng liệu các tế bào của bạn đủ khỏe để có thể hấp thu hết tất cả? Mỗi sản phẩm của V Live International đều được thiết kế để giúp bạn phục hồi các Tế bào Khỏe mạnh và Sức khỏe Tráng kiện thông qua Công nghệ từ Đức.                              
-               </div>
-            </div>
-         </div>
-         <div class="title2_gtsp w-100">
-            <h2>V LIVE ĐÃ SẴN SÀNG!</h2>
-         </div>
-         <div class="khunggioithieusp khunggioithieusp1 w-100">
-            <div class="left_gioithieusp">
-               <div class="img_gtsp">
-                  <img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/hinhgtsp-16378487674.png">
-               </div>
-            </div>
-            <div class="right_gioithieusp">
-               <div class="content_gioithieusp w-100">
-                  <div>
-                     <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">Mỗi sản phẩm của V Live International đều được thiết kế để hỗ trợ bạn&nbsp;<span style="box-sizing: border-box; font-weight: bolder;">phục hồi các tế bào khỏe mạnh và sức khỏe lành mạnh</span>&nbsp;bằng&nbsp;<span style="box-sizing: border-box; font-weight: bolder;">công nghệ của Đức:</span></p>
-                     <ul style="box-sizing: border-box; list-style-position: initial; list-style-image: initial; margin-top: 0px; padding: 0px; margin-bottom: 1.3em; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">
-                        <li style="box-sizing: border-box; line-height: 1.5; text-align: justify; margin-bottom: 0.1em; margin-left: 3em;">HBA – High Bio-Availability</li>
-                        <li style="box-sizing: border-box; line-height: 1.5; text-align: justify; margin-bottom: 0.1em; margin-left: 3em;">NSP – Nutrient Sequence Precursor</li>
-                        <li style="box-sizing: border-box; line-height: 1.5; text-align: justify; margin-bottom: 0.1em; margin-left: 3em;">TWS – Total Wellness Solution</li>
-                     </ul>
-                     <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; font-weight: bolder;">HBA – High Bio-Availability (Tính sinh khả dụng cao)</span><br style="box-sizing: border-box;">
-                        Các dưỡng chất cần thiết để nuôi dưỡng tế bào cơ thể phải có năng lượng sinh học cao, nhờ vậy mới có thể kích hoạt các tế bào để hoạt động mỗi ngày với hiệu suất tối ưu nhất, bên cạnh đó vẫn giữ cho cơ thể bạn luôn khỏe mạnh.
-                     </p>
-                     <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; font-weight: bolder;">NSP – Nutrient Sequence Precursor (Tiền tố trình tự dinh dưỡng)</span><br style="box-sizing: border-box;">
-                        Thực phẩm không phải là nguồn cung cấp dưỡng chất đầy đủ duy nhất. Thông qua công nghệ, cơ thể có thể hấp thu đồng thời tất cả các dưỡng chất thiết yếu.
-                     </p>
-                     <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; font-weight: bolder;">TWS – Total Wellness Solution (Chăm sóc sức khỏe toàn diện)</span><br style="box-sizing: border-box;">
-                        Đây là giải pháp phát triển mang tính khoa học giúp lấy lại cân bằng và sức khỏe, mỗi sản phẩm là một thiết kế nhắm đến việc sửa chữa và tái tạo tế bào, mang lại kết quả trên từng cá nhân.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section> --}}
-   {{-- <section class="section_chungnhan">
-      <div class="container">
-         <div class="bannerchungnhan w-100">
-            <img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/bannerchungnhan-16378491210.png">
-         </div>
-      </div>
-   </section>
-   <section class="section_trietly" id="trietly">
-      <div class="container">
-         <div class="khungtrietly w-100">
-            <div class="left_trietly">
-               <div class="title">
-                  <span>Tế bào khỏe mạnh, <br> cơ thể tráng kiện!</span>
-               </div>
-            </div>
-            <div class="right_trietly">
-               <div class="title">
-                  <span>Triết lý của chúng tôi</span>
-               </div>
-               <div class="content_trietly w-100">
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_0" lucida="" microsoft="" san="" sans="" segoe="" style="padding-top: 5px; color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><strong><span data-mention="Chúng tôi phát hiện ra rằng muốn giữ cho vóc dáng khỏe đẹp thì phải giữ cho các tế bào cơ thể khỏe mạnh, có như vậy, cơ thể mới hấp thu được nhiều dưỡng chất hơn. Có lẽ không nhiều người biết rằng tế bào của chúng ta sẽ suy giảm dần nếu không thể hấp thu dưỡng chất và khoáng chất cần thiết mỗi ngày." id="input_part_0" style="white-space: pre-wrap;">Chúng tôi phát hiện ra rằng muốn giữ cho vóc dáng khỏe đẹp thì phải giữ cho các tế bào cơ thể khỏe mạnh, có như vậy, cơ thể mới hấp thu được nhiều dưỡng chất hơn. Có lẽ không nhiều người biết rằng tế bào của chúng ta sẽ suy giảm dần nếu không thể hấp thu dưỡng chất và khoáng chất cần thiết mỗi ngày.</span></strong></span></div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="padding-top: 5px; color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_1" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><strong><span style="color:#3BB44A;"><span style="font-size:22px;"><span data-mention="Một số yếu tố khác góp phần làm suy giảm tế bào và tổn hại sức khỏe:" id="input_part_0" style="white-space: pre-wrap;">Một số yếu tố khác góp phần làm suy giảm tế bào và tổn hại sức khỏe:</span></span></span></strong></span></div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_2" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span data-mention="Thiếu không khí sạch" id="input_part_0" style="white-space: pre-wrap;">- Thiếu không khí sạch</span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_3" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span data-mention="Nghỉ ngơi không đầy đủ" id="input_part_0" style="white-space: pre-wrap;">- Nghỉ ngơi không đầy đủ</span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_4" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span data-mention="Áp lực và lối sống không lành mạnh khiến cho nồng độ pH với mức axit trong cơ thể vượt ngưỡng cùng với sự tích tụ độc tố cao" id="input_part_0" style="white-space: pre-wrap;">- Áp lực và lối sống không lành mạnh khiến cho nồng độ pH với mức axit trong cơ thể vượt ngưỡng cùng với sự tích tụ độc tố cao</span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_5" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span data-mention="Ăn quá nhiều, quá nhanh" id="input_part_0" style="white-space: pre-wrap;">- Ăn quá nhiều, quá nhanh</span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_6" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span data-mention="Chế độ ăn không cân bằng dinh dưỡng/thức ăn nhiều dầu mỡ" id="input_part_0" style="white-space: pre-wrap;">- Chế độ ăn không cân bằng dinh dưỡng/thức ăn nhiều dầu mỡ</span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_7" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#3BB44A;"><strong><span style="font-size:22px;"><span data-mention="Các dấu hiệu cho thấy tế bào và tình trạng sức khỏe của bạn không ở trạng thái tốt nhất:" id="input_part_0" style="white-space: pre-wrap;">Các dấu hiệu cho thấy tế bào và tình trạng sức khỏe của bạn không ở trạng thái tốt nhất:</span></span></strong></span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">
-                     <table border="0" cellpadding="1" cellspacing="1" style="width:400px;">
-                        <tbody>
-                           <tr>
-                              <td>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_8" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Mất ngủ" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Mất ngủ</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_9" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Béo phì" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Béo phì</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_10" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Ho" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Ho</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_11" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Đau lưng" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Đau lưng</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_12" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Đau nửa đầu" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Đau nửa đầu</span></span></div>
-                              </td>
-                              <td>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_13" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Da nhạy cảm" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Da nhạy cảm</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_14" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Mệt mỏi" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Mệt mỏi</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_15" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Tiêu chảy" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Tiêu chảy</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_16" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);"><span style="box-sizing: border-box; font-family: arial, helvetica, sans-serif;"><span data-mention="Rụng tóc" id="input_part_0" style="box-sizing: border-box; font-family: Roboto, sans-serif !important; white-space: pre-wrap;">- Rụng tóc</span></span></div>
-                                 <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 14px; background-color: rgb(253, 250, 244); color: rgb(0, 26, 51);">&nbsp;</div>
-                              </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     <p>&nbsp;</p>
-                  </div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_13" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_17" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: "><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#3BB44A;"><strong><span style="font-size:22px;"><span data-mention="3 Yếu tố Sức khỏe cần thiết để có được tế bào khỏe mạnh:" id="input_part_0" style="white-space: pre-wrap;">3 Yếu tố Sức khỏe cần thiết để có được tế bào khỏe mạnh:</span></span></strong></span></span></div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="bangyeuto" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">
-                     <table border="0" cellpadding="15" cellspacing="15" style="width:700px;">
-                        <tbody>
-                           <tr>
-                              <td>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_18" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51);"><span style="font-family: arial, helvetica, sans-serif;"><strong><span data-mention="Nhiệt độ cơ thể" id="input_part_0" style="white-space: pre-wrap;">Nhiệt độ cơ thể</span></strong></span></div>
-                                 <p background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51);"><span style="font-family: arial, helvetica, sans-serif; white-space: pre-wrap;">Duy trì nhiệt độ cơ thể ở mức 36,5°C, 365 ngày/năm để các tế bào sản sinh ra năng lượng.</span></p>
-                              </td>
-                              <td>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_21" lucida="" microsoft="" san="" sans="" segoe=""><strong style="font-family: arial, helvetica, sans-serif;"><span data-mention="Cân bằng Cân nặng và Cột sống" id="input_part_0" style="white-space: pre-wrap;">Cân bằng Cân nặng và Cột sống</span></strong></div>
-                                 <p background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe=""><span style="white-space: pre-wrap; font-family: arial, helvetica, sans-serif;">Khôi phục tình trạng cân bằng của cân nặng và cột sống là điều rất quan trọng..</span></p>
-                              </td>
-                           </tr>
-                           <tr>
-                              <td>
-                                 <div background-color:="" font-size:="" helvetica="" id="input_line_21" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51);"><span style="font-family: arial, helvetica, sans-serif;"><strong><span data-mention="Cân bằng nồng độ pH của cơ thể" id="input_part_0" style="white-space: pre-wrap;">Cân bằng nồng độ pH của cơ thể</span></strong></span></div>
-                                 <p background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51);"><span style="white-space: pre-wrap; font-family: arial, helvetica, sans-serif;">Đưa nồng độ pH từ ngưỡng vượt mức Axit hoặc Kiềm về độ pH Trung tính 7,035.</span></p>
-                              </td>
-                              <td>&nbsp;</td>
-                           </tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <div background-color:="" font-size:="" helvetica="" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_18" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-                  <div background-color:="" font-size:="" helvetica="" id="input_line_20" lucida="" microsoft="" san="" sans="" segoe="" style="color: rgb(0, 26, 51); font-family: ">&nbsp;</div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section> --}}
 </main>
 </div>
 </div><!-- #content -->
