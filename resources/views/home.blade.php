@@ -136,6 +136,8 @@
                              <div class="limit-text-4">
                                 {!!languageName($pro->description)!!}
                              </div>
+                             <br>
+
                               <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                            </div>
                         </div>
@@ -153,6 +155,7 @@
                              <div class="limit-text-4">
                                 {!!languageName($pro->description)!!}
                              </div>
+                             <br>
                               <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
                            </div>
                         </div>
