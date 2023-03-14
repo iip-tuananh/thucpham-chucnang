@@ -132,7 +132,7 @@
                       $img = json_decode($pro->images);
                   @endphp
                   @if($key %2== 0)
-                     <div class="box_item">
+                     <div class="box_item bg-vang">
                         <div class="box_left ">
                            <div class="title title_box0" style="padding: 40px">
                               <h2>{{languageName($pro->name)}}</h2>
