@@ -134,7 +134,7 @@
                   @if($key %2== 0)
                      <div class="box_item">
                         <div class="box_left ">
-                           <div class="title title_box0">
+                           <div class="title title_box0" style="padding: 40px">
                               <h2>{{languageName($pro->name)}}</h2>
                            </div>
                            <div class="des">
@@ -153,7 +153,7 @@
                      @else
                      <div class="box_item bg-web">
                         <div class="box_left box_left1">
-                           <div class="title title_box1">
+                           <div class="title title_box1" style="padding: 40px">
                               <h2 style="color: white">{{languageName($pro->name)}}</h2>
                            </div>
                            <div class="des">
