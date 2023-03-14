@@ -69,7 +69,11 @@
             </div>
             <div class="right_tamnhin">
                <div class="mota_tamnhin">
-                  Luôn dẫn đầu về sản phẩm chăm sóc sức khoẻ toàn diện với công nghệ tiên tiến nhất.                              
+                  "ZENTRUM ĐƯỢC ĐIỀU HÀNH BỞI ĐỘI NGŨ LÃNH ĐẠO CÓ CHUYÊN MÔN CAO TRONG LĨNH VỰC Y DƯỢC.
+
+Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia sẻ về giá trị của dinh dưỡng, bằng việc sử dụng đúng cách mang lại hiệu quả cao nhất đối với mỗi khẩu phần ăn. Chúng tôi mong muốn đem những kiến thức tuyệt vời về vai trò và tầm quan trọng của hệ thống nội sinh (Endocannabinoid) trong cơ thể, đến tất cả cộng đồng yêu sống khỏe từ thiên nhiên.
+
+                              
                </div>
             </div>
          </div>
@@ -81,7 +85,10 @@
             </div>
             <div class="right_sumenh">
                <div class="mota_sumenh">
-                  Luôn luôn cống hiến và không ngừng nghiên cứu để cho ra đời dòng sản phẩm thân thiện với cơ thể và hệ sinh lý nội tại của con người, giúp con người cải thiện sức khoẻ toàn diện trong thời gian ngắn nhất, và lan toả giải pháp tầm soát bệnh nền đến cộng đồng bằng cả trái tim.
+                  Bộ sưu tập sản phẩm của chúng tôi được chọn lọc kĩ lưỡng, đạt tiêu chuẩn chất lượng và an toàn quốc tế (IFS) với giá trị mà không sản phẩm nào có thể so sánh được. Đồng thời chúng tôi luôn hướng đến các giá trị và lợi ích lâu dài cho sức khỏe của người tiêu dùng, cam kết trở thành ‘’Người đồng hành đáng tin cậy trên hành trình bảo vệ sức khỏe’’ của mọi nhà.
+
+                  Mặc dù thực phẩm từ Gai Dầu và dinh dưỡng Organic đang phát triển rất mạnh mẽ trên thế giới, nhưng hành trình của chúng tôi tại Việt Nam chỉ mới bắt đầu.
+                  "
                </div>
                <div class="content_sumenh">
                   <div class="item_muctieu">
