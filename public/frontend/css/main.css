@@ -11,6 +11,30 @@
 #text-white p{
     color: white !important;
 }
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0;
+    color: black !important;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+    font-size: 12px;
+    font-weight: bold;
+    display: none !important;
+    color: #444;
+    text-decoration: none;
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    left: 0;
+    top: 0;
+    height: 39px;
+    width: 100%;
+    display: none;
+    z-index: 10000001;
+    position: fixed;
+    border: none;
+    border-bottom: 1px solid #6B90DA;
+    margin: 0;
+    box-shadow: 0 0 8px 1px #999;
+}
 #text-white p span{
     color: white !important;
 }
