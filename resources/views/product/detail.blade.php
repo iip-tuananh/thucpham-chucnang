@@ -126,7 +126,6 @@ P2
                 </div>
                 @endif
             @endforeach
-          
           </div>
        </div>
     </section>

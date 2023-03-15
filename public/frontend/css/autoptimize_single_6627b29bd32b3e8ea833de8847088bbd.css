@@ -30,8 +30,10 @@ main,footer {
 }
 
 .topbar {
-    background: #3BB44A;
-    height: 45px
+    height: 45px;
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .box_bar {
@@ -526,7 +528,7 @@ span.count {
 }
 
 .footer_top {
-    background: #F4B033;
+    background: #8d8d8d;
     padding: 100px 0
 }
 
@@ -560,7 +562,9 @@ span.count {
 
 .footer_bottom {
     padding: 70px 0 0;
-    background: #3BB44A
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .khungf {
