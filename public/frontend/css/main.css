@@ -66,6 +66,11 @@
     -webkit-box-orient: vertical;
     list-style: none !important;
 }
+div#xemthem {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 #xemthem button {
     display: flex;
     align-items: center;
@@ -76,8 +81,8 @@
     font-size: 18px;
     text-transform: uppercase;
     border: 0;
-    box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;
-    background-color: hsl(210deg 100% 44%);
+    box-shadow: hsl(127.44deg 53.65% 23.06%) 0px 7px 0px 0px;
+    background-color: hsl(127.44deg 50.63% 46.86%);
     border-radius: 12px;
     overflow: hidden;
     transition: 31ms cubic-bezier(.5, .7, .4, 1);
@@ -161,3 +166,66 @@
    #xemthem button:hover i:nth-child(10) {
     transition-delay: calc(0.045s * 10);
    }
+/* tieudechay */
+.tieudechay{
+    position: relative;
+    margin: auto;
+    width: 184px;
+    line-height: 64px;
+    text-align: center;
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    background: #cfaf04;
+    transition: all .3s;
+    cursor: pointer;
+}
+    .tieudechay:hover {
+        filter: contrast(1.1);
+    }
+    
+    .tieudechay:active {
+        filter: contrast(0.9);
+    }
+    
+    .tieudechay::before,
+    .tieudechay::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        border: 2px solid gold;
+        transition: all .5s;
+        animation: clippath 3s infinite linear;
+        border-radius: 10px;
+    }
+    
+    .tieudechay::after {
+        animation: clippath 3s infinite -1.5s linear;
+    }
+
+
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 98% 0);
+    }
+    
+    25% {
+        clip-path: inset(0 98% 0 0);
+    }
+    50% {
+        clip-path: inset(98% 0 0 0);
+    }
+    75% {
+        clip-path: inset(0 0 0 98%);
+    }
+}
+
+.bg::before {
+    background: rgba(255, 215, 0, .5);
+}

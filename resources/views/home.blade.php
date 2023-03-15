@@ -39,8 +39,8 @@
        <main>
           <section class="section1">
              <div class="container container_about">
-                <div class="title_about  w-100">
-                   <h2><span>Giới thiệu</span></h2>
+                <div class=" tieudechay">
+                   <span >Giới thiệu</span>
                 </div>
                 <div class="des_about w-100">
                   {!!$gioithieu->description!!} 
