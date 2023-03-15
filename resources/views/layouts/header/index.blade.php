@@ -3,24 +3,34 @@
       <div class="container">
          <div class="box_bar">
             <div class="box_bar1">
-               <span>Hotline: {{$setting->phone1}}</span>
+               <span>Hotline: 0839 69 88 69</span>
             </div>
             <div class="box_bar2">
-               
+               <ul>
+                  <li><a href="https://vlive-international.vn/vi/dieu-khoan-su-dung/">Điều khoản sử dụng</a></li>
+                  <li><a href="https://vlive-international.vn/vi/tai-khoan/">Tài khoản</a></li>
+               </ul>
                <div class="box_bar2_right">
                   <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
-                    
+                     <ul>
+                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+                           <a href="http://vlive-international.vn/vi/" class="wpml-ls-link"><span class="wpml-ls-native"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chúng tôi</font></font></span></a>
+                        </li>
+                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+                           <a href="http://vlive-international.vn/en/" class="wpml-ls-link"><span class="wpml-ls-native" lang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TRONG</font></font></span></a>
+                        </li>
+                     </ul>
                   </div>
-                 <ul class="ngonngu">	
+                  <!-- <ul class="ngonngu">	
                      <li class=""><a id="ngonnguen" href="" rel="en">En</a></li>
                      <li class="active"><a id="ngonnguvi" href="" rel="vi">Vi</a></li>
-                     </ul>
+                     </ul> -->
                   <ul class="mangxh">
-                     <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
-                     <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
-                     <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
-                     <li><a target="_blank" rel="nofollow" href="{{$setting->facebook}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
-                     <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="https://www.instagram.com/vlivevietnam/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/vlive-international-vn/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="https://youtube.com/c/vliveinternational"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="https://www.facebook.com/vlivevietnam/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="https://twitter.com/vlivevietnam"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
                   </ul>
                </div>
             </div>
