@@ -9,6 +9,7 @@
     {{ url('' . $setting->logo) }}
 @endsection
 @section('css')
+<link rel="stylesheet" href="{{asset('frontend/css/main.css')}}">
 @endsection
 @section('js')
 @endsection
@@ -44,8 +45,20 @@
                 <div class="des_about w-100">
                   {!!$gioithieu->description!!} 
                 </div>
-                <div class="reademore_about w-100">
-                   <a href="{{route('aboutUs')}}">Xem chi tiết</a>
+                <div id="xemthem" class="reademore_about w-100">
+                   
+                     <button alt="XEM THÊM" onclick="window.location.href='{{route('aboutUs')}}'">
+                        <i>&nbsp;</i>
+                        <i>X</i>
+                        <i>E</i>
+                        <i>M</i>
+                        <i>&nbsp;</i>
+                        <i>T</i>
+                        <i>H</i>
+                        <i>Ê</i>
+                        <i>M</i>
+                        <i>&nbsp;</i>
+                      </button>
                 </div>
              </div>
           </section>
