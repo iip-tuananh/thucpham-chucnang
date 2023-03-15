@@ -36,7 +36,7 @@
       <div class="container">
      
             <div class="col-md-4 col-xs-12">
-               <a href="{{route('home')}}"><img src="{{$setting->logo}}"></a>
+               <a href="{{route('home')}}"><img class="logo-bot"src="{{$setting->logo}}"></a>
             </div>
             <div class="col-md-4 col-xs-12">
                <div class="motaf">
