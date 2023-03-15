@@ -29,29 +29,73 @@ P2
           <div class="row">
               <div class="nav-bredcrum">
                  <div class=" w-100  ngaytao-bv ngaytao-bv-sp"> 
-                    <a href="https://vlive-international.vn/vi/" title="Trang chủ"> Trang chủ </a>  / <span>Sản phẩm</span> / <span>{{languageName($product->name)}}</span>
+                    <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Sản phẩm</span> / <span>{{languageName($product->name)}}</span>
                  </div>
               </div>
-             <div class="col-xs-12 col-md-6">
-              
+             <div class="col-xs-12 col-md-4">
+               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+               <!-- Demo styles -->
+             
+          
+               <!-- Swiper -->
+             
+               <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                 <div class="swiper-wrapper">
+                  @foreach ($img as $item)
+                     <div class="swiper-slide">
+                     <img src="{{$item}}" />
+                     </div>
+                  @endforeach
+                 </div>
+                 <div class="swiper-button-next"></div>
+                 <div class="swiper-button-prev"></div>
+               </div>
+               <div thumbsSlider="" class="swiper mySwiper">
+                 <div class="swiper-wrapper">
+                  @foreach ($img as $item)
+                     <div class="swiper-slide">
+                     <img src="{{$item}}" />
+                     </div>
+                  @endforeach
+                 </div>
+               </div>
+             
+               <!-- Swiper JS -->
+               <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+             
+               <!-- Initialize Swiper -->
+               <script>
+                 var swiper = new Swiper(".mySwiper", {
+                   spaceBetween: 10,
+                   slidesPerView: 4,
+                   freeMode: true,
+                   watchSlidesProgress: true,
+                 });
+                 var swiper2 = new Swiper(".mySwiper2", {
+                   spaceBetween: 10,
+                   navigation: {
+                     nextEl: ".swiper-button-next",
+                     prevEl: ".swiper-button-prev",
+                   },
+                   thumbs: {
+                     swiper: swiper,
+                   },
+                 });
+               </script>
              </div>
-             <div class="col-xs-12 col-md-6">
+             <div class="col-xs-12 col-md-8">
                 <div class="k2-info-single details-product">
                    <div class="title_detail">
                       <h2 class="product_title entry-title">{{languageName($product->name)}}</h2>
                    </div>
                   
                    <div class="price_sp">
-                      <span class="woocommerce-Price-amount amount"><bdi>1.446.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                      <span class="woocommerce-Price-amount amount"><bdi>{{number_format($product->price)}}&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
                       <p> (Giá đã bao gồm 10% thuế VAT)</p>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
                     {!!languageName($product->description)!!}
-                   </div>
-                  
-                   <div class="list_mxh w-100">
-                      <a rel="nofollow" target="_blank" class="chiasemxh" href="{{$setting->facebook}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbsp.png"></a>
-                      
                    </div>
                 </div>
              </div>
@@ -61,7 +105,7 @@ P2
           <div class="container">
              <ul class="tabs">
                 <li class="tab-link active tab-1" data-tab="#tab-1">
-                   <h2><span>Giới thiệu về V-Oxy+</span></h2>
+                   <h2><span>Giới thiệu </span></h2>
                 </li>
                 <li class="tab-link tab-2" data-tab="#tab-2">
                    <h2><span>THÀNH PHẦN VÀ CÔNG DỤNG</span></h2>
@@ -130,6 +174,71 @@ P2
        </div>
     </section>
  </div>
+ <style>
+              
+   .swiper {
+     width: 100%;
+     height: 100%;
+   }
+
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+
+
+
+   .swiper {
+     width: 100%;
+     height: 300px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .swiper-slide {
+     background-size: cover;
+     background-position: center;
+   }
+
+   .mySwiper2 {
+     height: 80%;
+     width: 100%;
+   }
+
+   .mySwiper {
+     height: 20%;
+     box-sizing: border-box;
+     padding: 10px 0;
+   }
+
+   .mySwiper .swiper-slide {
+     width: 25%;
+     height: 100%;
+     opacity: 0.4;
+   }
+
+   .mySwiper .swiper-slide-thumb-active {
+     opacity: 1;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+ </style>
  <!-- #content -->
 @endsection
 
