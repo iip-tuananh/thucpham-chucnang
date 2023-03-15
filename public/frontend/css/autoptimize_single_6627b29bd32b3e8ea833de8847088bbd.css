@@ -421,8 +421,13 @@ span.count {
 .des_about {
     text-align: center;
     margin-top: 20px;
-    font-size: 16px;
-    line-height: 25px
+    font-family: math;
+    font-size: 19px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    border: 4px dashed green;
+    padding: 10px;
 }
 
 .reademore_about {
@@ -4662,7 +4667,7 @@ table.affwp-table td,table.affwp-table th {
 
 @media only screen and (min-width: 768px) {
     .container_about {
-        width:768px
+        width: 1140px;
     }
 
     .box_formdkictv {
