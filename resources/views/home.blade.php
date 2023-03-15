@@ -20,7 +20,7 @@
              @foreach ($banners as $banner)
              <div class="owl-item">
                   <div class="slide__item">
-                     <a href="https://vlive-international.vn/vi/gioi-thieu">	<img style="width: 100%" src="{{$banner->image}}"></a>
+                     <a href="{{route('aboutUs')}}">	<img style="width: 100%" src="{{$banner->image}}"></a>
                      <div class="header-content">
                         <div class="container">
                            {{-- <div class="motaslider">TẾ BÀO KHỎE MẠNH <br>
