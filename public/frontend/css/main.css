@@ -8,6 +8,10 @@
 .bg-vang{
     background-color:#f4f5f7 ;
 }
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0;
+    transform: translateY(10px);
+}
 #text-white p{
     color: white !important;
 }
