@@ -176,9 +176,9 @@ div#xemthem {
     font-family: 'FontAwesome';
     color: #fff;
     font-size: 30px;
-    border: 2px solid gold;
+    border: 2px solid #14a850;
     border-radius: 10px;
-    background: #cfaf04;
+    background: #14a850;
     transition: all .3s;
     cursor: pointer;
 }
@@ -198,7 +198,7 @@ div#xemthem {
         left: -10px;
         right: -10px;
         bottom: -10px;
-        border: 2px solid gold;
+        border: 2px solid #14a850;
         transition: all .5s;
         animation: clippath 3s infinite linear;
         border-radius: 10px;
