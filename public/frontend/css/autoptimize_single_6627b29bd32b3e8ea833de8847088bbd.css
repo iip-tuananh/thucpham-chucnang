@@ -512,7 +512,7 @@ span.count {
 .box_gtsp .box_item .box_left .des span {
     font-size: 18px;
     color: #000;
-    font-weight: 700
+    font-weight: 100;
 }
 
 .box_gtsp .box_item .box_left .des p {
@@ -520,6 +520,7 @@ span.count {
     color: #000;
     margin-top: 25px;
     margin-bottom: 30px;
+    font-weight: 100;
     line-height: 25px
 }
 
