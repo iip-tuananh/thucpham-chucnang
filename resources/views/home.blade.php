@@ -220,7 +220,7 @@
                         @endforeach
                      </div>
                      <div class="xemtatcaphanhoi">
-                        <a href="" target="blank" rel="nofollow">Xem tất cả Kiến thức sản phẩm</a>
+                        <a href="{{route('allvideo')}}"  rel="nofollow">Xem tất cả Kiến thức sản phẩm</a>
                      </div>
                   </div>
                </div>
