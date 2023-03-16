@@ -395,6 +395,10 @@
             line-height: 1.6;
         }
     </style>
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
     <link rel='stylesheet' id='affwp-forms-css' href='{{ asset('frontend/css/forms.min.css') }}' type='text/css'
         media='all' />
     <link rel='stylesheet' id='contact-form-7-css'

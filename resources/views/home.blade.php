@@ -37,7 +37,7 @@
        </section>
    
        <main>
-          <section class="section1">
+          <section class="section1 animate__animated animate__fadeInDown">
              <div class="container container_about">
                 <div class=" tieudechay">
                    <span >Giới thiệu</span>
