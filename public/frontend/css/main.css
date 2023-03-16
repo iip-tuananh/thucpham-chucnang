@@ -208,7 +208,9 @@ div#xemthem {
         animation: clippath 3s infinite -1.5s linear;
     }
 
-
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 @keyframes clippath {
     0%,
     100% {
