@@ -31,9 +31,10 @@ main,footer {
 
 .topbar {
     height: 45px;
-    background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* fallback for old browsers */
+      /* Chrome 10-25, Safari 5.1-6 */
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #14a850;
 }
 
 .box_bar {
@@ -421,11 +422,11 @@ span.count {
 .des_about {
     text-align: center;
     margin-top: 20px;
-    font-family: math;
+    font-family: 'Roboto';
     font-size: 19px;
-    word-spacing: 4px;
-    letter-spacing: 2px;
-    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 37px;
     border: 4px dashed green;
     padding: 10px;
 }
@@ -511,7 +512,8 @@ span.count {
 .box_gtsp .box_item .box_left .des span {
     font-size: 18px;
     color: #000;
-    font-weight: 700
+    font-family: auto;
+    /* font-weight: 700; */
 }
 
 .box_gtsp .box_item .box_left .des p {
