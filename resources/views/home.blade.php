@@ -62,7 +62,7 @@
                 </div>
              </div>
           </section>
-          <section class="section2">
+          <section class="section2 animate__animated animate__fadeInRight">
              <div class="container" style="text-align: center; color:white">
                 <h2>SẢN PHẨM</h2>
                 <br>
@@ -145,7 +145,7 @@
                       $img = json_decode($pro->images);
                   @endphp
                   @if($key %2== 0)
-                     <div class="box_item bg-vang">
+                     <div class="box_item bg-vang animate__animated animate__fadeInLeft">
                         <div class="box_left ">
                            <div class="title title_box0" style="padding: 40px">
                               <h2>{{languageName($pro->name)}}</h2>
@@ -164,7 +164,7 @@
                         </div>
                      </div>
                      @else
-                     <div class="box_item bg-web">
+                     <div class="box_item bg-web animate__animated animate__fadeInRight">
                         <div class="box_left box_left1">
                            <div class="title title_box1" style="padding: 40px">
                               <h2 style="color: white">{{languageName($pro->name)}}</h2>
