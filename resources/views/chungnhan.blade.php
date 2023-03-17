@@ -57,7 +57,7 @@
       
                     <div class="box_chungnhan">
                         <div class="img_chungnhan">
-                            <a data-fancybox data-thumb="{{$item->image}}" href="{{$item->image}}"><img src="{{$item->image}}"></a>
+                            <a data-fancybox="gallery" data-thumb="{{$item->image}}" href="{{$item->image}}"><img src="{{$item->image}}"></a>
                         </div>
                     </div>
                 @endforeach
