@@ -600,13 +600,30 @@
     <script type='text/javascript' src='{{ asset('frontend/js/bootstrap.min.js') }}' id='bootstrap-js'></script>
     <script type='text/javascript' src='{{ asset('frontend/js/isotope.pkgd.min.js') }}' id='isotope-js'></script>
     <script type='text/javascript' src='{{ asset('frontend/js/wow.js') }}' id='wow-js'></script>
-    <!-- <script type='text/javascript' id='k2_kinhdo-main-js-extra'>
-        /* <![CDATA[ */
-        var j_data = {
-            "a_u": "https:\/\/vlive-international.vn\/wp-admin\/admin-ajax.php"
-        };
-        /* ]]> */
-    </script> -->
+    @yield('js')
+    <script type="text/javascript" 
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+ </script>
+ <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+    pageLanguage: 'de',
+    includedLanguages:'de,vi', 
+    }, 'translate_select');
+    }
+ </script>
+ <script>
+    var flags = document.getElementsByClassName('flag_link');
+    Array.prototype.forEach.call(flags, function(e){
+    e.addEventListener('click', function(){
+    var lang = e.getAttribute('data-lang'); 
+    var languageSelect = document.querySelector("select.goog-te-combo");
+    // console.log(document.querySelector("select.goog-te-combo"));
+    languageSelect.value = lang; 
+    languageSelect.dispatchEvent(new Event("change"));
+    }); 
+    });
+ </script>
     <script type='text/javascript' src='{{ asset('frontend/js/main.js') }}' id='k2_kinhdo-main-js'></script>
     <script type="text/javascript">
         var arCuMessages = [

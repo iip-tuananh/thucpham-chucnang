@@ -1,16 +1,38 @@
-<div id="google_translate_element"></div>
-<script type="text/javascript"> 
+
+{{-- <script type="text/javascript"> 
    function googleTranslateElementInit() { 
        new google.translate.TranslateElement(
            {pageLanguage: 'vi'}, 
            'google_translate_element'
        ); 
    } 
-</script> 
+</script>  --}}
 {{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> --}}
 <header id="header" data-lang="vi">
+ 
    <div class="topbar w-100">
       <div class="container">
+         <div class="offcanvas-menu d-inline-block">
+            <div id="translate_select" style="display: none"></div>
+            <div class="image-item " style="display: flex;">
+               <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
+                  <div>
+                     <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
+                  </div>
+                  <div>
+                     <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                  </div>
+               </a>
+               <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Anh" data-lang="en">
+                  <div>
+                     <img src="{{asset('frontend/img/flag-en (1).png')}}" alt="" loading="lazy">
+                  </div>
+                  <div>
+                     <span style="color: white" class="ngonngu">Tiếng Anh</span>
+                  </div>
+               </a>
+            </div>
+           </div>
          <div class="box_bar">
             <div class="box_bar1">
                <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
