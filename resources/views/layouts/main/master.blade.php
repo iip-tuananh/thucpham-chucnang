@@ -437,7 +437,7 @@
     <link rel='stylesheet' id='magnific-popup.css-css'
         href='{{ asset('frontend/css/autoptimize_single_ad910fc01ceb1e494a5cbebf142128be.css') }}' type='text/css'
         media='screen' />
-    <link rel='stylesheet' id='fancybox.css-css' href='{{ asset('frontend/css/jquery.fancybox.min.css') }}'
+    {{-- <link rel='stylesheet' id='fancybox.css-css' href='{{ asset('frontend/css/jquery.fancybox.min.css') }}' --}}
     
         type='text/css' media='screen' />
     <link rel='stylesheet' id='jquery.mmenu.css-css'
