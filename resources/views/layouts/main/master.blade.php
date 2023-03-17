@@ -532,15 +532,7 @@
     class="home page-template page-template-page-templates page-template-home page-template-page-templateshome-php page page-id-458 theme-v4 woocommerce-no-js">
 
     <div id="page" class="site">
-        {{-- <div id="google_translate_element"></div>
-         <script type="text/javascript"> 
-            function googleTranslateElementInit() { 
-                new google.translate.TranslateElement(
-                    {pageLanguage: 'vi'}, 
-                    'google_translate_element'
-                ); 
-            } 
-         </script>  --}}
+       
         <script type="text/javascript" src="{{ asset('frontend/js/element.js') }}"></script>
         @include('layouts.header.index')
         @yield('content')
@@ -607,7 +599,7 @@
  <script type="text/javascript">
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({
-    pageLanguage: 'de',
+    pageLanguage: 'vi',
     includedLanguages:'de,vi', 
     }, 'translate_select');
     }
@@ -620,6 +612,7 @@
     var languageSelect = document.querySelector("select.goog-te-combo");
     // console.log(document.querySelector("select.goog-te-combo"));
     languageSelect.value = lang; 
+    console.log(languageSelect.value);
     languageSelect.dispatchEvent(new Event("change"));
     }); 
     });
@@ -1100,7 +1093,7 @@
             (t.fn.contactUs.Constructor = e);
         })(jQuery);
     </script>
-    <div id="google_translate_element"></div>
+    <div id="google_translate_element" style="display: none"></div>
 
     <script type="text/javascript">
         function googleTranslateElementInit() {

@@ -1,51 +1,44 @@
 
-{{-- <script type="text/javascript"> 
-   function googleTranslateElementInit() { 
-       new google.translate.TranslateElement(
-           {pageLanguage: 'vi'}, 
-           'google_translate_element'
-       ); 
-   } 
-</script>  --}}
-{{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> --}}
 <header id="header" data-lang="vi">
  
    <div class="topbar w-100">
+      
       <div class="container">
-         <div class="offcanvas-menu d-inline-block">
-            <div id="translate_select" style="display: none"></div>
-            <div class="image-item " style="display: flex;">
-               <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
-                  <div>
-                     <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
-                  </div>
-                  <div>
-                     <span style="color: white" class="ngonngu">Tiếng Việt</span>
-                  </div>
-               </a>
-               <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Anh" data-lang="en">
-                  <div>
-                     <img src="{{asset('frontend/img/flag-en (1).png')}}" alt="" loading="lazy">
-                  </div>
-                  <div>
-                     <span style="color: white" class="ngonngu">Tiếng Anh</span>
-                  </div>
-               </a>
-            </div>
-           </div>
+    
+
+        
+        
          <div class="box_bar">
             <div class="box_bar1">
                <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
                <span>Hotline: {{$setting->phone2}}</span>
+               
             </div>
             <div class="box_bar2">
                <div class="box_bar2_right">
                   <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                   </div>
-                  <!-- <ul class="ngonngu">	
-                     <li class=""><a id="ngonnguen" href="" rel="en">En</a></li>
-                     <li class="active"><a id="ngonnguvi" href="" rel="vi">Vi</a></li>
-                     </ul> -->
+                <ul class="ngonngu">	
+                  <div class="image-item " style="display: flex;">
+                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
+                        <div>
+                           <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
+                        </div>
+                        <div>
+                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                        </div>
+                     </a>
+                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
+                        <div>
+                           <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
+                        </div>
+                        <div>
+                           <span style="color: white" class="ngonngu">Tiếng Đức</span>
+                        </div>
+                     </a>
+                  </div>
+                     </ul>
+
                   <ul class="mangxh">
                      <li><a target="_blank" rel="nofollow" href="{{$setting->intagram}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
                      <li><a target="_blank" rel="nofollow" href="javacript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
