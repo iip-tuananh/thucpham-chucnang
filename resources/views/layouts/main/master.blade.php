@@ -437,11 +437,9 @@
     <link rel='stylesheet' id='magnific-popup.css-css'
         href='{{ asset('frontend/css/autoptimize_single_ad910fc01ceb1e494a5cbebf142128be.css') }}' type='text/css'
         media='screen' />
-    {{-- <link rel='stylesheet' id='fancybox.css-css' href='{{ asset('frontend/css/jquery.fancybox.min.css') }}' --}}
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-/>
+    <link rel='stylesheet' id='fancybox.css-css' href='{{ asset('frontend/css/jquery.fancybox.min.css') }}'
+    
+        type='text/css' media='screen' />
     <link rel='stylesheet' id='jquery.mmenu.css-css'
         href='{{ asset('frontend/css/autoptimize_single_6b26198f5cb44ee009c62cc12a5ccf6d.css') }}' type='text/css'
         media='screen' />
@@ -468,7 +466,10 @@
     <script type='text/javascript' src='{{ asset('frontend/js/jquery.min.js') }}' id='jquery-core-js'></script>
     <script type='text/javascript' src='{{ asset('frontend/js/jquery-migrate.min.js') }}' id='jquery-migrate-js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
 
     {{-- <script type='text/javascript' id='jquery-cookie-js-extra'>
         /* <![CDATA[ */
