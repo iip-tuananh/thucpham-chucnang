@@ -7,7 +7,7 @@
        ); 
    } 
 </script> 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+{{-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> --}}
 <header id="header" data-lang="vi">
    <div class="topbar w-100">
       <div class="container">
