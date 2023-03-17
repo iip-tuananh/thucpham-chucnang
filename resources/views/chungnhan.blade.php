@@ -57,7 +57,7 @@
       
                     <div class="box_chungnhan">
                         <div class="img_chungnhan">
-                            <a data-fancybox="gallery0" href="javascript:;"><img src="{{$item->image}}"></a>
+                            <a  href="javascript:;"><img src="{{$item->image}}"></a>
                         </div>
                     </div>
                 @endforeach
