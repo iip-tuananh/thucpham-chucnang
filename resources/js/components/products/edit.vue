@@ -105,6 +105,10 @@
                   />
                 </vs-select>
               </div>
+              <div class="form-group">
+                <label>Ảnh Chứng Nhận</label>
+                <ImageMulti v-model="objData.origin" :title="'mau-thiet-ke'"/> 
+              </div>
               <!-- <div class="form-group">
                 <label>Loại</label>
                 <vs-select
@@ -206,7 +210,7 @@ export default {
         type_cate: 0,
         type_two:0,
         species: "",
-        origin: "",
+        origin: [],
         thickness: "",
         hang_muc: "",
       },
@@ -301,6 +305,7 @@ export default {
         this.loadings(false);
           this.objData = response.data;
           this.objData.images = JSON.parse(response.data.images);
+          this.objData.origin = JSON.parse(response.data.origin);
           this.objData.content = JSON.parse(response.data.content);
           this.objData.description = JSON.parse(response.data.description);
           this.objData.name = JSON.parse(response.data.name);

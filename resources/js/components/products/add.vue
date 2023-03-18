@@ -117,7 +117,7 @@
                 </vs-select>
               </div>
               <div class="form-group">
-                <label>Ảnh mặt hàng</label>
+                <label>Ảnh Chứng Nhận</label>
                 <ImageMulti v-model="objData.origin" :title="'mau-thiet-ke'"/> 
               </div>
               <!-- <div class="form-group">

@@ -143,7 +143,7 @@ class ProductController extends Controller
             'cate' => function ($query) {
                 $query->where('status',1)->limit(5)->select('id','name','avatar','slug'); 
             },
-        ])->where(['slug'=>$slug])->first(['id','name','images','type_cate','category','sku','discount','price','content','size','description','slug','preserve','created_at']);
+        ])->where(['slug'=>$slug])->first(['id','name','images','type_cate','category','sku','discount','price','origin','content','size','description','slug','preserve','created_at']);
         // $data['productlq'] = Product::where('category',$data['product']->category)->get(['id','name','images','discount','price','slug','cate_slug','type_slug','description']);
         return view('product.detail',$data);
     }

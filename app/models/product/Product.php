@@ -59,7 +59,7 @@ class Product extends Model
                 $query->ingredient = $request->ingredient;
                 $query->type_cate = $request->type_cate;
                 $query->species = $request->species;
-                $query->origin = $request->origin;
+                $query->origin = json_encode($request->origin);
                 $query->thickness = $request->thickness;
                 $query->hang_muc = $request->hang_muc;
                 $query->status = $request->status;
@@ -87,7 +87,7 @@ class Product extends Model
             $query->ingredient = $request->ingredient;
             $query->type_cate = $request->type_cate;
             $query->species = $request->species;
-            $query->origin = $request->origin;
+            $query->origin = json_encode($request->origin);
             $query->thickness = $request->thickness;
             $query->hang_muc = $request->hang_muc;
             $query->status = $request->status;

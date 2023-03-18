@@ -132,14 +132,16 @@ P2
           <div id="tab-3" class="tab-content " style="background: #cdcfd0;padding: 50px 0;">
              <div class="container">
                 <div class="grid-chungnhansp">
-                    @foreach ($chungnhansp as $item)
-                    @if($item->product_id == $product->id)
+                  @php
+                      $anhchungnhan = json_decode($product->origin);
+                      
+                  @endphp
+                    @foreach ($anhchungnhan as $item)
                         <div class="box_chungnhan">
                         <div class="img_chungnhan">
-                            <a data-fancybox="gallery2" href="javascript:;"><img src="{{$item->image}}"></a>
+                            <a data-fancybox="gallery2" href="javascript:;"><img src="{{$item}}"></a>
                         </div>
                         </div>
-                        @endif
                     @endforeach
                 </div>
              </div>
