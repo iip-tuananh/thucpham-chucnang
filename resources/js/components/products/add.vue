@@ -134,6 +134,35 @@
                 </vs-select>
               </div> -->
               <div class="form-group">
+                <label>Thêm đánh giá (nếu có)</label>
+                <div v-for="(item, index) in objData.size" :key="index">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <ImageMulti
+                        type="avatar"
+                        size="default"
+                        placeholder="Hình ảnh"
+                        class="w-100"
+                        v-model="objData.size[index].price"
+                        :title="'anh-danh-gia'"
+                      />
+                      <br />
+                    </div>
+                    <div class="col-md-2">
+                      <a
+                        href="javascript:;"
+                        v-if="index != 0"
+                        @click="remoteAr(index,'size')"
+                      >
+                        <img v-bind:src="'/media/' + joke.avatar" width="25" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <el-button size="small" @click="addInput('size')"
+                  >Thêm đánh giá</el-button>
+              </div>
+              <div class="form-group">
                 <label>Hiển thị trang chủ</label>
                 <vs-select v-model="objData.discountStatus">
                   <vs-select-item value="1" text="Có" />
