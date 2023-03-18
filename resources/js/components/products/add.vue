@@ -116,6 +116,10 @@
                   />
                 </vs-select>
               </div>
+              <div class="form-group">
+                <label>Ảnh mặt hàng</label>
+                <ImageMulti v-model="objData.origin" :title="'mau-thiet-ke'"/> 
+              </div>
               <!-- <div class="form-group">
                 <label>Loại danh mục</label>
                 <vs-select
@@ -133,7 +137,7 @@
                   />
                 </vs-select>
               </div> -->
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Thêm đánh giá (nếu có)</label>
                 <div v-for="(item, index) in objData.size" :key="index">
                   <div class="row">
@@ -143,7 +147,7 @@
                         size="default"
                         placeholder="Hình ảnh"
                         class="w-100"
-                        v-model="objData.size[index].price"
+                        v-model="objData.size[index].detail"
                         :title="'anh-danh-gia'"
                       />
                       <br />
@@ -161,7 +165,7 @@
                 </div>
                 <el-button size="small" @click="addInput('size')"
                   >Thêm đánh giá</el-button>
-              </div>
+              </div> -->
               <div class="form-group">
                 <label>Hiển thị trang chủ</label>
                 <vs-select v-model="objData.discountStatus">
@@ -221,7 +225,7 @@ export default {
         size: [
           {
             title: "",
-            detail: ""
+            detail: []
           },
         ],
         price: 0,
@@ -252,7 +256,7 @@ export default {
         type_cate: 0,
         type_two:0,
         species: "",
-        origin: "",
+        origin: [],
         thickness: "",
         hang_muc: "",
       },
@@ -333,7 +337,7 @@ export default {
         var oj = {};
         if(key =='size'){
           oj.title = "";
-          oj.detail = "";
+          oj.detail = [];
           this.objData.size.push(oj);
         }
         if(key =='preserve'){
