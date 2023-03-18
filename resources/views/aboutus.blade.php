@@ -14,7 +14,7 @@
 @endsection
 @section('content')
 <main>
-   <section class="bannerabout bannerabout1  w-100" style="background: url(https://vlive-international.vn/wp-content/themes/v4/assets/images/bannertranggioithieu-16401452165.png) no-repeat center; ">
+   <section class="bannerabout bannerabout1  w-100" style="background: url({{asset('frontend/img/banner.jpg')}}) no-repeat center; ">
       <div class="box_desc_banner">
          <div class="container">
             <div class="box_desc_banner1 active">
