@@ -18,9 +18,9 @@
       <div class="box_desc_banner">
          <div class="container">
             <div class="box_desc_banner1 active">
-               <h1>
+               {{-- <h1>
                   <p style="color:#fff"><b>Niềm đam mê sức khỏe </b> <br>của chúng tôi là nguyên<br> nhân ra đời <br><b>của chúng tôi</b></p>
-               </h1>
+               </h1> --}}
             </div>
          </div>
       </div>
