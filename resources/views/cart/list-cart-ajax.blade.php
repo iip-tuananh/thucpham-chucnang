@@ -1,3 +1,22 @@
+<script>
+    $('.remove_item_cart').click(function (e) { 
+      e.preventDefault();
+         var id = $(this).data('id');
+         var url = $(this).data('url');
+         $.ajax({
+            type: "get",
+            url: url,
+            data: {
+               id:id,
+            },
+            success: function (data) {
+               $('.cart-layout-new').html(data.html3);
+               $('.count-item').html(data.html2);
+               $.notify("Xoá thành công", "success");
+            }
+         });
+   });
+</script>
 <div class="container" style="min-height: 350px">
     <div class="rounded p-2 p-md-3 bg-white">
        <h1 class="cart-name font-weight-bold text-uppercase pb-2 pt-2 mb-2">
@@ -73,22 +92,3 @@
     </div>
  </div>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- <script>
-     $('.remove_item_cart').click(function (e) { 
-       e.preventDefault();
-          var id = $(this).data('id');
-          var url = $(this).data('url');
-          $.ajax({
-             type: "get",
-             url: url,
-             data: {
-                id:id,
-             },
-             success: function (data) {
-                $('.cart-layout-new').html(data.html3);
-                $('.count-item').html(data.html2);
-                $.notify("Xoá thành công", "success");
-             }
-          });
-    });
- </script>
