@@ -467,7 +467,7 @@ span.count {
 .box_gtsp .box_item .box_left {
     width: 60%;
     display: flex;
-    padding: 70px
+    padding: 23px;
 }
 
 .box_gtsp .box_item .box_left.box_left1 {
@@ -506,7 +506,7 @@ span.count {
 }
 
 .box_gtsp .box_item .box_left .des {
-    width: 310px
+    width: 418px;
 }
 
 .box_gtsp .box_item .box_left .des span {
