@@ -35,21 +35,20 @@ class CartController extends Controller
                 $query->cus_address= $request->billingAddress;
                 $query->transport_price = $request->shippingMethod ? $request->shippingMethod : 0;
 				$query->save();
-
-					
                 foreach($cart as $key => $item){
                     $billdetail = new BillDetail();
                     $billdetail->code_bill = $code_bill;
-                    $billdetail->code_product = $item['idpro'];
+                    $billdetail->code_product = $item['id'];
                     $billdetail->name =languageName($item['name']);
                     $billdetail->price = $item['price'];
                     $billdetail->qty = $item['quantity'];
                     $billdetail->images = $item['image'];
+                    $billdetail->discount = $item['discount'];
                     $billdetail->save();
                 }
 				DB::commit();
                 $request->session()->forget('cart');
-                return Redirect::to('/')->with('success', 'Gửi đơn hàng thành công');
+                return Redirect::to('/')->with('dathangthanhcong','Bạn đã đặt hàng thành công');
 			} catch (\Throwable $e) {
 			DB::rollBack();
 			throw $e;
