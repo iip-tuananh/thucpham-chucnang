@@ -119,7 +119,12 @@ class CartController extends Controller
             $cart = session()->get('cart');
             $cart[$request->id]["quantity"] = $request->quantity;
             session()->put('cart', $cart);
-            return response()->json($cart);
+            $data['cart'] = session()->get('cart',[]);
+            $data['cartItemName'] = $cart[$request->id]['name'];
+            $view3 = view('cart.list-cart-ajax', $data)->render();
+            return response()->json([
+                'html3' => $view3,
+            ]);
         }
         
     }
