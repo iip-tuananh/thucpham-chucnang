@@ -185,7 +185,7 @@
                </ul>
                <div class="giohang_header">
                   <a href="{{route('listCart')}}"> <span>Giỏ hàng</span><img src="{{asset('frontend/img/iconcart1.png')}}">
-   <span class="count" id="count">0</span>
+   <span class="count count-item" id="count">{{count($cartcontent)}}</span>
 </a>
 </div>
               
