@@ -107,7 +107,7 @@ class CartController extends Controller
         session()->put('cart', $cart);
         $data['cart'] = session()->get('cart',[]);
         $data['cartItemName'] = $cart[$id]['name'];
-        $view2 = view('layouts.product.countpro', $data)->render();
+        $view2 = view('layouts.product.count-item', $data)->render();
         return response()->json([
             'html2' => $view2,
            
