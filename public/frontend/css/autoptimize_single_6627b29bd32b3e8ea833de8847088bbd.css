@@ -448,9 +448,9 @@ span.count {
       /* fallback for old browsers */
         /* Chrome 10-25, Safari 5.1-6 */
        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      background: #f4b033;
+      background-color: #f4b033;
       padding: 21px 0;
-      /* margin-top: 50px; */
+      margin-top: 50px
 }
 
 .khungspnoibat {
