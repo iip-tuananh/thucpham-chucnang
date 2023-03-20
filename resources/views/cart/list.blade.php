@@ -121,8 +121,8 @@ Giỏ hàng của bạn
                               class="increase_pop items-count btn-plus btn btn-default bootstrap-touchspin-up"
                               type="button">+</button>
                            
+                              <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
                         </div>
-                        <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
                      </div>
                      @endforeach
                   </div>
