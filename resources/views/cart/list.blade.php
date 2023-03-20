@@ -157,4 +157,52 @@ Giỏ hàng của bạn
       </section>
    </div>
 </div>
+<script>
+    $('.remove_item_cart').click(function (e) { 
+       e.preventDefault();
+          var id = $(this).data('id');
+          var url = $(this).data('url');
+          $.ajax({
+             type: "get",
+             url: url,
+             data: {
+                id:id,
+             },
+             success: function (data) {
+                $('.listcartajax').html(data.html3);
+                $('.count-item').html(data.html2);
+             }
+          });
+    });
+    
+    function btnMinus(id,url) {
+    var id = id;
+    var result = document.getElementById('qty'+id); var qtypro = result.value; if( !isNaN( qtypro ) && qtypro > 1 ) result.value--;
+    var quantity = result.value;
+    var url = url;
+    $.ajax({
+        type:'get',
+        url:url,
+        data: {id:id, quantity:quantity},
+        success: function(data) {
+          $('.listcartajax').html(data.html3);
+        }
+    })
+    }
+    function btnPlus(id , url) {
+    var id = id;
+    console.log(id);
+    var result = document.getElementById('qty'+id); var qtypro = result.value; if( !isNaN( qtypro )) result.value++;
+    var quantity = result.value;
+    var url = url;
+    $.ajax({
+        type:'get',
+        url:url,
+        data: {id:id, quantity:quantity},
+        success: function(data) {
+          $('.listcartajax').html(data.html3);
+        }
+    })
+    }
+ </script>
 @endsection
