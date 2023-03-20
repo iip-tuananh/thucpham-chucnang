@@ -142,8 +142,8 @@ P2
                         <div class="box_chungnhan">
                         <div class="img_chungnhan">
                            @dd($anhchungnhan);
-                           @if($item->link != null)
-                           <a data-fancybox="" href="{{$item->link}}"><img src="{{$item}}"></a>
+                           @if($item != null)
+                           <a data-fancybox="" href="{{$item}}"><img src="{{$item}}"></a>
                               @else
                            <a data-fancybox="" href="#">
                               @endif
