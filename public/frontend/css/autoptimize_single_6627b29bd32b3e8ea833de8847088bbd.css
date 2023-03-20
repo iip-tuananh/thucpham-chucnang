@@ -493,12 +493,11 @@ span.count {
     margin-top: 0
 }
 
-.box_gtsp .box_item .box_left .title.title_box0 h2 {
-    color: #dc156c
-}
+.box_gtsp .box_item .box_left .title.title_box0 h2 {color: #307f2e;transform: translateY(-17px);}
 
 .box_gtsp .box_item .box_left .title.title_box1 h2 {
-    color: #3BB44A
+    color: #3BB44A;
+    transform: translateY(-17px);
 }
 
 .box_gtsp .box_item .box_left .title.title_box2 h2 {
