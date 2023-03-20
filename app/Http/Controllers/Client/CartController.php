@@ -137,7 +137,6 @@ class CartController extends Controller
                 session()->put('cart', $cart);
             }
             $data['cart'] = session()->get('cart',[]);
-            $data['cartItemName'] = $cart[$request->id]['name'];
             $view3 = view('cart.list-cart-ajax', $data)->render();
             return response()->json([
                 'html3' => $view3,
