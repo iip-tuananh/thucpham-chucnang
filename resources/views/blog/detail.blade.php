@@ -28,7 +28,6 @@
                 </div>
                
                 <div class="content_detailnews" style="font-size: 17px;">
-                   <p style="font-weight: 400;">{{languageName($blog_detail->title)}}</p>
                    <div id="attachment_6517" class="wp-caption ">
                     {!!languageName($blog_detail->content)!!}
                    </div>
