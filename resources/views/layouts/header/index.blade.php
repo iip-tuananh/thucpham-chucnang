@@ -111,7 +111,7 @@
                            <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                            <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
                     
-                           <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li>
+                           {{-- <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li> --}}
                         </ul>
                      </li>
                      </ul>

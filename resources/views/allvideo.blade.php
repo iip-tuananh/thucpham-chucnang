@@ -50,7 +50,11 @@
                          
                         @endforeach
                         <div class="box_phanhoi">
+                           @if($item->link !='')
                            <a data-fancybox="" href="{{$item->link}}">
+                              @else
+                           <a data-fancybox="" href="#">
+                              @endif
                               <div class="img_phanhoi">
                                  <img src="{{$item->image}}">
                                  <div class="iconplay">
