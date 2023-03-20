@@ -59,7 +59,7 @@
                 <label>Ảnh mặt hàng</label>
                 <ImageMulti v-model="objData.images" :title="'san-pham'"/>
               </div>
-              <!-- <div class="form-group">
+              <div class="form-group">
                 <label>Giá mặt hàng</label>
                 <vs-input
                   type="number"
@@ -69,7 +69,7 @@
                   v-model="objData.price"
                 />
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Phần trăm giảm giá</label>
                 <vs-input
                   type="number"
