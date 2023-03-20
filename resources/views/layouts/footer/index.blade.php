@@ -68,9 +68,9 @@
                </div>
             </div>
      
-         <div class="linef2 w-100">
-            <p>© Copyright 2023 , all rights reserved. Designed &amp; developed by SBT</p>
-         </div>
+      </div>
+      <div class="container" style="border-top: 1px solid white; text-align:center">
+         <p>© Copyright 2023 , all rights reserved. Designed &amp; developed by SBT</p>
       </div>
    </div>
 </footer>
