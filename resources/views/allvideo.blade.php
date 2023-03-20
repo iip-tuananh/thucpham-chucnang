@@ -48,7 +48,6 @@
                      <div class="khungphanhoi111">
                         @foreach ($danhgiachuyengia as $item)
                          
-                        @endforeach
                         <div class="box_phanhoi">
                            @if($item->link != null)
                            <a data-fancybox="" href="{{$item->link}}">
@@ -66,6 +65,7 @@
                               </div>
                            </a>
                         </div>
+                        @endforeach
                  
                      </div>
                     
