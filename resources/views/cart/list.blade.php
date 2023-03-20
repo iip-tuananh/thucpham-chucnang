@@ -107,7 +107,7 @@ Giỏ hàng của bạn
                            {{-- <span class="js-price  ml-auto text-right clearfix"><del style="color:black">{{number_format($item['price'])}}</del>&nbsp;₫</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --}}
                            <span class="js-price price font-weight-bold  clearfix">{{number_format($pricePro)}}&nbsp;₫</span>
                         </div>
-                        <div class="col-md-3 col-xs-3 flex-gio">
+                        <div class="col-md-4 col-xs-4 flex-gio">
                            <button
                            onclick="btnMinus('{{$item['id']}}','{{route('update.cart')}}')"
                            class="reduced_pop items-count btn-minus btn btn-default bootstrap-touchspin-down"
@@ -124,7 +124,7 @@ Giỏ hàng của bạn
                               type="button">+</button>
                            
                             </div>
-                            <div class="col-md-3 col-xs-3">
+                            <div class="col-md-2 col-xs-2">
                             <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
 
                         </div>
