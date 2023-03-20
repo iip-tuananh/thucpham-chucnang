@@ -25,7 +25,6 @@ Giỏ hàng của bạn
              success: function (data) {
                 $('.cart-layout-new').html(data.html3);
                 $('.count-item').html(data.html2);
-           
              }
           });
     });

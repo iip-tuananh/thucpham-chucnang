@@ -137,8 +137,10 @@ class CartController extends Controller
             }
             $data['cart'] = session()->get('cart',[]);
             $view3 = view('cart.list-cart-ajax', $data)->render();
+            $view2 = view('layouts.product.count-item', $data)->render();
             return response()->json([
                 'html3' => $view3,
+                'html2' => $view2,
             ]);
         }
     }
