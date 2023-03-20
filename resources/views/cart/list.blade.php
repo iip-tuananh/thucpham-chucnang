@@ -117,7 +117,7 @@ Giỏ hàng của bạn
                               maxlength="12" min="1" disabled=""
                               class="form-control quantity-r2 quantity js-quantity-product input-text number-sidebar input_pop input_pop qtyItem27698914 quantity-cus"
                               id="qty{{$item['id']}}" name="Lines"
-                              size="4" value="{{$item['quantity']}}">
+                              size="4" value="{{$item['quantity']}}" style="text-align: center">
                               <button
                               onclick="btnPlus('{{$item['id']}}','{{route('update.cart')}}')"
                               class="increase_pop items-count btn-plus btn btn-default bootstrap-touchspin-up"
