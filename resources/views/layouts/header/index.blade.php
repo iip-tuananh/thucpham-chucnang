@@ -8,7 +8,7 @@
 
         
         
-         <div class="box_bar container">
+         <div class=" container">
             <div class="row">
 
                <div class="col-md-4">
@@ -33,13 +33,13 @@
                         </div>
                      </ul>
                </div>
-               <div class="box_bar1 col-md-4">
+               <div class="col-md-4">
                   
                   <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
                   <span>Hotline: {{$setting->phone2}}</span>
                   
                </div>
-               <div class="box_bar2 col-md-4">
+               <div class=" col-md-4">
                   <div class="box_bar2_right">
                      <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                      </div>
