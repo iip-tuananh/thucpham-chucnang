@@ -8,51 +8,44 @@
 
         
         
-         <div class=" container">
-            <div class="row">
-
-               <div class="col-md-4">
-                     <ul class="ngonngu">	
-                        <div class="image-item " style="display: flex;">
-                           <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
-                              <div>
-                                 <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
-                              </div>
-                              <div>
-                                 <span style="color: white" class="ngonngu">Tiếng Việt</span>
-                              </div>
-                           </a>
-                           <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
-                              <div>
-                                 <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
-                              </div>
-                              <div>
-                                 <span style="color: white" class="ngonngu">Tiếng Đức</span>
-                              </div>
-                           </a>
-                        </div>
-                     </ul>
-               </div>
-               <div class="col-md-4">
-                  
-                  <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
-                  <span>Hotline: {{$setting->phone2}}</span>
-                  
-               </div>
-               <div class=" col-md-4">
-                  <div class="box_bar2_right">
-                     <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
-                     </div>
-                 
-   
-                     <ul class="mangxh">
-                        <li><a target="_blank" rel="nofollow" href="{{$setting->intagram}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
-                        <li><a target="_blank" rel="nofollow" href="javacript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
-                        <li><a target="_blank" rel="nofollow" href="{{$setting->youtube}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
-                        <li><a target="_blank" rel="nofollow" href="{{$setting->facebook}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
-                        <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
-                     </ul>
+         <div class="box_bar">
+            <div class="box_bar1">
+               <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
+               <span>Hotline: {{$setting->phone2}}</span>
+               
+            </div>
+            <div class="box_bar2">
+               <div class="box_bar2_right">
+                  <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                   </div>
+                <ul class="ngonngu">	
+                  <div class="image-item " style="display: flex;">
+                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
+                        <div>
+                           <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
+                        </div>
+                        <div>
+                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                        </div>
+                     </a>
+                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
+                        <div>
+                           <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
+                        </div>
+                        <div>
+                           <span style="color: white" class="ngonngu">Tiếng Đức</span>
+                        </div>
+                     </a>
+                  </div>
+                     </ul>
+
+                  <ul class="mangxh">
+                     <li><a target="_blank" rel="nofollow" href="{{$setting->intagram}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="javacript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="{{$setting->youtube}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="{{$setting->facebook}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
+                     <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
+                  </ul>
                </div>
             </div>
          </div>
