@@ -122,7 +122,7 @@ Giỏ hàng của bạn
                               type="button">+</button>
                            
                         </div>
-                        <button data-url="{{route('removeCart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
+                        <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
                      </div>
                      @endforeach
                   </div>
