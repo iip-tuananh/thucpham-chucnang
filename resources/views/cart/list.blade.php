@@ -169,7 +169,7 @@ Giỏ hàng của bạn
                 id:id,
              },
              success: function (data) {
-                $('.listcartajax').html(data.html3);
+                $('.cart-layout').html(data.html3);
                 $('.count-item').html(data.html2);
                 $.notify("Xoá thành công", "success");
              }
@@ -186,7 +186,8 @@ Giỏ hàng của bạn
         url:url,
         data: {id:id, quantity:quantity},
         success: function(data) {
-          $('.listcartajax').html(data.html3);
+            $('.cart-layout').html(data.html3);
+
           $.notify("Giảm số lượng thành công", "success");
         }
     })
@@ -202,7 +203,7 @@ Giỏ hàng của bạn
         url:url,
         data: {id:id, quantity:quantity},
         success: function(data) {
-          $('.listcartajax').html(data.html3);
+            $('.cart-layout').html(data.html3);
           $.notify("Thêm số lượng thành công", "success");
         }
     })
