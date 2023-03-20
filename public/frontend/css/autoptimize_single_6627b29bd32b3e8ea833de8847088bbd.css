@@ -93,6 +93,7 @@ main,footer {
 .box_bar2_right ul.ngonngu {
     display: flex;
     list-style: none;
+    margin-top: 7px;
     margin-right: 10px
 }
 
