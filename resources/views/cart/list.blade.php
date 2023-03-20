@@ -97,7 +97,7 @@ Giỏ hàng của bạn
                      $totalPrice += $item['quantity'] * $pricePro ;
                      @endphp
                      <div class="row" >
-                        <div class="col-md-3 col-xs-3">
+                        <div class="col-md-2 col-xs-2">
                             <img src="{{$item['image']}}" class="js-img position-absolute" alt="undefined">
                         </div>
                         <div class="col-md-3 col-xs-3">
@@ -124,7 +124,7 @@ Giỏ hàng của bạn
                               type="button">+</button>
                            
                             </div>
-                            <div class="col">
+                            <div class="col-md-2 col-xs-2">
                             <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
 
                         </div>
