@@ -62,6 +62,7 @@
     @yield('css')
     <link rel='stylesheet' id='classic-theme-styles-css' href='{{ asset('frontend/css/classic-themes.min.css') }}'
         type='text/css' media='all' />
+        @yield('css')
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
