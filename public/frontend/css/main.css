@@ -274,8 +274,9 @@ img.js-img.position-absolute {
 .flex-gio{
     display: flex;
 }
-.quantity-cus{
-    background-color: red;
+.quantity-cus {
+    width: 22px;
+    padding: 1px;
 }
 .custom-btn-numbers .btn-cts.btn-plus {
     border-top-right-radius: 7px;
