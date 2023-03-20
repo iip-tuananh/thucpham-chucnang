@@ -50,7 +50,7 @@
                          
                         @endforeach
                         <div class="box_phanhoi">
-                           @if($item->link !='')
+                           @if($item->link != null)
                            <a data-fancybox="" href="{{$item->link}}">
                               @else
                            <a data-fancybox="" href="#">
@@ -89,9 +89,6 @@
                            </a>
                         </div>
                  
-                     </div>
-                     <div class="xemtatcaphanhoi">
-                        <a href="https://www.youtube.com/playlist?list=PLCpdsEKYBLaAcuzsnFcZ42Y23KIh2tNiq" target="blank" rel="nofollow">Xem tất cả Cảm nhận khách hàng</a>
                      </div>
                   </div>
                   {{-- <div class="content_phanhoi" id="tab-4" style="margin-top: 0">
