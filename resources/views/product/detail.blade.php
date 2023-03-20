@@ -141,7 +141,10 @@ P2
                     @foreach ($anhchungnhan as $item)
                         <div class="box_chungnhan">
                         <div class="img_chungnhan">
-                            <a data-fancybox="gallery2" href="javascript:;"><img src="{{$item}}"></a>
+                           @if($item->link != null)
+                           <a data-fancybox="" href="{{$item->link}}"><img src="{{$item}}"></a>
+                              @else
+                           <a data-fancybox="" href="#">
                         </div>
                         </div>
                     @endforeach
