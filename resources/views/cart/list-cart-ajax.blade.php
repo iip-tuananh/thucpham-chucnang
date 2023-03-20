@@ -72,3 +72,22 @@
        @endif
     </div>
  </div>
+ <script>
+     $('.remove_item_cart').click(function (e) { 
+       e.preventDefault();
+          var id = $(this).data('id');
+          var url = $(this).data('url');
+          $.ajax({
+             type: "get",
+             url: url,
+             data: {
+                id:id,
+             },
+             success: function (data) {
+                $('.cart-layout').html(data.html3);
+                $('.count-item').html(data.html2);
+                $.notify("Xoá thành công", "success");
+             }
+          });
+    });
+ </script>
