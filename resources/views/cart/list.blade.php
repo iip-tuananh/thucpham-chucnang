@@ -107,7 +107,7 @@ Giỏ hàng của bạn
                         </div>
                         <div class="input-group-btn " style="display:flex">
                            <button
-                           onclick="btnMinus('{{$item['id']}}','{{route('updateCart')}}')"
+                           onclick="btnMinus('{{$item['id']}}','{{route('update.cart')}}')"
                            class="reduced_pop items-count btn-minus btn btn-default bootstrap-touchspin-down"
                            type="button">–</button>
                            <input
@@ -117,7 +117,7 @@ Giỏ hàng của bạn
                               id="qty{{$item['id']}}" name="Lines"
                               size="4" value="{{$item['quantity']}}">
                               <button
-                              onclick="btnPlus('{{$item['id']}}','{{route('updateCart')}}')"
+                              onclick="btnPlus('{{$item['id']}}','{{route('update.cart')}}')"
                               class="increase_pop items-count btn-plus btn btn-default bootstrap-touchspin-up"
                               type="button">+</button>
                            
