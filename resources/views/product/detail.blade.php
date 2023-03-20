@@ -111,7 +111,7 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                   <button data-url="{{route('add.to.cart',['id'=>$product->id])}}" class="add_to_cart custom-add" style="  background-color: #b90000 !important;
+                   <button id="memay" data-url="{{route('add.to.cart',['id'=>$product->id])}}" class="add_to_cart custom-add" style="  background-color: #b90000 !important;
                      border: none !important;
                      outline: none !important;
                      border-radius: 8px !important;
@@ -124,10 +124,10 @@ P2
           </div>
        </div>
        <style>
-         .button.add_to_cart.custom-add {
+         #memay {
   
 }
-.button.add_to_cart.custom-add:hover{
+#memay:hover{
     background-color: #ff0000 !important;
     transform: scale(0.9) !important;
     transition: all 1s !important;
