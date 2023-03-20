@@ -233,3 +233,6 @@ div#xemthem {
 .bg::before {
     background: rgba(255, 215, 0, .5);
 }
+.giohang_header img {
+    transform: rotate(90deg);
+}
