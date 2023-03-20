@@ -111,7 +111,7 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                   <button data-url="{{route('addToCart',['id'=>$product->id])}}" class="add_to_cart custom-add">ADD TO CART</button>
+                   <button data-url="{{route('add.to.cart',['id'=>$product->id])}}" class="add_to_cart custom-add">ADD TO CART</button>
                    </div>
                 </div>
              </div>

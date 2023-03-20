@@ -64,25 +64,54 @@ class CartController extends Controller
     }
     public function addToCart(Request $request)
     {
-        $product = Product::findOrFail($request->product_id);
+        $id = $request->id;
+        $product = Product::findOrFail($id);
+        $cart = session()->get('cart',[]);
+        if (isset($request->quantity)) {
+            if(isset($cart[$id])) {
+                $cart[$id]['quantity'] = $cart[$id]['quantity'] + $request->quantity;
 
-        $cart = session()->get('cart', []);
-
-        if(isset($cart[$request->product_id])) {
-            $cart[$request->product_id]['quantity'] = $cart[$request->product_id]['quantity'] + $request->quantity;
+            } else {
+                $cart[$id] = [
+                    "id" => $product->id,
+                    "name" => $product->name,
+                    "quantity" => $request->quantity,
+                    "price" => $product->price,
+                    "discount" => $product->discount,
+                    "cate_slug" => $product->cate_slug,
+                    "type_slug" => $product->type_slug,
+                    "slug"=>$product->slug,
+                    "image" => json_decode($product->images)[0],
+                ];
+            }
         } else {
-            $cart[$request->product_id] = [
-                "idpro" => $request->product_id,
-                "name" => $product->name,
-                "quantity" => $request->quantity,
-                "price" => $product->price,
-                "discount" => $product->discount,
-                "image" => json_decode($product->images)[0]
-            ];
+            if(isset($cart[$id])) {
+                $cart[$id]['quantity'] = $cart[$id]['quantity'] + 1;
+         
+            } else {
+                $cart[$id] = [
+                    "id" => $product->id,
+                    "name" => $product->name,
+                    "quantity" => 1,
+                    "price" => $product->price,
+                    "discount" => $product->discount,
+                    "cate_slug" => $product->cate_slug,
+                    "type_slug" => $product->type_slug,
+                    "slug"=>$product->slug,
+                    "image" => json_decode($product->images)[0],
+                    
+                ];
+            }
         }
         
         session()->put('cart', $cart);
-        return response()->json($cart);
+        $data['cart'] = session()->get('cart',[]);
+        $data['cartItemName'] = $cart[$id]['name'];
+        $view2 = view('layouts.product.countpro', $data)->render();
+        return response()->json([
+            'html2' => $view2,
+           
+        ]);
     }
     public function update(Request $request)
     {
