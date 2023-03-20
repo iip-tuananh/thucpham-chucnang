@@ -9,7 +9,28 @@
         
         
          <div class="box_bar">
+            <ul class="ngonngu">	
+               <div class="image-item " style="display: flex;">
+                  <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
+                     <div>
+                        <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
+                     </div>
+                     <div>
+                        <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                     </div>
+                  </a>
+                  <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
+                     <div>
+                        <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
+                     </div>
+                     <div>
+                        <span style="color: white" class="ngonngu">Tiếng Đức</span>
+                     </div>
+                  </a>
+               </div>
+            </ul>
             <div class="box_bar1">
+               
                <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
                <span>Hotline: {{$setting->phone2}}</span>
                
@@ -18,26 +39,7 @@
                <div class="box_bar2_right">
                   <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                   </div>
-                <ul class="ngonngu">	
-                  <div class="image-item " style="display: flex;">
-                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
-                        <div>
-                           <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
-                        </div>
-                        <div>
-                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
-                        </div>
-                     </a>
-                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
-                        <div>
-                           <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
-                        </div>
-                        <div>
-                           <span style="color: white" class="ngonngu">Tiếng Đức</span>
-                        </div>
-                     </a>
-                  </div>
-                     </ul>
+              
 
                   <ul class="mangxh">
                      <li><a target="_blank" rel="nofollow" href="{{$setting->intagram}}"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
