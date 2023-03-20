@@ -91,7 +91,7 @@
                  
                      </div>
                   </div>
-                  {{-- <div class="content_phanhoi" id="tab-4" style="margin-top: 0">
+                  <div class="content_phanhoi" id="tab-4" style="margin-top: 0">
                      <div class="khungphanhoi111">
                         <div class="box_phanhoi">
                            <a data-fancybox="" href="https://www.youtube.com/watch?v=https://youtu.be/pBkyT3bGF3U">
@@ -208,7 +208,7 @@
                      <div class="xemtatcaphanhoi">
                         <a href="https://www.youtube.com/playlist?list=PLCpdsEKYBLaA30EEeMFKpWvgfUmnTYA2s" target="blank" rel="nofollow">Xem tất cả Kiến thức sản phẩm</a>
                      </div>
-                  </div> --}}
+                  </div>
                </div>
             </div>
          </div>
