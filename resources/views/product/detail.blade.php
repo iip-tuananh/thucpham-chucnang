@@ -111,18 +111,33 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                   <button class="add_to_card custom-add">ADD TO CART</button>
+                   <button data-url="{{route('addToCart',['id'=>$product->id])}}" class="add_to_cart custom-add">ADD TO CART</button>
                    </div>
                 </div>
              </div>
           </div>
        </div>
        <script>
-         $('.add_to_card').click(function (e) { 
-            e.preventDefault();
-            console.log(123);
+         $('.add_to_cart').click(function (e) { 
+             e.preventDefault();
+             var url = $(this).data('url');
+             var quantity = $('input[name="quantity"]').val();
+             console.log(url,quantity);
+             $.ajax({
+                 type: "get",
+                 url: url,
+                 data: {
+                     quantity :quantity,
+                 },
+                 success: function (data) {
+                    $('.count-item').html(data.html2);
+                    $.notify("Thêm vào giỏ hàng thành công", "success"
+                          );
+                 
+                 }
+             });
          });
-       </script>
+     </script>
        <div class="content_detail" style="width: 100%;float: left;">
           <div class="container">
              <ul class="tabs">
