@@ -94,6 +94,21 @@ P2
                    <div class="price_sp">
                       <span class="woocommerce-Price-amount amount"><bdi>{{number_format($product->price)}}&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
                       <p> (Giá đã bao gồm 10% thuế VAT)</p>
+                      <div class="custom custom-btn-numbers form-control">		
+                        <button 
+                        onclick="var result = document.getElementById('qty'); 
+                        var qty = result.value;
+                        if( !isNaN(qty) & qty > 1 ) result.value--;return false;" 
+                        class="btn-minus btn-cts" 
+                        type="button">–</button>
+                
+                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1" maxlength="3" disabled/>
+                
+                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; 
+                        if( !isNaN(qty)) result.value++;return false;" 
+                        class="btn-plus btn-cts" 
+                        type="button">+</button>
+                        </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
                     {!!languageName($product->description)!!}
