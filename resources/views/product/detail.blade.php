@@ -141,7 +141,6 @@ P2
                     @foreach ($anhchungnhan as $item)
                         <div class="box_chungnhan">
                         <div class="img_chungnhan">
-                           @dd($anhchungnhan);
                            @if($item != null)
                            <a data-fancybox="" href="{{$item}}"><img src="{{$item}}"></a>
                               @else
