@@ -129,6 +129,7 @@ Giỏ hàng của bạn
 
                         </div>
                      </div>
+                     <br>
                      @endforeach
                   </div>
                   <div class="summary cart__summary col-md-4">
