@@ -95,7 +95,6 @@
               </div>
               <div class="form-group">
                 <label>Danh mục</label>
-                
                 <vs-select class="selectExample" v-model="objData.category" placeholder="Danh mục" @change="findCategoryType()">
                   <vs-select-item
                     :value="item.id"
