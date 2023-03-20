@@ -137,6 +137,7 @@ P2
                   @php
                       $anhchungnhan = json_decode($product->origin);
                   @endphp
+                  @if($anhchungnhan != null)
                     @foreach ($anhchungnhan as $item)
                         <div class="box_chungnhan">
                         <div class="img_chungnhan">
@@ -144,6 +145,7 @@ P2
                         </div>
                         </div>
                     @endforeach
+                    @endif
                 </div>
              </div>
           </div>
