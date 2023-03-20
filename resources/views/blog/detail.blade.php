@@ -28,6 +28,7 @@
                 </div>
                
                 <div class="content_detailnews" style="font-size: 17px;">
+                  
                    <div id="attachment_6517" class="wp-caption ">
                     {!!languageName($blog_detail->content)!!}
                    </div>
@@ -45,14 +46,13 @@
                 <div class="khungtintuc w-100">
                     @foreach ($bloglq as $item)
                     @if($item->type_cate == $blog_detail->type_cate)
-                        <
-                        div class="item_tintuc item_tintuckhac" style="display: block;">
+                        <div class="item_tintuc item_tintuckhac" style="display: block;">
                         <div class="img_tintuc">
                             <a href="{{route('detailBlog',['slug'=>$item->slug])}}">
                             <img width="2048" height="1365" src="{{$item->image}}" class="attachment-full size-full wp-post-image" alt="{{languageName($item->title)}}" decoding="async" loading="lazy" srcset="{{$item->image}} 2048w, {{$item->image}} 768w, {{$item->image}} 1920w, {{$item->image}} 1280w, {{$item->image}} 1536w, {{$item->image}} 300w, {{$item->image}} 450w, {{$item->image}} 600w" sizes="(max-width: 2048px) 100vw, 2048px" />                                   </a>
                         </div>
                         <p class="h4"><a ref="nofollow" href="{{route('detailBlog',['slug'=>$item->slug])}}">{{languageName($item->title)}}</a></p>
-                        </>
+                        </div>
                         @endif
                     @endforeach
                
