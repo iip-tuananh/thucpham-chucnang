@@ -96,16 +96,18 @@ Giỏ hàng của bạn
                      $pricePro = $item['price'] - $item['price'] * ($item['discount']/100);
                      $totalPrice += $item['quantity'] * $pricePro ;
                      @endphp
-                     <div class="d-flex cart__basket__item product mb-4 rounded ux-card position-relative clearfix" >
-                        <img src="{{$item['image']}}" class="js-img position-absolute" alt="undefined">
-                        <div class="col-12 d-flex p-0">
+                     <div class="row" >
+                        <div class="col-md-3 col-xs-3">
+                            <img src="{{$item['image']}}" class="js-img position-absolute" alt="undefined">
+                        </div>
+                        <div class="col-md-3 col-xs-3">
                            <p class="item-title clearfix mb-2">
                               <a href="/xiaomi-redmi-note-11-pro-plus-5g" title="{{languageName($item['name'])}}" class="js-titlte font-weight-bold">{{languageName($item['name'])}}</a>
                            </p>
                            {{-- <span class="js-price  ml-auto text-right clearfix"><del style="color:black">{{number_format($item['price'])}}</del>&nbsp;₫</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --}}
                            <span class="js-price price font-weight-bold  clearfix">{{number_format($pricePro)}}&nbsp;₫</span>
                         </div>
-                        <div class="input-group-btn " style="display:flex">
+                        <div class="col-md-3 col-xs-3">
                            <button
                            onclick="btnMinus('{{$item['id']}}','{{route('update.cart')}}')"
                            class="reduced_pop items-count btn-minus btn btn-default bootstrap-touchspin-down"
@@ -121,7 +123,10 @@ Giỏ hàng của bạn
                               class="increase_pop items-count btn-plus btn btn-default bootstrap-touchspin-up"
                               type="button">+</button>
                            
-                              <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
+                            </div>
+                            <div class="col-md-3 col-xs-3">
+                            <button data-url="{{route('remove.from.cart')}}" data-id="{{$item['id']}}" class="btn btn-outline-danger remove ml-auto remove_item_cart" title="Xoá" data-variantid="70103789">Xoá</button>
+
                         </div>
                      </div>
                      @endforeach
