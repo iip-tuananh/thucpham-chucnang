@@ -68,9 +68,6 @@
           </section>
           <section class="section2 animate__animated animate__fadeInRight">
              <div class="container" style="text-align: center; color:white">
-                <h2>SẢN PHẨM</h2>
-                <br>
-                
                         <div class="swiper mySwiper">
                            <div class="swiper-wrapper">
                   @foreach ($prosp as $pro)
