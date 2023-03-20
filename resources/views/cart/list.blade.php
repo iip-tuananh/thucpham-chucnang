@@ -79,7 +79,7 @@ Giỏ hàng của bạn
             </ul>
          </div>
       </div>
-      <section class="cart-layout mt-3 mb-3">
+      <section class="cart-layout mt-3 mb-3 cart-layout-new">
          <div class="container" style="min-height: 350px">
             <div class="rounded p-2 p-md-3 bg-white">
                <h1 class="cart-name font-weight-bold text-uppercase pb-2 pt-2 mb-2">
@@ -169,7 +169,7 @@ Giỏ hàng của bạn
                 id:id,
              },
              success: function (data) {
-                $('.cart-layout').html(data.html3);
+                $('.cart-layout-new').html(data.html3);
                 $('.count-item').html(data.html2);
                 $.notify("Xoá thành công", "success");
              }
@@ -186,7 +186,7 @@ Giỏ hàng của bạn
         url:url,
         data: {id:id, quantity:quantity},
         success: function(data) {
-            $('.cart-layout').html(data.html3);
+            $('.cart-layout-new').html(data.html3);
 
           $.notify("Giảm số lượng thành công", "success");
         }
@@ -203,7 +203,7 @@ Giỏ hàng của bạn
         url:url,
         data: {id:id, quantity:quantity},
         success: function(data) {
-            $('.cart-layout').html(data.html3);
+            $('.cart-layout-new').html(data.html3);
           $.notify("Thêm số lượng thành công", "success");
         }
     })

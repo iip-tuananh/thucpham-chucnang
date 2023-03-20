@@ -84,7 +84,7 @@
                 id:id,
              },
              success: function (data) {
-                $('.cart-layout').html(data.html3);
+                $('.cart-layout-new').html(data.html3);
                 $('.count-item').html(data.html2);
                 $.notify("Xoá thành công", "success");
              }
