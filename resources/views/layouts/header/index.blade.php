@@ -183,11 +183,14 @@
                   <!-- <li class=""><a href="tuyen-dung/">Tuyển dụng</a></li>
                      <li class=" "><a href="lien-he/">Liên hệ</a></li> -->
                </ul>
+               <div class="giohang_header">
+                  <a href="https://vlive-international.vn/vi/gio-hang/"> <span>Giỏ hàng</span><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/iconcart1.png">
+   <span class="count" id="count">0</span>
+</a>
+</div>
               
             </nav>
-            <nav>
-               Giỏ hàng
-            </nav>
+           
          </div>
       </div>
    </div>
