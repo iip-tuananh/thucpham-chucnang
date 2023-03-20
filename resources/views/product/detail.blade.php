@@ -131,8 +131,7 @@ P2
                  },
                  success: function (data) {
                     $('.count-item').html(data.html2);
-                    $.notify("Thêm vào giỏ hàng thành công", "success"
-                          );
+                    $.notify("Thêm vào giỏ hàng thành công", "success");
                  
                  }
              });

@@ -618,6 +618,7 @@
     }); 
     });
  </script>
+ <script src="{{asset('frontend/js/notify.min.js')}}"></script>
     <script type='text/javascript' src='{{ asset('frontend/js/main.js') }}' id='k2_kinhdo-main-js'></script>
     <script type="text/javascript">
         var arCuMessages = [
