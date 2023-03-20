@@ -269,7 +269,7 @@ div#xemthem {
     border-bottom-left-radius: 7px
 }
 img.js-img.position-absolute {
-    max-width: 30%;
+    width: 200px;
 }
 .quantity-cus{
     background-color: red;
