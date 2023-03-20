@@ -3,10 +3,8 @@
 Giỏ hàng của bạn
 @endsection
 @section('description')
-Bún đậu mắm tôm Lynh
 @endsection
 @section('image')
-{{url(''.$banner[0]->image)}}
 @endsection
 @section('content')
 <div class="breadcrumb-area">
