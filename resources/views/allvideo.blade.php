@@ -31,12 +31,12 @@
                <div class="khungphanhoi_left col-md-3 col-sm-3 col-xs-12">
                   <ul>
                      <li>
-                        <span class="tab-3 active" data-tab="#tab-3">
+                        <span class="tab-3 " data-tab="#tab-3">
                            <h2>Đánh giá của Chuyên gia</h2>
                         </span>
                      </li>
                      <li>
-                        <span class="tab-2" data-tab="#tab-2">
+                        <span class="tab-2 active" data-tab="#tab-2">
                            <h2>Cảm nhận khách hàng</h2>
                         </span>
                      </li>
