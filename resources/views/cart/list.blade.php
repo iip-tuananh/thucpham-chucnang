@@ -96,7 +96,9 @@ Giỏ hàng của bạn
                      $pricePro = $item['price'] - $item['price'] * ($item['discount']/100);
                      $totalPrice += $item['quantity'] * $pricePro ;
                      @endphp
-                     <div class="d-flex cart__basket__item product mb-4 rounded ux-card position-relative clearfix">
+                     <div class="d-flex cart__basket__item product mb-4 rounded ux-card position-relative clearfix" style="display: flex;
+                     justify-content: space-between;
+                 }">
                         <img src="{{$item['image']}}" class="js-img position-absolute" alt="undefined">
                         <div class="col-12 d-flex p-0">
                            <p class="item-title clearfix mb-2">
