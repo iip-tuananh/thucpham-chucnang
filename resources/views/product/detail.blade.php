@@ -133,7 +133,7 @@ P2
           <div id="tab-3" class="tab-content " style="background: #cdcfd0;padding: 50px 0;">
              <div class="container">
                 <div class="grid-chungnhansp">
-                  @dd($anhchungnhan);
+ 
                   @php
                       $anhchungnhan = json_decode($product->origin);
                   @endphp
