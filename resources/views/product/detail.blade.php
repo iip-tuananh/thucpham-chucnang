@@ -117,6 +117,22 @@ P2
              </div>
           </div>
        </div>
+       <style>
+         .button.add_to_cart.custom-add {
+    background-color: #b90000;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+    margin-left: 10px;
+    padding: 8px;
+}
+.button.add_to_cart.custom-add:hover{
+    background-color: #ff0000;
+    transform: scale(0.9);
+    transition: all 1s;
+}
+       </style>
        <script>
          $('.add_to_cart').click(function (e) { 
              e.preventDefault();
