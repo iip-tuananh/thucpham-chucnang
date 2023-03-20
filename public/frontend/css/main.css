@@ -236,3 +236,65 @@ div#xemthem {
 .giohang_header img {
     transform: rotate(90deg);
 }
+.custom-btn-numbers {
+    float: left;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 7px;
+    border: 1px solid #6c6c79;
+    min-height: unset;
+    width: auto;
+    background-color: transparent;
+    height: auto
+}
+
+.custom-btn-numbers .btn-cts {
+    font-size: 20px;
+    line-height: 0px;
+    border: none;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    float:left;
+    color: rgb(27, 7, 7);
+    text-align: center;
+    padding: 0px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.custom-btn-numbers .btn-cts.btn-minus {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px
+}
+
+.custom-btn-numbers .btn-cts.btn-plus {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px
+}
+.custom-btn-numbers .btn-cts.btn-plus:active{
+    background-color: orangered;
+    color: bisque;
+}
+.custom-btn-numbers .btn-cts.btn-minus:active{
+    background-color: orangered;
+    color: bisque;
+}
+
+.custom-btn-numbers #qty {
+    height: 35px;
+    font-size: 1em;
+    margin: 0;
+    width: 35px;
+    padding: 0 2px;
+    text-align: center;
+    background: #fff;
+    min-height: unset;
+    display: block;
+    float: left;
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+    user-select:none !important;
+}
