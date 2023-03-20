@@ -44,7 +44,7 @@
                   </ul>
                </div>
                <div class="khungphanhoi_right col-md-9 col-sm-9 col-xs-12">
-                  <div class="content_phanhoi active" id="tab-3" style="margin-top: 0">
+                  <div class="content_phanhoi " id="tab-3" style="margin-top: 0">
                      <div class="khungphanhoi111">
                         @foreach ($danhgiachuyengia as $item)
                          
@@ -70,7 +70,7 @@
                      </div>
                     
                   </div>
-                  <div class="content_phanhoi" id="tab-2" style="margin-top: 0">
+                  <div class="content_phanhoi active" id="tab-2" style="margin-top: 0">
                     <div class="khungphanhoi111">
                         @foreach ($danhgiakhachhang as $item)
                          
