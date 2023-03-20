@@ -111,12 +111,18 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                   <button>ADD TO CART</button>
+                   <button class="add_to_card custom-add">ADD TO CART</button>
                    </div>
                 </div>
              </div>
           </div>
        </div>
+       <script>
+         $('.add_to_card').click(function (e) { 
+            e.preventDefault();
+            console.log(123);
+         });
+       </script>
        <div class="content_detail" style="width: 100%;float: left;">
           <div class="container">
              <ul class="tabs">
