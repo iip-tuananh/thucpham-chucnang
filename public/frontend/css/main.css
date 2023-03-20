@@ -271,6 +271,9 @@ div#xemthem {
 img.js-img.position-absolute {
     width: 200px;
 }
+.flex-gio{
+    display: flex;
+}
 .quantity-cus{
     background-color: red;
 }

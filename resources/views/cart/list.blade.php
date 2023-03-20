@@ -107,7 +107,7 @@ Giỏ hàng của bạn
                            {{-- <span class="js-price  ml-auto text-right clearfix"><del style="color:black">{{number_format($item['price'])}}</del>&nbsp;₫</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --}}
                            <span class="js-price price font-weight-bold  clearfix">{{number_format($pricePro)}}&nbsp;₫</span>
                         </div>
-                        <div class="col-md-3 col-xs-3">
+                        <div class="col-md-3 col-xs-3 flex-gio">
                            <button
                            onclick="btnMinus('{{$item['id']}}','{{route('update.cart')}}')"
                            class="reduced_pop items-count btn-minus btn btn-default bootstrap-touchspin-down"
