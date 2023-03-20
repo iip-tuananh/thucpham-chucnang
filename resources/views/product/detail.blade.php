@@ -8,6 +8,7 @@
 @section('image')
 @php
 $img = json_decode($product->images);
+$anhchungnhan = json_decode($product->origin);
 @endphp
 P2
 @endsection
