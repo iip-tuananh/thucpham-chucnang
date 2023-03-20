@@ -56,14 +56,14 @@ Giỏ hàng của bạn
                                    <td class="product-price-cart"><span class="amount">{{ number_format($details['price'] - ($details['price']*($details['discount']/100))) }}₫</span></td>
                                    <td class="product-quantity">
                                        <div class="cart-plus-minus">
-                                          <div class="dec qtybutton" onclick="qtyminus({{$details['idpro']}})">-</div>
-                                          <input class="cart-plus-minus-box" id="quantity-{{$details['idpro']}}" type="text" name="qtybutton" value="{{$details['quantity']}}">
-                                          <div class="inc qtybutton" onclick="qtyplus({{$details['idpro']}})">+</div>
+                                          <div class="dec qtybutton" onclick="qtyminus({{$details['id']}})">-</div>
+                                          <input class="cart-plus-minus-box" id="quantity-{{$details['id']}}" type="text" name="qtybutton" value="{{$details['quantity']}}">
+                                          <div class="inc qtybutton" onclick="qtyplus({{$details['id']}})">+</div>
                                        </div>
                                    </td>
                                    <td class="product-subtotal cartprice-{{$id}}">{{ number_format(($details['price'] - ($details['price']*($details['discount']/100)))*$details['quantity']) }}₫</td>
                                    <td class="product-remove">
-                                       <a href="javascript:;" onclick="removeCart({{$details['idpro']}})"><i class="icon-close"></i></a>
+                                       <a href="javascript:;" onclick="removeCart({{$details['id']}})"><i class="icon-close"></i></a>
                                    </td>
                                </tr>
                                @endforeach
