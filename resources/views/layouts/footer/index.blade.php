@@ -69,8 +69,9 @@
             </div>
      
       </div>
+      <br>
       <div class="container" style="border-top: 1px solid white; text-align:center">
-         <p>© Copyright 2023 , all rights reserved. Designed &amp; developed by SBT</p>
+         <p style="color: white">© Copyright 2023 , all rights reserved. Designed &amp; developed by SBT</p>
       </div>
    </div>
 </footer>
