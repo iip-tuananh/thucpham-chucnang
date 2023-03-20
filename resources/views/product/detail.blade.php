@@ -111,7 +111,7 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                    {!!languageName($product->description)!!}
+                   <button>ADD TO CART</button>
                    </div>
                 </div>
              </div>
