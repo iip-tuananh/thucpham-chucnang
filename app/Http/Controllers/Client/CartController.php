@@ -119,12 +119,7 @@ class CartController extends Controller
             $cart = session()->get('cart');
             $cart[$request->id]["quantity"] = $request->quantity;
             session()->put('cart', $cart);
-            $data['cart'] = session()->get('cart',[]);
-            $data['cartItemName'] = $cart[$request->id]['name'];
-            $view3 = view('cart.list-cart-ajax', $data)->render();
-            return response()->json([
-                'html3' => $view3,
-            ]);
+            return response()->json($cart);
         }
         
     }
@@ -132,18 +127,11 @@ class CartController extends Controller
     {
         if($request->id) {
             $cart = session()->get('cart');
-            $data['cartItemName'] = $cart[$request->id]['name'];
             if(isset($cart[$request->id])) {
                 unset($cart[$request->id]);
                 session()->put('cart', $cart);
             }
-            $data['cart'] = session()->get('cart',[]);
-            $view3 = view('cart.list-cart-ajax', $data)->render();
-            $view2 = view('layouts.product.countpro', $data)->render();
-            return response()->json([
-                'html3' => $view3,
-                'html2' => $view2,
-            ]);
+            return response()->json($cart);
         }
     }
 }
