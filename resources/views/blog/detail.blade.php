@@ -24,8 +24,8 @@
           <main id="main" class="site-main">
              <div class="w-single container_news_detail">
                <div class="title_about  w-100">
-                   <h1 class="h3">{{languageName($blog_detail->title)}}</h1>
-                </div>
+                  <p class="h3"><span>{{languageName($blog_detail->title)}}</span></p>
+               </div>
                
                 <div class="content_detailnews" style="font-size: 17px;">
                   
