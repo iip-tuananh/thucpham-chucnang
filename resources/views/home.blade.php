@@ -47,17 +47,19 @@
                 </div>
                 <div id="xemthem" class="reademore_about w-100">
                    
-                     <button alt="XEM THÊM" onclick="window.location.href='{{route('aboutUs')}}'">
-                        <i>&nbsp;</i>
+                     <button alt="XEM CHI TIẾT" onclick="window.location.href='{{route('aboutUs')}}'">
+                  
                         <i>X</i>
                         <i>E</i>
                         <i>M</i>
-                        <i>&nbsp;</i>
-                        <i>T</i>
+                        <i>C</i>
                         <i>H</i>
-                        <i>Ê</i>
-                        <i>M</i>
-                        <i>&nbsp;</i>
+                        <i>I</i>
+                        <i>T</i>
+                        <i>I</i>
+                        <i>Ế</i>
+                        <i>T</i>
+          
                       </button>
                 </div>
              </div>
