@@ -119,18 +119,18 @@ P2
        </div>
        <style>
          .button.add_to_cart.custom-add {
-    background-color: #b90000;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    color: white;
-    margin-left: 10px;
-    padding: 8px;
+    background-color: #b90000 !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 8px !important;
+    color: white !important;
+    margin-left: 10px !important;
+    padding: 8px !important;
 }
 .button.add_to_cart.custom-add:hover{
-    background-color: #ff0000;
-    transform: scale(0.9);
-    transition: all 1s;
+    background-color: #ff0000 !important;
+    transform: scale(0.9) !important;
+    transition: all 1s !important;
 }
        </style>
        <script>
