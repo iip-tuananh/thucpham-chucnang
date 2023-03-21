@@ -597,14 +597,7 @@
     <script type="text/javascript" 
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
  </script>
- <script type="text/javascript">
-    function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-    pageLanguage: 'vi',
-    includedLanguages:'de,vi', 
-    }, 'translate_select');
-    }
- </script>
+
  <script>
     var flags = document.getElementsByClassName('flag_link');
     Array.prototype.forEach.call(flags, function(e){
@@ -1096,16 +1089,25 @@
         })(jQuery);
     </script>
     <div id="google_translate_element" style="display: none"></div>
-{{-- 
+
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
-                    pageLanguage: 'vi'
+                    pageLanguage: 'vi',
+                    includedLanguages:'de,vi', 
                 },
                 'google_translate_element'
             );
         }
-    </script> --}}
+    </script>
+    {{-- <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+        pageLanguage: 'vi',
+        includedLanguages:'de,vi', 
+        }, 'translate_select');
+        }
+     </script> --}}
       @if (session()->has('dathangthanhcong'))
       <script>
          $.notify("Đặt hàng thành công", "success"
