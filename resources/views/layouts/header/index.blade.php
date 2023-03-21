@@ -25,7 +25,7 @@
                            <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
                         </div> --}}
                         <div>
-                           <span style="color: white" class="ngonngu">VI</span>
+                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
                         </div>
                      </a>
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
@@ -33,7 +33,7 @@
                            <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
                         </div> --}}
                         <div>
-                           <span style="color: white" class="ngonngu">DE</span>
+                           <span style="color: white" class="ngonngu">Tiếng Đức</span>
                         </div>
                      </a>
                   </div>
