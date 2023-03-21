@@ -28,6 +28,7 @@
                            <span style="color: white" class="ngonngu">Tiếng Việt</span>
                         </div> --}}
                      </a>
+                     |
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
                         <div>
                            <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
