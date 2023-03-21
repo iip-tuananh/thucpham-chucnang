@@ -4731,5 +4731,5 @@ table.affwp-table td,table.affwp-table th {
     font-weight: 500
 }
 div#goog-gt- {
-    display: none !important;
+   opacity: 0 !important;
 }
