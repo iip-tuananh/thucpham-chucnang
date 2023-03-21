@@ -20,7 +20,7 @@
                   </div>
                 <ul class="ngonngu">	
                   <div class="image-item " style="display: flex;">
-                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
+                     <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" >
                         <div>
                            <img style="height:22px;width:30px" src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
                         </div>
