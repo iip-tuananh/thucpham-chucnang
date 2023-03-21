@@ -523,7 +523,7 @@
         }
 
         .single-product .content_detail a {
-            color: #3BB44A;
+            color: #307f2e;
         }
     </style>
     <meta name="google-site-verification" content="4-ACqp_093aD-Y6SahpR9d8Inn_Y3sLMxRZqDtFq_XI" />

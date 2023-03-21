@@ -7,7 +7,7 @@
 }
 
 .site-main a {
-    color: #3BB44A
+    color: #307f2e
 }
 
 body {
@@ -34,7 +34,7 @@ main,footer {
       /* fallback for old browsers */
       /* Chrome 10-25, Safari 5.1-6 */
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-color: #14a850;
+    background-color: #307f2e;
 }
 
 .box_bar {
@@ -172,7 +172,7 @@ main,footer {
 }
 
 .box_menu nav>ul>li>a {
-    color: #3BB44A;
+    color: #307f2e;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase
@@ -183,7 +183,7 @@ main,footer {
     font-family: 'FontAwesome';
     position: absolute;
     right: 0;
-    color: #3BB44A;
+    color: #307f2e;
     font-size: 12px;
     top: 10px
 }
@@ -262,7 +262,7 @@ main,footer {
 }
 
 .submenu1>li:hover>a,.submenu2>li:hover a {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .giohang_header>a {
@@ -289,7 +289,7 @@ main,footer {
     width: 100%;
     text-align: right;
     padding-top: 10%;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700;
     font-size: 40px
 }
@@ -314,7 +314,7 @@ main,footer {
 
 span.count {
     position: absolute;
-    border: 1px solid #3BB44A;
+    border: 1px solid #307f2e;
     border-radius: 50%;
     width: 16px;
     height: 17px;
@@ -330,7 +330,7 @@ span.count {
 .title_about h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -361,7 +361,7 @@ span.count {
 .title_about .h3 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -375,7 +375,7 @@ span.count {
     top: 18px;
     left: -150px;
     height: 2px;
-    background: #3bb44a;
+    background: #307f2e;
     content: ''
 }
 
@@ -385,14 +385,14 @@ span.count {
     top: 18px;
     right: -150px;
     height: 2px;
-    background: #3bb44a;
+    background: #307f2e;
     content: ''
 }
 
 .title_about h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -438,7 +438,7 @@ span.count {
 }
 
 .reademore_about a {
-    background: #3BB44A;
+    background: #307f2e;
     padding: 10px 30px;
     color: #fff;
     font-size: 14px;
@@ -489,7 +489,7 @@ span.count {
 .box_gtsp .box_item .box_left .title h2 {
     font-size: 40px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700;
     margin-top: 0
 }
@@ -497,7 +497,7 @@ span.count {
 .box_gtsp .box_item .box_left .title.title_box0 h2 {color: #307f2e;transform: translateY(-17px);}
 
 .box_gtsp .box_item .box_left .title.title_box1 h2 {
-    color: #3BB44A;
+    color: #307f2e;
     transform: translateY(-17px);
 }
 
@@ -533,7 +533,7 @@ span.count {
 }
 
 .box_gtsp .box_item .box_left .des a:hover,.reademore_about a:hover,.mota_sp>a.xemthem:hover,.xemchitiethuongdan a:hover {
-    background: #3bb44a;
+    background: #307f2e;
     border: 1px solid;
 }
 
@@ -710,7 +710,7 @@ span.count {
 }
 
 .ngaytao-bv span {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .section_trietly {
@@ -726,9 +726,9 @@ span.count {
 .left_trietly .title,.left_gioithieusp .title {
     font-size: 30px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     padding-top: 70px;
-    border-top: 3px solid #3BB44A;
+    border-top: 3px solid #307f2e;
     min-width: 260px;
     margin-top: 20px
 }
@@ -740,7 +740,7 @@ span.count {
 .right_trietly .title {
     font-size: 30px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     text-transform: uppercase
 }
 
@@ -759,7 +759,7 @@ span.count {
 .right_gioithieusp .title {
     font-size: 30px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     text-transform: uppercase
 }
 
@@ -778,7 +778,7 @@ span.count {
 }
 
 .title2_gtsp h2 {
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700;
     font-size: 60px;
     text-transform: uppercase
@@ -808,7 +808,7 @@ span.count {
 .khungsanglap .title h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -898,7 +898,7 @@ span.count {
 .left_tamnhin .title {
     font-size: 40px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     min-width: 260px
 }
 
@@ -922,9 +922,9 @@ span.count {
 .left_sumenh .title {
     font-size: 40px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     padding-top: 30px;
-    border-top: 3px solid #3BB44A
+    border-top: 3px solid #307f2e
 }
 
 .mota_sumenh {
@@ -954,7 +954,7 @@ span.count {
 }
 
 .item_muctieu .des_muctieu span {
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700;
     font-size: 18px
 }
@@ -1070,14 +1070,14 @@ span.count {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    background: #3BB44A;
+    background: #307f2e;
     padding: 7px 20px;
     width: 200px;
     margin-top: 20px
 }
 
 .mota_sp h3 a:hover {
-    color: #3BB44A
+    color: #307f2e
 }
 
 div.images_galley {
@@ -1136,7 +1136,7 @@ div.images_list {
 
 .title_detail h2 {
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     font-size: 30px
 }
 
@@ -1198,7 +1198,7 @@ div.images_list {
 .details-product .form-product .form-group .custom-btn-number button {
     font-size: 20px;
     line-height: 0;
-    border: solid 1px #3BB44A;
+    border: solid 1px #307f2e;
     display: inline-block;
     width: 30px;
     height: 40px;
@@ -1215,7 +1215,7 @@ div.images_list {
     display: block;
     float: left;
     height: 40px;
-    border: solid 1px #3BB44A;
+    border: solid 1px #307f2e;
     border-right: none;
     border-left: none;
     width: 55px;
@@ -1236,7 +1236,7 @@ div.images_list {
 }
 
 .details-product .form-product .form-group .btn-mua button {
-    background: #3BB44A;
+    background: #307f2e;
     font-size: 16px;
     outline: none;
     font-weight: 400;
@@ -1304,7 +1304,7 @@ div.images_list {
 
 .content_detail ul.tabs li span,.danhmucchungnhan ul.tabs li span,.tabs_tintuc ul.tabs li a,.khungtabtuyendung ul.tabs li span {
     font-size: 15px;
-    color: #3BB44A;
+    color: #307f2e;
     background: #e3e4e5;
     padding: 10px 30px;
     font-weight: 700;
@@ -1315,13 +1315,13 @@ div.images_list {
 .khungquanly ul.tabs li span,.khungquanly ul.tabs li a {
     font-size: 14px;
     padding: 10px 30px;
-    color: #3BB44A;
+    color: #307f2e;
     background: #e3e4e5
 }
 
 .content_detail ul.tabs li.active span,.danhmucchungnhan ul.tabs li.active span,.tabs_tintuc ul.tabs li.active a,.khungtabtuyendung ul.tabs li.active span,.khungquanly ul.tabs li.active span,.khungquanly ul.tabs li.active a {
     color: #efd297;
-    background: #3BB44A
+    background: #307f2e
 }
 
 .tab-content {
@@ -1356,7 +1356,7 @@ div.images_list {
     padding: 10px 0;
     border-top: 2px solid #484c62;
     border-bottom: 2px solid #484c62;
-    color: #3BB44A;
+    color: #307f2e;
     font-size: 22px;
     margin-bottom: 10px
 }
@@ -1383,7 +1383,7 @@ div.images_list {
 .tabs_hoptac ul li a {
     font-size: 15px;
     color: #efd297;
-    background: #3BB44A;
+    background: #307f2e;
     padding: 10px 30px;
     font-weight: 700;
     text-transform: uppercase
@@ -1397,7 +1397,7 @@ div.images_list {
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #3BB44A
+    color: #307f2e
 }
 
 .khungvideodangky {
@@ -1446,7 +1446,7 @@ div.images_list {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 500;
-    background: #3BB44A;
+    background: #307f2e;
     padding: 7px 20px
 }
 
@@ -1478,7 +1478,7 @@ div.images_list {
 }
 
 .item_3buoc:hover .des_3buoc h3 {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .item_3buoc:hover p {
@@ -1540,7 +1540,7 @@ div.images_list {
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    background: #3BB44A;
+    background: #307f2e;
     padding: 5px 30px;
     outline: none;
     border: none;
@@ -1575,7 +1575,7 @@ div.images_list {
 
 .title_3buoc1 h3 {
     font-size: 24px;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -1592,7 +1592,7 @@ div.images_list {
 .title_daily h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -1642,7 +1642,7 @@ div.images_list {
 .title_chungnhan h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -1722,7 +1722,7 @@ div.images_list {
 }
 
 .khungphanhoi_left ul li span.active {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .content_phanhoi {
@@ -1764,7 +1764,7 @@ div.images_list {
 }
 
 .xemtatcaphanhoi a {
-    background: #3BB44A;
+    background: #307f2e;
     padding: 10px 30px;
     color: #fff;
     font-size: 14px;
@@ -1772,7 +1772,7 @@ div.images_list {
 }
 
 .section_tieudecauhoi {
-    background: #3BB44A;
+    background: #307f2e;
     padding: 50px 0
 }
 
@@ -1805,9 +1805,9 @@ div.images_list {
 
 .accordion-title.active {
     font-weight: 700;
-    color: #3BB44A!important;
+    color: #307f2e!important;
     border-top: none;
-    border-bottom: 2px solid #3BB44A
+    border-bottom: 2px solid #307f2e
 }
 
 .toggle1 {
@@ -1839,7 +1839,7 @@ div.images_list {
 
 .toggle1 i {
     font-weight: 700;
-    color: #3BB44A
+    color: #307f2e
 }
 
 .accordion-inner {
@@ -1879,7 +1879,7 @@ div.images_list {
 #loadMore {
     padding: 10px 20px;
     text-align: center;
-    background-color: #3BB44A;
+    background-color: #307f2e;
     color: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
@@ -1894,7 +1894,7 @@ div.images_list {
 
 #loadMore:hover {
     background-color: #fff;
-    color: #3BB44A
+    color: #307f2e
 }
 
 .item_tintuc .img_tintuc {
@@ -1922,7 +1922,7 @@ div.images_list {
 }
 
 .item_tintuc h3 a:hover,.item_tintuc .h4 a:hover {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .item_tintuc span,.thoigiandangbai span {
@@ -1964,7 +1964,7 @@ div.images_list {
 }
 
 .content_detailnews a {
-    color: #3BB44A!important
+    color: #307f2e!important
 }
 
 .mangxh_news {
@@ -2018,7 +2018,7 @@ div.images_list {
 .title_lienhe h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -2060,7 +2060,7 @@ div.images_list {
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    background: #3BB44A;
+    background: #307f2e;
     padding: 5px 30px;
     outline: none;
     border: none
@@ -2246,7 +2246,7 @@ div.images_list {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #3BB44A
+    color: #307f2e
 }
 
 #payment {
@@ -2323,7 +2323,7 @@ div.images_list {
     transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s,-webkit-transform .3s;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
-    background-color: #3BB44A;
+    background-color: #307f2e;
     color: #fff;
     outline: none
 }
@@ -2466,7 +2466,7 @@ div.images_list {
 }
 
 a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
-    background: #3BB44A;
+    background: #307f2e;
     border-radius: 3px;
     color: #fff;
     display: flex;
@@ -2485,7 +2485,7 @@ a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
 }
 
 .btn_site_2 {
-    background: #3BB44A;
+    background: #307f2e;
     border: 1px solid #b72126;
     border-radius: 3px;
     color: #fff;
@@ -2604,7 +2604,7 @@ a.btn_site_1:hover,a.btn_site_1,.btn_site_1:hover,.btn_site_1 {
 }
 
 .block_menu_profile {
-    border-top: 3px solid #3BB44A;
+    border-top: 3px solid #307f2e;
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
@@ -2645,12 +2645,12 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_menu_profile:hover {
-    color: #3BB44A
+    color: #307f2e
 }
 
 .item_menu_profile.active {
     background: #f7f7f7;
-    color: #3BB44A
+    color: #307f2e
 }
 
 .item_menu_profile i {
@@ -2681,7 +2681,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_sodiachi.active {
-    background: #3BB44A;
+    background: #307f2e;
     color: #fff
 }
 
@@ -2692,7 +2692,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .item_sodiachi .txt_macdinh span.edit-address {
-    color: #3BB44A;
+    color: #307f2e;
     cursor: pointer
 }
 
@@ -2720,7 +2720,7 @@ a.txt_color_1,.txt_color_1 {
 }
 
 .btn2 {
-    background: #3BB44A;
+    background: #307f2e;
     border-radius: 3px;
     color: #fff;
     display: inline-block;
@@ -2909,7 +2909,7 @@ div.mage-error[generated] {
 }
 
 table.affwp-table th {
-    background: #3BB44A;
+    background: #307f2e;
     color: #fff
 }
 
@@ -2974,7 +2974,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 .khungmuctieutuyendung1 .item_muctieu1 h3 {
-    color: #3BB44A;
+    color: #307f2e;
     font-size: 22px
 }
 
@@ -2998,7 +2998,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 .section_tieudetuyendung {
-    background: #3BB44A;
+    background: #307f2e;
     padding: 100px 0 70px
 }
 
@@ -3110,7 +3110,7 @@ table.affwp-table td,table.affwp-table th {
     top: 20px;
     height: 80%;
     width: 3px;
-    background: #3BB44A
+    background: #307f2e
 }
 
 .box_hotline_contact p {
@@ -3119,7 +3119,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 .box_hotline_contact p span {
-    color: #3BB44A;
+    color: #307f2e;
     font-weight: 700
 }
 
@@ -3893,7 +3893,7 @@ table.affwp-table td,table.affwp-table th {
     font-weight: 700;
     padding: 10px;
     padding-left: 0;
-    border-top: 3px solid #3BB44A;
+    border-top: 3px solid #307f2e;
     margin-bottom: 10px
 }
 
@@ -3996,7 +3996,7 @@ table.affwp-table td,table.affwp-table th {
 }
 
 #box_input_comment .block_input_comment .btn21 {
-    background: #3BB44A;
+    background: #307f2e;
     border-radius: 3px;
     color: #fff;
     outline: none;
@@ -4138,7 +4138,7 @@ table.affwp-table td,table.affwp-table th {
 .title_kq {
     font-size: 30px;
     font-weight: 700;
-    color: #3BB44A;
+    color: #307f2e;
     text-transform: uppercase
 }
 
@@ -4374,7 +4374,7 @@ table.affwp-table td,table.affwp-table th {
 
     .menumobile {
         display: block;
-        background: #3BB44A;
+        background: #307f2e;
         padding: 5px 10px;
         border-radius: 3px
     }

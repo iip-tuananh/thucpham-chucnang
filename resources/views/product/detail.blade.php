@@ -18,7 +18,7 @@ P2
 @endsection
 @section('content')
 <div id="content" class="site-content">
-    <div class="k2-page-title" style="background-color: #3BB44A">
+    <div class="k2-page-title" style="background-color: #307f2e">
        <div class="container">
           <h1 class="woocommerce-products-header__title">
             {{languageName($product->name)}}   

@@ -16,7 +16,7 @@ Tin tức nổi bật và mới nhất
       <div class="box_desc_banner">
          <div class="container">
             <div class="box_desc_banner1 active">
-               <p style="    color: #3BB44A;">TẾ BÀO KHỎE MẠNH <br>
+               <p style="    color: #307f2e;">TẾ BÀO KHỎE MẠNH <br>
                   CƠ THỂ KHỎE MẠNH <br>
                   CUỘC SỐNG HẠNH PHÚC <br>
                </p>
