@@ -4640,7 +4640,7 @@ table.affwp-table td,table.affwp-table th {
 
     .box_gtsp .box_item .box_left {
         order: 2;
-        padding: 30px 0;
+        padding: 30px 18px;
         flex-wrap: wrap
     }
 
