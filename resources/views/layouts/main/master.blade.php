@@ -1096,7 +1096,7 @@
         })(jQuery);
     </script>
     <div id="google_translate_element" style="display: none"></div>
-
+{{-- 
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -1105,7 +1105,7 @@
                 'google_translate_element'
             );
         }
-    </script>
+    </script> --}}
       @if (session()->has('dathangthanhcong'))
       <script>
          $.notify("Đặt hàng thành công", "success"
