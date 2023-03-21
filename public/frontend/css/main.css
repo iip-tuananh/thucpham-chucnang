@@ -82,9 +82,9 @@ div#xemthem {
     font-size: 18px;
     text-transform: uppercase;
     border: 0;
-    box-shadow: hsl(127.44deg 53.65% 23.06%) 0px 7px 0px 0px;
-    background-color: hsl(127.44deg 50.63% 46.86%);
-    border-radius: 12px;
+    /* box-shadow: hsl(127.44deg 53.65% 23.06%) 0px 7px 0px 0px; */
+    background-color: #307f2e;
+    border-radius: 5px;
     overflow: hidden;
     transition: 31ms cubic-bezier(.5, .7, .4, 1);
    }
@@ -93,6 +93,7 @@ div#xemthem {
     content: attr(alt);
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', sans-serif;
     justify-content: center;
     position: absolute;
     inset: 0;
