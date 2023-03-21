@@ -74,6 +74,7 @@ div#xemthem {
 #xemthem button {
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', sans-serif !important;
     justify-content: center;
     height: 50px;
     position: relative;
