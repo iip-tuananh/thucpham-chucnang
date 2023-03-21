@@ -4730,6 +4730,19 @@ table.affwp-table td,table.affwp-table th {
 .wpml-ls-slot-shortcode_actions.wpml-ls-current-language a {
     font-weight: 500
 }
-div#goog-gt- {
-   opacity: 0 !important;
+.VIpgJd-yAWNEb-L7lbkb {
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    display: none !important;
+    font-family: arial;
+    font-size: 10pt;
+    width: 420px;
+    padding: 12px;
+    /* opacity: 0; */
+    position: absolute;
+    z-index: 10000;
 }
