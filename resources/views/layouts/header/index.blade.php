@@ -21,19 +21,19 @@
                 <ul class="ngonngu">	
                   <div class="image-item " style="display: flex;">
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" style="margin-right: 20px;">
-                        <div>
+                        {{-- <div>
                            <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
-                        </div>
+                        </div> --}}
                         <div>
-                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                           <span style="color: white" class="ngonngu">Vi</span>
                         </div>
                      </a>
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
-                        <div>
+                        {{-- <div>
                            <img style="height:22px;width:30px"src="{{asset('frontend/img/flag_ger.jpg')}}" alt="" loading="lazy">
-                        </div>
+                        </div> --}}
                         <div>
-                           <span style="color: white" class="ngonngu">Tiếng Đức</span>
+                           <span style="color: white" class="ngonngu">De</span>
                         </div>
                      </a>
                   </div>
