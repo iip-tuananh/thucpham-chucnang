@@ -189,11 +189,11 @@ main,footer {
 }
 
 .box_menu nav>ul>li.active.has_sub:after {
-    color: #efd297
+    color: #f4b033
 }
 
 .box_menu nav>ul>li>a:hover,.box_menu nav>ul>li.active>a {
-    color: #efd297
+    color: #f4b033
 }
 
 .submenu1 {
@@ -525,7 +525,7 @@ span.count {
 }
 
 .box_gtsp .box_item .box_left .des a {
-    background: #d8b837;
+    background: #f4b033;
     padding: 10px 30px;
     color: #fff;
     font-size: 14px;
@@ -1320,7 +1320,7 @@ div.images_list {
 }
 
 .content_detail ul.tabs li.active span,.danhmucchungnhan ul.tabs li.active span,.tabs_tintuc ul.tabs li.active a,.khungtabtuyendung ul.tabs li.active span,.khungquanly ul.tabs li.active span,.khungquanly ul.tabs li.active a {
-    color: #efd297;
+    color: #f4b033;
     background: #307f2e
 }
 
@@ -1382,7 +1382,7 @@ div.images_list {
 
 .tabs_hoptac ul li a {
     font-size: 15px;
-    color: #efd297;
+    color: #f4b033;
     background: #307f2e;
     padding: 10px 30px;
     font-weight: 700;
