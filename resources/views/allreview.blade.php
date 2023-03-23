@@ -26,6 +26,8 @@ Câu hỏi thường gặp
                <div class="title_about  w-100">
                   <p class="h3"><span>Câu hỏi thường gặp</span></p>
                </div>
+               <br>
+               <br>
                
                 <div class="row">
                     @foreach ($allreview as $item)
