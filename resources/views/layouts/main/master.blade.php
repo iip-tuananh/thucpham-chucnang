@@ -58,6 +58,7 @@
     <link rel='stylesheet' id='wc-blocks-style-css'
         href='{{ asset('frontend/css/autoptimize_single_5bdd1e3d788393b1f2cf734e75f6e122.css') }}' type='text/css'
         media='all' />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
     @yield('css')
     <link rel='stylesheet' id='classic-theme-styles-css' href='{{ asset('frontend/css/classic-themes.min.css') }}'
@@ -1088,6 +1089,7 @@
             (t.fn.contactUs.Constructor = e);
         })(jQuery);
     </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
      <script>
         const progressCircle = document.querySelector(".autoplay-progress svg");
         const progressContent = document.querySelector(".autoplay-progress span");
