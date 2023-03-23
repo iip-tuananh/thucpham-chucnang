@@ -204,10 +204,21 @@
    .title.title_box0 {
     padding: 43px;
 }
+.destop-m{
+   display: none;
+}
+@media only screen and (max-width:768px){
+   .destop-t{
+      display: none;
+   }
+   .destop-m{
+      display: block ;
+   }
+}
   </style>
           <section class="section3">
              <div class="container">
-                <div class="box_gtsp">
+                <div class="box_gtsp destop-t">
                   @foreach ($prosp as$key=>$pro)
                   @php
                       
@@ -251,6 +262,35 @@
                         </div>
                      </div>
                   @endif
+                  @endforeach
+                 
+                </div>
+                <div class="box_gtsp destop-m">
+                  @foreach ($prosp as $pro)
+                  @php
+                      
+                      $img = json_decode($pro->images);
+                  @endphp
+               
+                     <div class="box_item bg-vang animate__animated animate__fadeInLeft">
+                        <div class="box_left ">
+                           <div class="title title_box0" style="padding: 40px">
+                              <h2>{{languageName($pro->name)}}</h2>
+                           </div>
+                           <div class="des">
+                             <div class="limit-text-4">
+                                {!!languageName($pro->description)!!}
+                             </div>
+                             <br>
+
+                              <a href="{{route('detailProduct',['slug'=>$pro->slug])}}">Xem chi tiết</a>
+                           </div>
+                        </div>
+                        <div class="box_right ">
+                           <img src="{{$img[0]}}" alt="voxy-v-live">
+                        </div>
+                     </div>
+                    
                   @endforeach
                  
                 </div>
