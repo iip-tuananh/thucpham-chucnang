@@ -16,20 +16,12 @@
 @section('content')
 <div id="content" class="site-content">
     <div class="page-home">
-       <section class="main-slideshow">
-          <div id="owl-slider" class="owl-carousel owl-theme owl-loaded owl-drag">
+       <section class="main-slideshow swiper mySwiperbanner">
+          <div id="owl-slider" class="owl-carousel owl-theme owl-loaded owl-drag swiper-wrapper">
              @foreach ($banners as $banner)
-             <div class="owl-item">
+             <div class="owl-item swiper-slide ">
                   <div class="slide__item">
                      <a href="{{route('aboutUs')}}">	<img style="width: 100%" src="{{$banner->image}}"></a>
-                     <div class="header-content">
-                        <div class="container">
-                           {{-- <div class="motaslider">TẾ BÀO KHỎE MẠNH <br>
-                              CƠ THỂ KHỎE MẠNH <br>
-                              CUỘC SỐNG HẠNH PHÚC <br>
-                           </div> --}}
-                        </div>
-                     </div>
                   </div>
                </div>
                @endforeach
