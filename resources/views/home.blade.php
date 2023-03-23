@@ -10,23 +10,92 @@
 @endsection
 @section('css')
 <link rel="stylesheet" href="{{asset('frontend/css/main.css')}}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<!-- Demo styles -->
+<style>
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+</style>
 @endsection
 @section('js')
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+ 
+  var swiper = new Swiper(".mySwiperbanner", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+   
+  });
+</script>
 @endsection
 @section('content')
 <div id="content" class="site-content">
     <div class="page-home">
        <section class="main-slideshow">
-          <div id="owl-slider" class="owl-carousel owl-theme owl-loaded owl-drag">
-             @foreach ($banners as $banner)
-             <div class="owl-item">
-                  <div class="slide__item">
-                     <a href="{{route('aboutUs')}}">	<img style="width: 100%" src="{{$banner->image}}"></a>
-                    
-                  </div>
-               </div>
+         <div class="swiper mySwiperbanner">
+            <div class="swiper-wrapper">
+               @foreach ($banners as $banner)
+               <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>
                @endforeach
-          </div>
+            </div>
+         </div>
        </section>
    
        <main>
