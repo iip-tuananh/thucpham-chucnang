@@ -62,7 +62,7 @@
                      <ul>
                         <li><a href="{{route('home')}}">Trang chủ</a></li>
                         <li>
-                           <a href="https://vlive-international.vn/vi/gioi-thieu/">VỀ Chúng tôi</a>
+                           <a href="javascript:;">VỀ Chúng tôi</a>
                            <ul >
                               <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                               <li><a href="{{route('aboutUs')}}">Giới thiệu tổng quan</a></li>
@@ -127,7 +127,7 @@
                <ul>
                   <li><a href="{{route('home')}}">Trang chủ</a></li>
                   <li class=" has_sub">
-                     <a href="javascript:;">VỀ Chúng Tôi</a>
+                     <a href="#">VỀ Chúng Tôi</a>
                      <ul class="submenu1">
                         <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                         <li><a href="{{route('aboutUs')}}">Giới thiệu tổng quan</a></li>
