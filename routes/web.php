@@ -52,6 +52,8 @@ Route::group(['namespace'=>'Client','middleware' => ['checkLanguage']], function
     Route::get('nhan-bao-gia.html','PageController@baogia')->name('baogia');
     Route::get('chung-nhan.html','PageController@chungnhan')->name('chungnhan');
     Route::get('allvideo.html','PageController@allvideo')->name('allvideo');
+    Route::get('allreview.html','PageController@allreview')->name('allreview');
+    
 
     Route::get('gio-hang.html', 'CartController@listCart')->name('listCart');
     Route::get('add-to-cart/{id}', 'CartController@addToCart')->name('add.to.cart');
@@ -59,6 +61,7 @@ Route::group(['namespace'=>'Client','middleware' => ['checkLanguage']], function
     Route::get('remove-from-cart', 'CartController@remove')->name('remove.from.cart');
     Route::get('thanh-toan.html','CartController@checkout')->name('checkout');
     Route::post('thantoan','CartController@postBill')->name('postBill');
+    
 
     Route::get('dat-ban.html','PageController@orderNow')->name('orderNow');
     Route::get('menu.html','PageController@menu')->name('menu');

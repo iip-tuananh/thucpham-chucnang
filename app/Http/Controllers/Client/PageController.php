@@ -169,5 +169,9 @@ class PageController extends Controller
     //   dd($data);
      return view('allvideo',$data);
     }
+    public function allreview(){
+        $data['allreview'] = ReviewCus::where('status','1')->get();
+        return view('allreview',$data);
+    }
   
 }
