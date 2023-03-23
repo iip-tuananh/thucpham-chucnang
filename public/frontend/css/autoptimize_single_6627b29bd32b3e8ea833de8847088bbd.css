@@ -930,7 +930,8 @@ span.count {
     font-size: 40px;
     font-weight: 700;
     color: #307f2e;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 18px;
     border-bottom: 3px solid #307f2e
 }
 
