@@ -54,7 +54,7 @@
                   @endforeach
                  
                  
-                  <p>Liên hệ: {{$setting->phone1}}</p>
+                  <p style="color:white">Liên hệ: {{$setting->phone1}}</p>
                   <p>{{$setting->email}}</p>
                   <p><strong>Thời gian làm việc:</strong> <br><strong>Sáng:</strong> Từ 8h30 đến 12h<br>
                      <strong>Chiều:</strong> 13h30 đến 17h30<br>
