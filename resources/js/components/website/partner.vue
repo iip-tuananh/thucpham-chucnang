@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h3 class="page-title">Quản lý đối tác</h3>
+      <h3 class="page-title">Quản lý logo chứng nhận</h3>
       <div class="row">
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
@@ -13,28 +13,28 @@
                 </div>
                 <div class="col-md-9">
                   <div class="form-group">
-                    <label>Tên đối tác</label>
-                    <label style="float: right;cursor: pointer" title="Xóa đối tác" v-if="key != 0" @click="removeObjPartner(key)">
+                    <label>Tên </label>
+                    <label style="float: right;cursor: pointer" title="Xóa " v-if="key != 0" @click="removeObjPartner(key)">
                       <vs-icon icon="clear"></vs-icon>
                     </label>
                     <vs-input
                       type="text"
                       v-model="item.name"
                       size="default"
-                      placeholder="Tên đối tác"
+                      placeholder="Tên logo"
                       class="w-100"
                     />
                   </div>
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     <label>Link</label>
                     <vs-input
                       type="text"
                       v-model="item.link"
                       size="default"
-                      placeholder="Link liên kết với đối tác (bỏ trống nếu không có)"
+                      placeholder="(bỏ trống nếu không có)"
                       class="w-100"
                     />
-                  </div>
+                  </div> -->
                   <div class="form-group">
                     <label>Trạng thái</label>
                     <vs-select v-model="item.status"
@@ -47,7 +47,7 @@
                 <hr style="border: 0.5px solid #04040426; width: 100%;">
               </div>
               <vs-button color="primary" @click="savePartners">Lưu</vs-button>
-              <vs-button color="success" @click="addObjPartner">Thêm đối tác</vs-button>
+              <vs-button color="success" @click="addObjPartner">Thêm </vs-button>
             </div>
           </div>
         </div>

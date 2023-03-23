@@ -205,7 +205,7 @@ export default {
               path: "/banner",
             },
             {
-              name: "Quản lý đối tác",
+              name: "Quản lý logo chứng nhận",
               path: "/partner",
             },
             // {
@@ -269,7 +269,7 @@ export default {
         // },
         {
           icon: "mdi mdi-newspaper menu-icon",
-          name: "Quản lý Review",
+          name: "Quản lý câu hỏi",
           route_name: "",
           sub: [
             {
