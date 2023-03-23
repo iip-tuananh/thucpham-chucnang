@@ -94,7 +94,7 @@
                @foreach ($banners as $banner)
                @if($banner->description != null)
                <div class="swiper-slide"><video width="640" height="480" controls>
-                  <source src="{{$banner->description}}" type="video/mp4">
+                  <source src="{{asset('frontend/video/video1.mp4')}}" type="video/mp4">
                 </video></div>
                @else
                <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>

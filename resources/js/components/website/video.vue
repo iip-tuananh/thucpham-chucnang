@@ -11,6 +11,7 @@
                     <image-upload type="avatar" v-model="item.image" :title="'video-'"></image-upload>
                   </div>
                 </div>
+             
                 <div class="col-md-9">
                   <div class="form-group">
                     <label>Tên video</label>
