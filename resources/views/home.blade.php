@@ -150,9 +150,17 @@
                               </div>
                               <div class="swiper-pagination"></div>
                            </div>
-                 
-                   
-               
+                           <div class="swiper mySwiperpartner">
+                              <div class="swiper-wrapper">
+                     @foreach ($partner as $item)
+                       
+                                 <div class="swiper-slide item_sp">
+                                    <a href="javascript:;"><img src="{{$item->image}}"></a>
+                                    </div>
+                                    @endforeach
+                                 </div>
+                                 <div class="swiper-pagination"></div>
+                              </div>
              </div>
           </section>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -200,6 +208,16 @@
       },
     });
   </script>
+    <script>
+      var swiper = new Swiper(".mySwiperpartner", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   <style>
    .title.title_box0 {
     padding: 43px;
