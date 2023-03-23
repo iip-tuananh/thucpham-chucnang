@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi-VN">
+<html lang="vi-VN" style="overflow-x: hidden">
 
 <head>
     <!-- Google Tag Manager -->
