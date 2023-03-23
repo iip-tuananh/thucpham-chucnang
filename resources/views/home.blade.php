@@ -93,7 +93,7 @@
             <div class="swiper-wrapper">
                @foreach ($banners as $banner)
                @if($banner->description != null)
-               <div class="swiper-slide"><video src="https://assets.medicalmarijuanainc.com/wp-content/uploads/2023/01/202301-Homepage-Video_v5_EN_green-bar.mp4" autoplay muted loop></video></div>
+               <div class="swiper-slide"><video src="{{$bannar->description}}" autoplay muted loop></video></div>
                @else
                <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>
                @endif
