@@ -30,14 +30,16 @@ Câu hỏi thường gặp
                 <div class="row">
                     @foreach ($allreview as $item)
                     <div class="col-md-6 col-xs-12">
-                        <div class="item-review">
-                            <div class="img-review"><img style="width:70px; height:70px" src="{{$item->avatar}}" alt="" srcset=""></div>
+                        <div class="item-review" style="display: flex">
+                            <div class="img-review" style="width:100%"><img style="width:70px; height:70px" src="{{$item->avatar}}" alt="" srcset=""></div>
                             <div class="content-review">
                                 <strong>
                                     {{languageName($item->name)}}
                                 </strong>
                                 <br>
-                                {{languageName($item->content)}}
+                                {{languageName($item->position)}}
+                                <br>
+                                <i>{!!languageName($item->content)!!}</i>
                             </div>
                         </div>
                     </div>
