@@ -4730,6 +4730,9 @@ table.affwp-table td,table.affwp-table th {
 .wpml-ls-slot-shortcode_actions.wpml-ls-current-language a {
     font-weight: 500
 }
+.des_about p{
+    margin: 0 0 -25px;
+}
 .VIpgJd-yAWNEb-L7lbkb {
     color: #222;
     background-color: #fff;
