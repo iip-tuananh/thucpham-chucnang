@@ -37,7 +37,9 @@ Câu hỏi thường gặp
                                     {{languageName($item->name)}}
                                 </strong>
                                 <br>
-                                {{languageName($item->position)}}
+                                <strong>
+                                    {{languageName($item->position)}}
+                                </strong>
                                 <br>
                                 <i>{!!languageName($item->content)!!}</i>
                             </div>
