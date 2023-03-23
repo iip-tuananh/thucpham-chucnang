@@ -93,9 +93,7 @@
             <div class="swiper-wrapper">
                @foreach ($banners as $banner)
                @if($banner->description != null)
-               <div class="swiper-slide"><video width="100%" height="auto" autoplay muted loop src="https://youtu.be/sBJmRD7kNTk">
-      
-                </video></div>
+               <div class="swiper-slide">{!!$banner->description!!}</div>
                @else
                <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>
                @endif
