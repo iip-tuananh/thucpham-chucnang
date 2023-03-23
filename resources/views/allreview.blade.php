@@ -27,11 +27,21 @@ Câu hỏi thường gặp
                   <p class="h3"><span>Câu hỏi thường gặp</span></p>
                </div>
                
-                <div class="content_detailnews" style="font-size: 17px;">
-                  
-                   <div id="attachment_6517" class="wp-caption ">
-                   fffffffffff
-                   </div>
+                <div class="row">
+                    @foreach ($allreview as $item)
+                    <div class="col-md-6 col-xs-12">
+                        <div class="item-review">
+                            <div class="img-review"><img style="width:70px; height:70px" src="{{$item->avatar}}" alt="" srcset=""></div>
+                            <div class="content-review">
+                                <strong>
+                                    {{languageName($item->name)}}
+                                </strong>
+                                <br>
+                                {{languageName($item->content)}}
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
                 </div>
                 <!-- .entry-content -->
              </div>
