@@ -50,6 +50,7 @@
                         <vs-select v-model="item.cate_slug" placeholder="Danh mục">
                           <vs-select-item  value="danh-gia-khach-hang" text="Video đánh giá khách hàng" />
                           <vs-select-item  value="danh-gia-chuyen-gia" text="Video đánh giá của chuyên gia" />
+                          <vs-select-item  value="gioi-thieu" text="Video giới thiệu" />
                           <vs-select-item  value="tung-san-pham" text="Video về từng sản phẩm" />
                         </vs-select>
                       </div>

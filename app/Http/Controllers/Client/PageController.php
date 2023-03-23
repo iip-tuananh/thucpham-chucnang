@@ -53,6 +53,7 @@ class PageController extends Controller
     public function aboutUs(){
         $data['partner'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
         $data['founders'] = Founder::where(['status'=>1])->get();
+        $data['videos'] = Videos::where(['status'=>1,'slug'])->get();
         $data['album'] = Prize::where(['status'=>1])->get(['id','name','image']);
         $data['gioithieu'] = PageContent::where(['slug'=>'gioi-thieu','language'=>'vi'])->first(['id','title','content']);
         $data['founder'] = Founder::where(['status'=>1])->get(['id','image','name']);

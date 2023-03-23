@@ -169,6 +169,34 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
          </div>
       </div>
    </section>
+   <section class="section_nhasanglap" id="nhasanglap">
+      <div class="container">
+         <div class="khungsanglap w-100">
+            <div class="title">
+               <h2><span>Video giới thiệu</span></h2>
+           
+            </div>
+            <div class="row">
+               @foreach ($founders as $item)
+                  <div class=" col-md-6 col-xs-12" >
+                     <div class="img_dd">
+                        <img src="{{$item->image}}">
+                     </div>
+                     <div class="des_dd">
+                        
+                        <h3>{{$item->name}}</h3>
+                        <p>{{$item->position}}</p>
+                     </div>
+                     <div class="content_dd">
+                       {{$item->content}}
+                     </div>
+                  </div>
+               @endforeach
+             
+            </div>
+         </div>
+      </div>
+   </section>
 </main>
 </div>
 </div><!-- #content -->
