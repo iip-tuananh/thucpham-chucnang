@@ -31,7 +31,7 @@ Câu hỏi thường gặp
                     @foreach ($allreview as $item)
                     <div class="col-md-6 col-xs-12">
                         <div class="item-review" style="display: flex">
-                            <div class="img-review" style="width:100%"><img style="width:70px; height:70px" src="{{$item->avatar}}" alt="" srcset=""><br>
+                            <div class="img-review" style="width:100%; text-align:center"><img style="width:70px; height:70px" src="{{$item->avatar}}" alt="" srcset=""><br>
                                 <strong>
                                     {{languageName($item->name)}}
                                 </strong></div>
