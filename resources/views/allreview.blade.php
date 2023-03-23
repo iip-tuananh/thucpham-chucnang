@@ -38,7 +38,7 @@ Câu hỏi thường gặp
                             <div class="content-review">
                              
                                 <br>
-                                <strong>
+                                <strong style="font-size: 20px">
                                     {{languageName($item->position)}}
                                 </strong>
                                 <br>
