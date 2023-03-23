@@ -183,7 +183,7 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
                   
                         @foreach ($videos_gioithieu as $item)
                          
-                        <div class="box_phanhoi col-md-6 col-xs-12">
+                        <div class="col-md-6 col-xs-12">
                            <a data-fancybox="" href="{{$item->link}}">
                               <div class="img_phanhoi">
                                  <img src="{{$item->image}}">
