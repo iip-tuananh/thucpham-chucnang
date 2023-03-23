@@ -307,7 +307,9 @@ img.js-img.position-absolute {
     background-color: orangered;
     color: bisque;
 }
-
+.motaf p {
+    color: white !important;
+}
 .custom-btn-numbers #qty {
     height: 35px;
     font-size: 1em;
