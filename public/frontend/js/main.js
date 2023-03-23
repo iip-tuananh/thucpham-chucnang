@@ -41,7 +41,7 @@
             loop: !0,
             slideSpeed: 2e3,
             nav: !1,
-            autoplay: !1,
+            autoplay: true,
             dots: !1,
             animateOut: "slideOutUp"
         }),
