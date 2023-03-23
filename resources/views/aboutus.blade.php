@@ -177,22 +177,55 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
            
             </div>
             <div class="row">
-               @foreach ($founders as $item)
-                  <div class=" col-md-6 col-xs-12" >
-                     <div class="img_dd">
-                        <img src="{{$item->image}}">
+               <div class="khungphanhoi_right col-md-9 col-sm-9 col-xs-12">
+                  <div class="content_phanhoi " id="tab-3" style="margin-top: 0">
+                     <div class="khungphanhoi111">
+                        @foreach ($danhgiachuyengia as $item)
+                         
+                        <div class="box_phanhoi">
+                           @if($item->link != null)
+                           <a data-fancybox="" href="{{$item->link}}">
+                              @else
+                           <a data-fancybox="" href="#">
+                              @endif
+                              <div class="img_phanhoi">
+                                 <img src="{{$item->image}}">
+                                 <div class="iconplay">
+                                    <img src="{{asset('frontend/img/iconplay.png')}}">
+                                 </div>
+                              </div>
+                              <div class="des_phanhoi">
+                                 <h3>{{$item->name}}</h3>
+                              </div>
+                           </a>
+                        </div>
+                        @endforeach
+                 
                      </div>
-                     <div class="des_dd">
-                        
-                        <h3>{{$item->name}}</h3>
-                        <p>{{$item->position}}</p>
-                     </div>
-                     <div class="content_dd">
-                       {{$item->content}}
+                    
+                  </div>
+                  <div class="content_phanhoi active" id="tab-2" style="margin-top: 0">
+                    <div class="khungphanhoi111">
+                        @foreach ($videos_gioithieu as $item)
+                         
+                        <div class="box_phanhoi">
+                           <a data-fancybox="" href="{{$item->link}}">
+                              <div class="img_phanhoi">
+                                 <img src="{{$item->image}}">
+                                 <div class="iconplay">
+                                    <img src="{{asset('frontend/img/iconplay.png')}}">
+                                 </div>
+                              </div>
+                              <div class="des_phanhoi">
+                                 <h3>{{$item->name}}</h3>
+                              </div>
+                           </a>
+                        </div>
+                        @endforeach
+                 
                      </div>
                   </div>
-               @endforeach
-             
+               </div>
             </div>
          </div>
       </div>
