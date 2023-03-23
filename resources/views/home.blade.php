@@ -92,8 +92,8 @@
          <div class="swiper mySwiperbanner">
             <div class="swiper-wrapper">
                @foreach ($banners as $banner)
-               @if($banner->link != null)
-               <div class="swiper-slide"><iframe  src="https://www.youtube.com/embed/{{$banner->link}}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%"></iframe></div>
+               @if($banner->description != null)
+               <div class="swiper-slide">{!!$banner->description!!}</div>
                @else
                <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>
                @endif
