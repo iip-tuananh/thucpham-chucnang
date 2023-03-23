@@ -177,13 +177,13 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
            
             </div>
             <div class="row">
-               <div class="khungphanhoi_right col-md-9 col-sm-9 col-xs-12">
+            
              
-                  <div class="content_phanhoi active" id="tab-2" style="margin-top: 0">
-                    <div class="khungphanhoi111">
+                 
+                  
                         @foreach ($videos_gioithieu as $item)
                          
-                        <div class="box_phanhoi">
+                        <div class="box_phanhoi col-md-6 col-xs-12">
                            <a data-fancybox="" href="{{$item->link}}">
                               <div class="img_phanhoi">
                                  <img src="{{$item->image}}">
@@ -198,9 +198,7 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
                         </div>
                         @endforeach
                  
-                     </div>
-                  </div>
-               </div>
+            
             </div>
          </div>
       </div>
