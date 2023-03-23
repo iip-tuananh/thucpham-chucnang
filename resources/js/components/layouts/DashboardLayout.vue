@@ -267,17 +267,17 @@ export default {
         //     }
         //   ],
         // },
-        // {
-        //   icon: "mdi mdi-newspaper menu-icon",
-        //   name: "Quản lý Review",
-        //   route_name: "",
-        //   sub: [
-        //     {
-        //       name: "Danh sách",
-        //       path: "/reviewCus",
-        //     }
-        //   ],
-        // },
+        {
+          icon: "mdi mdi-newspaper menu-icon",
+          name: "Quản lý Review",
+          route_name: "",
+          sub: [
+            {
+              name: "Danh sách",
+              path: "/reviewCus",
+            }
+          ],
+        },
       ],
     };
   },
