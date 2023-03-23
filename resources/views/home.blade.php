@@ -93,7 +93,7 @@
             <div class="swiper-wrapper">
                @foreach ($banners as $banner)
                @if($banner->description != null)
-               <div class="swiper-slide"><video width="100%" height="auto" autoplay muted loop src="https://player.vimeo.com/video/395456365">
+               <div class="swiper-slide"><video width="100%" height="auto" autoplay muted loop src="https://www.dropbox.com/s/ybh7qvvpixfjs16/bandicam%202023-03-03%2015-47-30-819.mp4?dl=0">
       
                 </video></div>
                @else
