@@ -40,7 +40,7 @@
             </div>
          </div>
          <div class="khungsumenh">
-            <div class="left_sumenh">
+            <div class="left_sumenh_new">
                <div class="title">
                   <span>Giới thiệu</span>
                </div>
