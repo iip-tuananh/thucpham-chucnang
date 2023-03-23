@@ -310,6 +310,9 @@ img.js-img.position-absolute {
 .motaf p {
     color: white !important;
 }
+body{
+    overflow-x: hidden !important;
+}
 .custom-btn-numbers #qty {
     height: 35px;
     font-size: 1em;
