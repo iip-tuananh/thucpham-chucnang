@@ -193,7 +193,7 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
                                  </div>
                               </div>
                               <div class="des_phanhoi">
-                                 <h3>{{$item->name}}</h3>
+                                 <h3 >{{$item->name}}</h3>
                               </div>
                            </a>
                         </div>
