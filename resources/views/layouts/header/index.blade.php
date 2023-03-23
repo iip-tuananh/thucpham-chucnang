@@ -71,7 +71,7 @@
                            </ul>
                         </li>
                         <li>
-                           <a href="san-pham">Sản phẩm</a>
+                           <a href="{{route('allProduct')}}">Sản phẩm</a>
                            <ul >
                               @foreach ($categoryhome as $cate)
                               @foreach ($cate->product as $pro)
