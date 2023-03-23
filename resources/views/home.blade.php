@@ -93,8 +93,8 @@
             <div class="swiper-wrapper">
                @foreach ($banners as $banner)
                @if($banner->description != null)
-               <div class="swiper-slide"><video width="640" height="480" controls>
-                  <source src="{{asset('frontend/video/video1.mp4')}}" type="video/mp4">
+               <div class="swiper-slide"><video width="640" height="480" autoplay muted loop src="{{asset('frontend/video/video1.mp4')}}">
+      
                 </video></div>
                @else
                <div class="swiper-slide"><img src="{{$banner->image}}" alt="" srcset=""></div>
