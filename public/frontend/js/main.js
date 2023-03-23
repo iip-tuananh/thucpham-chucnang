@@ -39,12 +39,12 @@
         $("#owl-slider").owlCarousel({
             items: 1,
             loop: !0,
-            slideSpeed: 2e3,
+            // slideSpeed: 2e3,
             nav: !1,
             autoplay: true,
             autoPlaySpeed: 5000,
             autoPlayTimeout: 5000,
-            autoplayHoverPause: true,
+         
             dots: !1,
             animateOut: "slideOutUp"
         }),
