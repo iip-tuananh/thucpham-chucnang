@@ -5,11 +5,11 @@
         <div class="card">
           <div class="card-body">
             <div class="form-group">
-              <label>Tên khách hàng</label>
+              <label>Tên </label>
               <vs-input
                 type="text"
                 size="default"
-                placeholder="Tên bài viết"
+                placeholder="Tên "
                 class="w-100"
                 v-model="objData.name[0].content"
               />
@@ -35,11 +35,11 @@
               </div>
             </div>
             <div class="form-group">
-              <label>Chức vụ</label>
+              <label>Câu hỏi</label>
               <vs-input
                 type="text"
                 size="default"
-                placeholder="Chức vụ/Công việc"
+                placeholder="Câu hỏi"
                 class="w-100"
                 v-model="objData.position[0].content"
               />
@@ -57,7 +57,7 @@
                     v-if="index != 0"
                     type="text"
                     size="default"
-                    placeholder="Chức vụ/Công việc"
+                    placeholder="Câu hỏi"
                     class="w-100 inputlang"
                     v-model="objData.position[index].content"
                   />
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="form-group">
-              <label>Nội dung</label>
+              <label>Nội dung Trả lời</label>
               <TinyMce v-model="objData.content[0].content" />
               <el-button size="small" @click="showSettingLangExist('content')"
                 >Đa ngôn ngữ</el-button
