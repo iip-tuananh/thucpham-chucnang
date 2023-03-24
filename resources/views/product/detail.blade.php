@@ -33,7 +33,7 @@ P2
                     <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Sản phẩm</span> / <span>{{languageName($product->name)}}</span>
                  </div>
               </div>
-             <div class="col-xs-12 col-md-4">
+             <div class="col-xs-12 col-md-8">
                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
                <!-- Demo styles -->
@@ -85,7 +85,7 @@ P2
                  });
                </script>
              </div>
-             <div class="col-xs-12 col-md-8">
+             <div class="col-xs-12 col-md-4">
                 <div class="k2-info-single details-product">
                    <div class="title_detail">
                       <h2 class="product_title entry-title">{{languageName($product->name)}}</h2>
