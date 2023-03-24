@@ -93,7 +93,7 @@ P2
                   
                    <div class="price_sp">
                       <span class="woocommerce-Price-amount amount"><bdi>{{number_format($product->price)}}&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
-                      {{languageName($product->description)}}
+                      {!!languageName($product->description)!!}
                       <p> (Giá đã bao gồm 10% thuế VAT)</p>
                       <div class="custom custom-btn-numbers">		
                         <button 
