@@ -90,6 +90,11 @@ P2
                    <div class="title_detail">
                       <h2 class="product_title entry-title">{{languageName($product->name)}}</h2>
                    </div>
+                   <style>
+                     .detai span{
+                        font-size: 16px;
+                     }
+                   </style>
                   
                    <div class="price_sp">
                       <span class="woocommerce-Price-amount amount"><bdi>{{number_format($product->price)}}&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
