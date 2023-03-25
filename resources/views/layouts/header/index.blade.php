@@ -73,6 +73,7 @@
                         <li>
                            <a href="{{route('allProduct')}}">Sản phẩm</a>
                            <ul >
+                              @dd($prosp);
                               @foreach ($prosp as $cate)
                             
                               @php
