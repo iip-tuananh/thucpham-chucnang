@@ -44,7 +44,7 @@
                     </vs-td>
                     <vs-td :data="tr.id">
                         <vs-chip color="primary" v-if="tr.statu == 0">
-                          Đợi kiểm tra
+                          Chờ
                         </vs-chip>
                     </vs-td>
                     <vs-td :data="tr.id">
@@ -56,7 +56,7 @@
                           icon="edit"
                         ></vs-button>
                       </router-link>
-                      <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button>
+                      <!-- <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button> -->
                     </vs-td>
                   </vs-tr>
                 </template>
