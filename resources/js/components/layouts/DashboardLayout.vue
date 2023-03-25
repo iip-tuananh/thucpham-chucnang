@@ -92,10 +92,10 @@ export default {
           name: "Quản lý sản phẩm",
           route_name: "",
           sub: [
-            {
-              name: "Danh mục sản phẩm",
-              path: "/product/category",
-            },
+            // {
+            //   name: "Danh mục sản phẩm",
+            //   path: "/product/category",
+            // },
             {
               name: "Danh sách sản phẩm",
               path: "/product",

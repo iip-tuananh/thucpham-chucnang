@@ -93,7 +93,7 @@
                   <vs-select-item  value="0" text="Ẩn" />
                 </vs-select>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Danh mục</label>
                 <vs-select class="selectExample" v-model="objData.category" placeholder="Danh mục" @change="findCategoryType()">
                   <vs-select-item
@@ -103,7 +103,7 @@
                     :key="'f'+index"
                   />
                 </vs-select>
-              </div>
+              </div> -->
               <div class="form-group">
                 <label>Ảnh Chứng Nhận</label>
                 <ImageMulti v-model="objData.origin" :title="'mau-thiet-ke'"/> 
@@ -276,7 +276,7 @@ export default {
       if(this.objData.content[0].content == '') this.errors.push('Nội dung không được để trống');
       if(this.objData.description[0].content == '') this.errors.push('Mô tả không được để trống');
       if(this.objData.images.length == 0) this.errors.push('Vui lòng chọn ảnh');
-      if(this.objData.category == 0) this.errors.push('Chọn danh mục mặt hàng');
+      // if(this.objData.category == 0) this.errors.push('Chọn danh mục mặt hàng');
       if (this.errors.length > 0) {
         this.errors.forEach((value, key) => {
           this.$error(value)
