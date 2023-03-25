@@ -27,7 +27,7 @@
                   <label>Văn phòng tại Hà Nội</label>
                   <div v-for="(item, index) in objData.address1" :key="index">
                   <div class="row">
-                    <div class="col-10">
+                    <!-- <div class="col-10">
                       <vs-input
                         type="text"
                         size="default"
@@ -53,7 +53,7 @@
                         class="w-100"
                         v-model="objData.address1[index].phone_number"
                       />
-                    </div>
+                    </div> -->
                     <div class="col-10">
                       <vs-input
                         type="text"
@@ -63,7 +63,7 @@
                         v-model="objData.address1[index].address"
                       />
                     </div>
-                    <div class="col-10">
+                    <!-- <div class="col-10">
                       <vs-input
                         type="text"
                         size="default"
@@ -71,8 +71,8 @@
                         class="w-100"
                         v-model="objData.address1[index].note"
                       />
-                    </div>
-                    <div class="col-2">
+                    </div> -->
+                    <!-- <div class="col-2">
                       <a
                         href="javascript:;"
                         v-if="index != 0"
@@ -80,13 +80,13 @@
                       >
                         <img v-bind:src="'/media/' + joke.avatar" width="25" />
                       </a>
-                    </div>
+                    </div> -->
                   </div><br>
                   </div>
-                  <el-button size="small" @click="addInput('address1')"
-                  >Thêm địa chỉ tại Hà Nội</el-button>
+                  <!-- <el-button size="small" @click="addInput('address1')"
+                  >Thêm địa chỉ tại Hà Nội</el-button> -->
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Địa chỉ tại Quảng Châu</label>
                   <div v-for="(item, index) in objData.address2" :key="index">
                   <div class="row">
@@ -211,7 +211,7 @@
                   </div>
                   <el-button size="small" @click="addInput('address3')"
                   >Thêm địa chỉ tại Bằng Tường</el-button>
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label>Số hotline 1</label>
                   <vs-input
@@ -230,7 +230,7 @@
                     v-model="objData.phone2"
                   />
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Fax</label>
                   <vs-input
                     type="text"
@@ -238,7 +238,7 @@
                     class="w-100"
                     v-model="objData.fax"
                   />
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label>Email</label>
                   <vs-input
@@ -257,7 +257,7 @@
                     v-model="objData.facebook"
                   />
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Google</label>
                   <vs-input
                     type="text"
@@ -265,8 +265,8 @@
                     class="w-100"
                     v-model="objData.google"
                   />
-                </div>
-                <div class="form-group">
+                </div> -->
+                <!-- <div class="form-group">
                   <label>Code Google analytics</label>
                   <vs-input
                     type="text"
@@ -274,7 +274,7 @@
                     class="w-100"
                     v-model="objData.GA"
                   />
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label>Iframe GG map</label>
                   <vs-input
@@ -296,7 +296,7 @@
                   <label>Ảnh Popup</label>
                   <image-upload type="avatar" v-model="objData.popupimage" :title="'popupimage'"></image-upload>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Link Popup</label>
                   <vs-input
                     type="text"
@@ -304,7 +304,7 @@
                     class="w-100"
                     v-model="objData.linkpopup"
                   />
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label>Trạng thái hiển thị popup</label>
                   <vs-select v-model="objData.statusPopup"
