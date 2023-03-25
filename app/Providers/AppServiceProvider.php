@@ -69,7 +69,7 @@ class AppServiceProvider extends ServiceProvider
             ->orderBy('id','DESC')
             ->get(['id','name','imagehome','avatar','slug','content','description'])
             ->map(function ($query) {
-                $query->setRelation('product', $query->product->take(5)->orderBy('id','ASC')); // retrieve the first 5 products and order them by ID
+                $query->setRelation('product', $query->product->take(5)); // retrieve the first 5 products and order them by ID
                 return $query;
             });
             $banners = Banner::where(['status'=>1])->get(['id','image','link','title','description']);
