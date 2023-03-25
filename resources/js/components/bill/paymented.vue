@@ -35,23 +35,14 @@
               <vs-table max-items="5" pagination :data="list" v-if="list.length > 0">
                 <template slot="thead">
                   <vs-th>Đơn hàng đã hoàn tất</vs-th>
-                  <vs-th>Sản phẩm</vs-th>
-                  <vs-th>Giá đơn hàng</vs-th>
-                  <vs-th>Cập nhật lúc</vs-th>
-                  <vs-th>Khách hàng</vs-th>
+                  <vs-th>Chỉnh sửa lúc</vs-th>
+                  <vs-th>Khach hàng</vs-th>
                   <vs-th>Trạng thái</vs-th>
                   <vs-th>Hành động</vs-th>
                 </template>
                 <template slot-scope="{data}">
                   <vs-tr :key="indextr" v-for="(tr, indextr) in data">
                     <vs-td :data="tr.id">#{{tr.code_bill}}</vs-td>
-                    <vs-td :data="tr.bill_detail">
-                      <div v-for="pr, indexpr in tr.bill_detail" :key="indexpr">
-                        <span :data="pr.id">{{pr.name}}</span><br>
-                      </div>
-                    </vs-td>
-                    <vs-td :data="tr.total_money" v-if="tr.total_money != null">{{formatNumber(tr.total_money)}}₫</vs-td>
-                    <vs-td :data="tr.total_money" v-if="tr.total_money == null">0₫</vs-td>
                     <vs-td :data="tr.updated_at">{{formatDate(tr.updated_at)}}</vs-td>
                     <vs-td :data="tr.cus_name">
                       {{tr.cus_name}}
@@ -70,7 +61,7 @@
                           icon="edit"
                         ></vs-button>
                       </router-link>
-                      <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.code_bill)"></vs-button>
+                      <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button>
                     </vs-td>
                   </vs-tr>
                 </template>
@@ -105,19 +96,16 @@ export default {
     
   },
   methods: {
-    ...mapActions(["draftBill","deleteBill", "loadings"]),
+    ...mapActions(["draftBill","destroyCate", "loadings"]),
     closePop(event) {
       this.listCategory();
       this.popupActivo = event;
     },
     formatDate(value) {
         const date = new Date(value),
-          month = date.getMonth() > 9 ? date.getMonth()+1 : `0${date.getMonth()+1}`,
+          month = date.getMonth() > 9 ? date.getMonth() : `0${date.getMonth()}`,
           day = date.getDate() > 9 ? date.getDate() : `0${date.getDate()}`;
-        return `${day}-${month}-${date.getFullYear()}`;
-    },
-    formatNumber(num) {
-      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        return `${date.getFullYear()}-${month}-${day}`;
     },
     draftBills() {
       this.loadings(true);
@@ -141,9 +129,9 @@ export default {
     },
     destroy(){
       this.loadings(true);
-      this.deleteBill(this.id_item)
+      this.destroyCate(this.id_item)
       .then(response => {
-        this.draftBills()
+        this.listCategory()
         this.loadings(false);
         this.$vs.notify({
               title: "Xóa danh mục",
