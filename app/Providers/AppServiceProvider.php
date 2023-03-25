@@ -20,6 +20,7 @@ use App\models\blog\BlogCategory;
 use App\models\Project;
 use App\models\ReviewCus;
 use App\models\website\Partner;
+use App\models\product\Product;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -87,6 +88,7 @@ class AppServiceProvider extends ServiceProvider
                 $query->setRelation('listBlog', $query->listBlog->take(5));
                 return $query;
             });;
+            $prosp= Product::where(['status'=>1])->get();
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();
@@ -106,6 +108,7 @@ class AppServiceProvider extends ServiceProvider
                 'projects'=>$projects,
                 'partner'=>$partner,
                 'reviewcus' => $reviewcus,
+                'prosp'=>$prosp,
                 ]);    
         });  
     }

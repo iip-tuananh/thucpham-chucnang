@@ -73,15 +73,15 @@
                         <li>
                            <a href="{{route('allProduct')}}">Sản phẩm</a>
                            <ul >
-                              @foreach ($categoryhome as $cate)
-                              @foreach ($cate->product as $pro)
+                              @foreach ($prosp as $cate)
+                            
                               @php
                                   $img =json_decode($pro->images);
                               @endphp
                                  <li>
                                     <span><a href="{{route('detailProduct',['slug'=>$pro->slug])}}"><img  class="img-me" src="{{$img[0]}}">{{languageName($pro->name)}}</a></span>
                                  </li>
-                              @endforeach
+                      
                               @endforeach
                              
                            </ul>
