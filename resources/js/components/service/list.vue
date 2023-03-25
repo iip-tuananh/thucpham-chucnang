@@ -43,8 +43,6 @@
       </div>
   </div>
 </template>
-
-
 <script>
 import Swal from "sweetalert2";
 import { mapActions } from "vuex";
