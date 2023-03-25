@@ -56,7 +56,7 @@
                           icon="edit"
                         ></vs-button>
                       </router-link>
-                      <!-- <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button> -->
+                      <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button>
                     </vs-td>
                   </vs-tr>
                 </template>
