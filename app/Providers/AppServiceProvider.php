@@ -88,7 +88,7 @@ class AppServiceProvider extends ServiceProvider
                 $query->setRelation('listBlog', $query->listBlog->take(5));
                 return $query;
             });;
-            $prosp= Product::where(['status'=>1])->get();
+            $prosp= Product::where(['status'=>1])->orderBy('id','DESC')->get();
     
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
