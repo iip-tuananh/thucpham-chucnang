@@ -22,6 +22,7 @@ class HomeController extends Controller
 {
     public function home()
     {
+
         $data['bannerqc'] = BannerAds::where('status',1)->get(['name','image','id','content','description']);
         $data['hotnews'] = Blog::where(['home_status' => 1, 'status' => 1
         ])->orderBy('id','DESC')->limit(6)->get(['id','title','slug','created_at','image','description','content']);
