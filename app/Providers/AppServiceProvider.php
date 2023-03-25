@@ -59,7 +59,7 @@ class AppServiceProvider extends ServiceProvider
                     $query->with(['typetwo'])->where('status',1)->orderBy('id','DESC')->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
                 }
             ])->where('status',1)->orderBy('id','DESC')->get(['id','name','imagehome','avatar','slug','content','description'])->map(function ($query) {
-                $query->setRelation('product', $query->product->orderBy('id','DESC')->take(5));
+                $query->setRelation('product', $query->product->take(5))->orderBy('id','DESC');
                 return $query;
             });
             $banners = Banner::where(['status'=>1])->get(['id','image','link','title','description']);
