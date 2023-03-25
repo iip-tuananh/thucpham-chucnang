@@ -26,7 +26,7 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label>Mô tả</label>
+                    <label>Bật Video</label>
                     <label style="float: right;cursor: pointer" title="Xóa banner" v-if="key != 0" @click="removeObjBanner(key)">
                       <vs-icon icon="clear"></vs-icon>
                     </label>
@@ -38,7 +38,7 @@
                       class="w-100"
                     />
                   </div>
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     <label>Link</label>
                     <label style="float: right;cursor: pointer" title="Xóa banner" v-if="key != 0" @click="removeObjBanner(key)">
                       <vs-icon icon="clear"></vs-icon>
@@ -50,7 +50,7 @@
                       placeholder="Link banner"
                       class="w-100"
                     />
-                  </div>
+                  </div> -->
                   <div class="form-group">
                     <label>Trạng thái</label>
                     <vs-select v-model="item.status"
