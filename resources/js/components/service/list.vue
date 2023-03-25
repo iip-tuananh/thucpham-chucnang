@@ -22,7 +22,7 @@
                       <vs-avatar size="70px" :src="tr.image" />
                     </vs-td>
                     <vs-td :data="tr.name">{{tr.name}}</vs-td>
-                    <vs-td :data="tr.status">{{tr.status == 1 ? 'Hiện' : 'Ẩn'}}</vs-td>
+                    <vs-td :data="tr.status">{{tr.status == 1 ? 'Ẩn' : 'Hiện'}}</vs-td>
                     <vs-td >
                       <router-link :to="{name:'editService',params:{id:tr.id}}">
                         <vs-button
