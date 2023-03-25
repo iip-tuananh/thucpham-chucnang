@@ -118,13 +118,13 @@ P2
                         </div>
                    </div>
                    <div class="woocommerce-product-details__short-description mota_detailsp">
-                   <button id="memay" data-url="{{route('add.to.cart',['id'=>$product->id])}}" class="add_to_cart custom-add" style="  background-color: #307f2e !important;
+                   <button id="memay" data-url="{{route('add.to.cart',['id'=>$product->id])}}" class="add_to_cart custom-add" style="  background-color: #f4b033 !important;
                      border: none !important;
                      outline: none !important;
                      border-radius: 8px !important;
                      color: white !important;
                      margin-left: 10px !important;
-                     padding: 8px !important;">MUA NGAY</button>
+                     padding: 8px !important;">THÊM VÀO GIỎ HÀNG</button>
                    </div>
                 </div>
              </div>
