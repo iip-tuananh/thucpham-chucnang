@@ -231,10 +231,10 @@ export default {
           name: "Quản lý đơn hàng",
           route_name: "",
           sub: [
-            {
-              name: "Đơn hàng đã kiểm tra",
-              path: "/bill/paymented",
-            },
+            // {
+            //   name: "Đơn hàng đã kiểm tra",
+            //   path: "/bill/paymented",
+            // },
             {
               name: "Đơn hàng cần kiểm tra",
               path: "/bill/draft",
