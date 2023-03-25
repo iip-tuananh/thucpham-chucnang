@@ -6,7 +6,7 @@
 Đăng nhập mua hàng tại icongnghe
 @endsection
 @section('image')
-{{url(''.$banner[0]->image)}}
+
 @endsection
 @section('css')
 <link rel="preload" as="style" type="text/css" href="{{asset('frontend/css/evo-accounts.scss.css')}}" />
