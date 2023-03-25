@@ -56,10 +56,20 @@ class AppServiceProvider extends ServiceProvider
             $pageContent = PageContent::where(['language'=>$language_current,'status'=> 1])->get();
             $categoryhome = Category::with([
                 'typeCate' => function ($query) {
-                    $query->with(['typetwo'])->where('status',1)->orderBy('id','DESC')->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
+                    $query->with(['typetwo'])
+                        ->where('status',1)
+                        ->orderBy('id','DESC')
+                        ->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
+                },
+                'product' => function ($query) {
+                    $query->latest(); // retrieve the latest products
                 }
-            ])->where('status',1)->orderBy('id','DESC')->get(['id','name','imagehome','avatar','slug','content','description'])->map(function ($query) {
-                $query->setRelation('product', $query->product->take(5))->orderBy('id','ASC');
+            ])
+            ->where('status',1)
+            ->orderBy('id','DESC')
+            ->get(['id','name','imagehome','avatar','slug','content','description'])
+            ->map(function ($query) {
+                $query->setRelation('product', $query->product->take(5)->orderBy('id','ASC')); // retrieve the first 5 products and order them by ID
                 return $query;
             });
             $banners = Banner::where(['status'=>1])->get(['id','image','link','title','description']);
