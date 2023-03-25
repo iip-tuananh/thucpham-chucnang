@@ -139,8 +139,8 @@
                   <li class=" has_sub">
                      <a href="{{route('allProduct')}}">Sản phẩm</a>
                      <ul class="submenu1">
-                        @foreach ($categoryhome as $cate)
-                        @foreach ($cate->product as $pro)
+                       
+                        @foreach ($prosp as $pro)
                         @php
                             $img =json_decode($pro->images);
                         @endphp
@@ -148,7 +148,7 @@
                               <span><a href="{{route('detailProduct',['slug'=>$pro->slug])}}"><img  class="img-me" src="{{$img[0]}}">{{languageName($pro->name)}}</a></span>
                            </li>
                         @endforeach
-                        @endforeach
+                   
                        
                      </ul>
                   </li>
