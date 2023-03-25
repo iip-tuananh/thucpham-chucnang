@@ -74,7 +74,7 @@
                            <a href="{{route('allProduct')}}">Sản phẩm</a>
                            <ul >
                    
-                              @foreach ($prosp as $cate)
+                              @foreach ($prosp as $pro)
                             
                               @php
                                   $img =json_decode($pro->images);

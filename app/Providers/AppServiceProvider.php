@@ -89,7 +89,7 @@ class AppServiceProvider extends ServiceProvider
                 return $query;
             });;
             $prosp= Product::where(['status'=>1])->get();
-            dd($prosp);
+    
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();
