@@ -15,7 +15,7 @@
               <template slot="thead">
                 <vs-th>Ảnh mặt hàng</vs-th>
                 <vs-th>Tên mặt hàng</vs-th>
-                <vs-th>Danh mục</vs-th>
+                <!-- <vs-th>Danh mục</vs-th> -->
                 <!-- <vs-th>Số lượng</vs-th> -->
                 <vs-th>Hành động</vs-th>
               </template>
@@ -23,8 +23,8 @@
                 <vs-tr :key="indextr" v-for="(tr, indextr) in data">
                   <vs-td ><vs-avatar size="large" :src="JSON.parse(tr.images)[0]"/></vs-td>
                   <vs-td>{{JSON.parse(tr.name)[0].content}}</vs-td>
-                  <vs-td v-if="tr.cate != null">{{JSON.parse(tr.cate)[0].content}}</vs-td>
-                  <vs-td v-if="tr.cate == null">--Trống--</vs-td>
+                  <!-- <vs-td v-if="tr.cate != null">{{JSON.parse(tr.cate)[0].content}}</vs-td>
+                  <vs-td v-if="tr.cate == null">--Trống--</vs-td> -->
                   <!-- <vs-td >{{tr.qty}}</vs-td> -->
                   <vs-td >
                     <router-link :to="{name:'edit_product',params:{id:tr.id}}">
