@@ -227,6 +227,39 @@ P2
                <div class="swiper-pagination"></div>
             </div>
       </div>
+      <script>
+         var swiper = new Swiper(".mySwiperpartner", {
+           slidesPerView: 6,
+           spaceBetween: 30,
+           pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+           },
+       
+           breakpoints: {
+            100: {
+             slidesPerView: 3,
+             spaceBetween: 10,
+           },
+           440: {
+             slidesPerView: 3,
+             spaceBetween: 10,
+           },
+           640: {
+             slidesPerView: 3,
+             spaceBetween: 20,
+           },
+           768: {
+             slidesPerView: 4,
+             spaceBetween: 40,
+           },
+           1024: {
+             slidesPerView: 6,
+             spaceBetween: 50,
+           },
+         },
+         });
+       </script>
    </section>
     <section class="section_video">
        <div class="container">
