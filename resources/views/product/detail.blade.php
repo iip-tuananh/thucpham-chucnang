@@ -213,20 +213,22 @@ P2
           </div>
        </div>
     </div>
-   
-      <div class="container">
-         <div class="swiper mySwiperpartner">
-            <div class="swiper-wrapper">
-            @foreach ($partner as $item)
-            
-                        <div class="swiper-slide item_sp">
-                           <a href="javascript:;"><img src="{{$item->image}}"></a>
-                           </div>
-                  @endforeach
+<div style="background-color: red">
+   <div class="container">
+      <div class="swiper mySwiperpartner">
+         <div class="swiper-wrapper">
+         @foreach ($partner as $item)
+         
+                     <div class="swiper-slide item_sp">
+                        <a href="javascript:;"><img src="{{$item->image}}"></a>
                         </div>
-                        <div class="swiper-pagination"></div>
+               @endforeach
                      </div>
-               </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+   </div>
+
+</div>
                <script>
                   var swiper = new Swiper(".mySwiperpartner", {
                   slidesPerView: 6,
