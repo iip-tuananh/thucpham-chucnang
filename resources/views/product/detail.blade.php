@@ -235,20 +235,21 @@ P2
               object-fit: cover;
             }
           </style>
-          <div class="container">
-            <div class="swiper mySwiperpartner">
-               <div class="swiper-wrapper">
-      @foreach ($partner as $item)
-        
-                  <div class="swiper-slide item_sp">
-                     <a href="javascript:;"><img src="{{$item->image}}"></a>
-                     </div>
-            @endforeach
-                  </div>
-                  <div class="swiper-pagination"></div>
-               </div>
-          </div>
+       
        </div>
+    </div>
+    <div class="container">
+      <div class="swiper mySwiperpartner">
+         <div class="swiper-wrapper">
+            @foreach ($partner as $item)
+            
+                        <div class="swiper-slide item_sp">
+                           <a href="javascript:;"><img src="{{$item->image}}"></a>
+                           </div>
+                  @endforeach
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
     </div>
     <script>
       var swiper = new Swiper(".mySwiperpartner", {
