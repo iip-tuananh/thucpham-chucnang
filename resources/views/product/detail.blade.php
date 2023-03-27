@@ -215,7 +215,7 @@ P2
             .mySwiperpartner {
               width: 100%;
        
-              height: auto;
+              height: auto !important;
             }
         
             .mySwiperpartner .swiper-slide {
