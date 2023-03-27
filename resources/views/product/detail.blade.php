@@ -213,7 +213,7 @@ P2
           </div>
        </div>
     </div>
-    <section class="section_video">
+    <section class="">
       <div class="container">
          <div class="swiper mySwiperpartner">
             <div class="swiper-wrapper">
@@ -228,7 +228,7 @@ P2
             </div>
       </div>
    </section>
-    <section class="" style="height: 300px">
+    <section class="section_video">
        <div class="container">
           <div class="title_about  w-100">
              <h2><span>Video giới thiệu</span></h2>
