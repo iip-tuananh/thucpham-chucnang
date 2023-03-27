@@ -214,7 +214,7 @@ P2
           <style>
             .mySwiperpartner {
               width: 100%;
-       
+       padding: 10px;
               height: auto !important;
             }
         
