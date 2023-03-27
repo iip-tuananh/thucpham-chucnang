@@ -84,9 +84,6 @@
            
      
       </div>
-      <div class="container" style="border-top: 1px solid white; text-align:center" >
-         ffffffffffffff
-      </div>
       <br>
       <div class="container" style="border-top: 1px solid white; text-align:center">
          <br>
