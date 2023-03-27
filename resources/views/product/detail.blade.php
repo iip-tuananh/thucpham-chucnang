@@ -224,12 +224,7 @@ P2
               display: flex;
               justify-content: center;
               align-items: center;
-              flex-shrink: 0;
-    /* width: 100%; */
-    /* height: 100%; */
-    position: relative;
-    transition-property: transform;
-    display: block;
+              width: auto;
             }
         
             .mySwiperpartner .swiper-slide img {
