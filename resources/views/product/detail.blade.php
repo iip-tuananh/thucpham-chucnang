@@ -213,7 +213,7 @@ P2
           </div>
        </div>
     </div>
-<div style="background-color: red">
+
    <div class="container">
       <div class="swiper mySwiperpartner">
          <div class="swiper-wrapper">
@@ -228,7 +228,7 @@ P2
                   </div>
    </div>
 
-</div>
+
                <script>
                   var swiper = new Swiper(".mySwiperpartner", {
                   slidesPerView: 6,
