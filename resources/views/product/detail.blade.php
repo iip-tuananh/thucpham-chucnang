@@ -215,12 +215,17 @@ P2
     </div>
     <section class="section_video">
       <div class="container">
-         @foreach ($partner as $item)
-                       
-         <div class="swiper-slide item_sp">
-            <a href="javascript:;"><img src="{{$item->image}}"></a>
+         <div class="swiper mySwiperpartner">
+            <div class="swiper-wrapper">
+   @foreach ($partner as $item)
+     
+               <div class="swiper-slide item_sp">
+                  <a href="javascript:;"><img src="{{$item->image}}"></a>
+                  </div>
+         @endforeach
+               </div>
+               <div class="swiper-pagination"></div>
             </div>
-   @endforeach
       </div>
    </section>
     <section class="section_video">
