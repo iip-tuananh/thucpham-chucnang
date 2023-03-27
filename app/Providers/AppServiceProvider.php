@@ -89,6 +89,7 @@ class AppServiceProvider extends ServiceProvider
                 return $query;
             });;
             $prosp= Product::where(['status'=>1])->orderBy('id','DESC')->get();
+            $prospnoibat= Product::where(['status'=>1,'discountStatus'=>1])->orderBy('id','DESC')->get();
     
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
@@ -110,6 +111,7 @@ class AppServiceProvider extends ServiceProvider
                 'partner'=>$partner,
                 'reviewcus' => $reviewcus,
                 'prosp'=>$prosp,
+                'prospnoibat'=>$prospnoibat,
                 ]);    
         });  
     }

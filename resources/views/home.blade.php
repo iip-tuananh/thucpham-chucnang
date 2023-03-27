@@ -285,7 +285,7 @@
           <section class="section3">
              <div class="container">
                 <div class="box_gtsp destop-t">
-                  @foreach ($prosp as$key=>$pro)
+                  @foreach ($prospnoibat as$key=>$pro)
                   @php
                       
                       $img = json_decode($pro->images);
@@ -332,7 +332,7 @@
                  
                 </div>
                 <div class="box_gtsp destop-m">
-                  @foreach ($prosp as $pro)
+                  @foreach ($prospnoibat as $pro)
                   @php
                       
                       $img = json_decode($pro->images);
