@@ -228,7 +228,7 @@ P2
             </div>
       </div>
    </section>
-    <section class="section_video">
+    <section class="" style="height: 300px">
        <div class="container">
           <div class="title_about  w-100">
              <h2><span>Video giới thiệu</span></h2>
