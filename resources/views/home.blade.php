@@ -203,30 +203,34 @@
   <script>
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
       breakpoints: {
+         440: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
         640: {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         768: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 50,
+          spaceBetween: 10,
         },
       },
     });
   </script>
     <script>
       var swiper = new Swiper(".mySwiperpartner", {
-        slidesPerView: 5,
+        slidesPerView: 6,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
