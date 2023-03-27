@@ -159,7 +159,7 @@
                                  <div class="swiper-slide item_sp">
                                     <a href="javascript:;"><img src="{{$item->image}}"></a>
                                     </div>
-                                    @endforeach
+                           @endforeach
                                  </div>
                                  <div class="swiper-pagination"></div>
                               </div>

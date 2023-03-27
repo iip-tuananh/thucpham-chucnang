@@ -214,6 +214,16 @@ P2
        </div>
     </div>
     <section class="section_video">
+      <div class="container">
+         @foreach ($partner as $item)
+                       
+         <div class="swiper-slide item_sp">
+            <a href="javascript:;"><img src="{{$item->image}}"></a>
+            </div>
+   @endforeach
+      </div>
+   </section>
+    <section class="section_video">
        <div class="container">
           <div class="title_about  w-100">
              <h2><span>Video giới thiệu</span></h2>
