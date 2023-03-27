@@ -72,11 +72,11 @@
                     
                   <div class="mangxhf w-100">
                       <ul>
-                         <li><a target="_blank" rel="nofollow" href="https://www.instagram.com/vlivevietnam/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
-                         <li><a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/vlive-international-vn/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
-                         <li><a target="_blank" rel="nofollow" href="https://youtube.com/c/vliveinternational"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
-                         <li><a target="_blank" rel="nofollow" href="https://www.facebook.com/vlivevietnam/"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
-                         <li><a target="_blank" rel="nofollow" href="https://twitter.com/vlivevietnam"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
+                         <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/camf-16390485651.png"></a></li>
+                         <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/insf-16390485571.png"></a></li>
+                         <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/ytf-16390485519.png"></a></li>
+                         <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/fbf-16390485416.png"></a></li>
+                         <li><a target="_blank" rel="nofollow" href="javascript:;"><img src="https://vlive-international.vn/wp-content/themes/v4/assets/images/twittervlive-16480310126.png"></a></li>
                       </ul>
                  
                 </div>
