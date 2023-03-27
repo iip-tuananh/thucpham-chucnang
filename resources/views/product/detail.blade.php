@@ -211,6 +211,28 @@ P2
                 </div>
              </div>
           </div>
+          <style>
+            .mySwiperpartner {
+              width: 100%;
+              height: 100%;
+            }
+        
+            .mySwiperpartner .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+        
+            .mySwiperpartner .swiper-slide img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          </style>
           <div class="container">
             <div class="swiper mySwiperpartner">
                <div class="swiper-wrapper">
