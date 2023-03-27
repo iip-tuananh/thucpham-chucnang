@@ -327,6 +327,9 @@ body{
         display: none !important;
     }
 }
+#pater{
+    background-color: red;
+}
 .custom-btn-numbers #qty {
     height: 35px;
     font-size: 1em;

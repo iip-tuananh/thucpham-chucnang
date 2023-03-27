@@ -238,7 +238,7 @@ P2
        
        </div>
     </div>
-<div style="background-color: red">
+<div id="pater" >
    <div class="container" >
      <div class="swiper mySwiperpartner">
         <div class="swiper-wrapper">
