@@ -257,24 +257,24 @@
                     v-model="objData.facebook"
                   />
                 </div>
-                <!-- <div class="form-group">
-                  <label>Google</label>
+                <div class="form-group">
+                  <label>Intagram</label>
                   <vs-input
                     type="text"
                     size="default"
                     class="w-100"
                     v-model="objData.google"
                   />
-                </div> -->
-                <!-- <div class="form-group">
-                  <label>Code Google analytics</label>
+                </div>
+                <div class="form-group">
+                  <label>Youtube</label>
                   <vs-input
                     type="text"
                     size="default"
                     class="w-100"
                     v-model="objData.GA"
                   />
-                </div> -->
+                </div>
                 <div class="form-group">
                   <label>Iframe GG map</label>
                   <vs-input

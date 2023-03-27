@@ -69,9 +69,10 @@
             </div>
             <div class="right_tamnhin">
                <div class="mota_tamnhin">
-                  "ZENTRUM ĐƯỢC ĐIỀU HÀNH BỞI ĐỘI NGŨ LÃNH ĐẠO CÓ CHUYÊN MÔN CAO TRONG LĨNH VỰC Y DƯỢC.
+                  "Zentrum trở thành nhà nhập khẩu và phân phối những sản phẩm thực phẩm từ Gai dầu và dinh dưỡng Organic đạt chuẩn Châu  u nhập khẩu từ CHLB Đức tốt nhất cho sức khỏe, đưa các sản phẩm tiếp cận đến các tỉnh thành tại Việt Nam và các nước khác.
 
-Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia sẻ về giá trị của dinh dưỡng, bằng việc sử dụng đúng cách mang lại hiệu quả cao nhất đối với mỗi khẩu phần ăn. Chúng tôi mong muốn đem những kiến thức tuyệt vời về vai trò và tầm quan trọng của hệ thống nội sinh (Endocannabinoid) trong cơ thể, đến tất cả cộng đồng yêu sống khỏe từ thiên nhiên.
+                  Với năng lực và kiến thức chuyên môn tốt về y học & dinh dưỡng. Giúp cho khách hàng hiểu về giá trị của dinh dưỡng, sử dụng đúng cách mang lại hiệu quả cao nhất đối với mỗi khẩu phần ăn. Tạo niềm tin cao nhất cho khách hàng về chất lượng sản phẩm và phong cách phục vụ".
+                  
 
                               
                </div>
@@ -85,10 +86,7 @@ Với năng lực và kiến thức chuyên môn tốt, luôn sẵn sàng chia s
             </div>
             <div class="right_sumenh">
                <div class="mota_sumenh">
-                  Bộ sưu tập sản phẩm của chúng tôi được chọn lọc kĩ lưỡng, đạt tiêu chuẩn chất lượng và an toàn quốc tế (IFS) với giá trị mà không sản phẩm nào có thể so sánh được. Đồng thời chúng tôi luôn hướng đến các giá trị và lợi ích lâu dài cho sức khỏe của người tiêu dùng, cam kết trở thành ‘’Người đồng hành đáng tin cậy trên hành trình bảo vệ sức khỏe’’ của mọi nhà.
-
-                  Mặc dù thực phẩm từ Gai Dầu và dinh dưỡng Organic đang phát triển rất mạnh mẽ trên thế giới, nhưng hành trình của chúng tôi tại Việt Nam chỉ mới bắt đầu.
-                  "
+                  "Đưa các sản phẩm từ Gai dầu và các sản phẩm thực phẩm Organic trở thành một phần thiết yếu trong việc chăm sóc sức khoẻ và chúng tôi tin rằng chúng tôi có trách nhiệm truyền tải kiến thức cho càng nhiều người càng tốt về tầm quan trọng và vai trò của endocannabinoid (hệ thống nội sinh) trong cơ thể."
                </div>
                <div class="content_sumenh">
                   <div class="item_muctieu">
