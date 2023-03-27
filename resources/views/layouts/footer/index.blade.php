@@ -35,10 +35,10 @@
    <div class="footer_bottom">
       <div class="container">
      
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                <a href="{{route('home')}}"><img class="logo-bot"src="{{$setting->logo}}"></a>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                <div class="motaf">
                   <p>
                     {{$setting->company}}
@@ -62,12 +62,21 @@
                   </p>
                </div>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                <div class="mangxhf w-100">
                   {!!$setting->iframe_map!!}
                </div>
             </div>
+            <div class="col-md-3 col-xs-12">
+               <div class="mangxhf w-100">
+                  {!!$setting->iframe_map!!}
+               </div>
+            </div>
+           
      
+      </div>
+      <div class="container" style="border-top: 1px solid white; text-align:center" >
+         ffffffffffffff
       </div>
       <br>
       <div class="container" style="border-top: 1px solid white; text-align:center">
