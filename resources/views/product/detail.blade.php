@@ -160,8 +160,8 @@ P2
              });
          });
      </script>
-       <div class="content_detail" style="width: 100%;float: left;">
-          <div class="container" style="background-color: white">
+       <div class="content_detail" style="width: 100%;float: left;background-color: white">
+          <div class="container" style="">
              <ul class="tabs">
                 <li class="tab-link active tab-1" data-tab="#tab-1">
                    <h2><span>Giới thiệu </span></h2>
