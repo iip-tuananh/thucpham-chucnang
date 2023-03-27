@@ -209,7 +209,7 @@
         clickable: true,
       },
       breakpoints: {
-         440: {
+         100: {
           slidesPerView: 1,
           spaceBetween: 10,
         },
@@ -240,6 +240,10 @@
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        100: {
+          slidesPerView: 1,
+          spaceBetween: 10,
         },
         440: {
           slidesPerView: 1,
