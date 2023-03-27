@@ -214,7 +214,7 @@
           spaceBetween: 10,
         },
         640: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 10,
         },
         768: {
@@ -236,9 +236,13 @@
           el: ".swiper-pagination",
           clickable: true,
         },
+        440: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
         breakpoints: {
         640: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 20,
         },
         768: {
@@ -246,7 +250,7 @@
           spaceBetween: 40,
         },
         1024: {
-          slidesPerView: 5,
+          slidesPerView: 6,
           spaceBetween: 50,
         },
       },
