@@ -213,6 +213,11 @@
           slidesPerView: 1,
           spaceBetween: 10,
         },
+      
+         440: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
         640: {
           slidesPerView: 1,
           spaceBetween: 10,
