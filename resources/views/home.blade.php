@@ -138,7 +138,7 @@
              <div class="container" style="text-align: center; color:white">
                         <div class="swiper mySwiper">
                            <div class="swiper-wrapper">
-                  @foreach ($prosp as $pro)
+                  @foreach ($prospnoibat as $pro)
                      @php
                            $img = json_decode($pro->images)
                      @endphp
