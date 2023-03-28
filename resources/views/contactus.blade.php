@@ -65,32 +65,20 @@
 							   <p role="status" aria-live="polite" aria-atomic="true"></p>
 							   <ul></ul>
 							</div>
-							<form action="/vi/lien-he/#wpcf7-f2637-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-							   <div style="display: none;">
-								  <input type="hidden" name="_wpcf7" value="2637" />
-								  <input type="hidden" name="_wpcf7_version" value="5.5.6" />
-								  <input type="hidden" name="_wpcf7_locale" value="vi" />
-								  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2637-o1" />
-								  <input type="hidden" name="_wpcf7_container_post" value="0" />
-								  <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+							<form action="{{route('postcontact')}}" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+							  @csrf
+							   <div class="input_lienhe">
+								  <span class="wpcf7-form-control-wrap text-902"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tên *" /></span>
 							   </div>
 							   <div class="input_lienhe">
-								  <span class="wpcf7-form-control-wrap text-902"><input type="text" name="text-902" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tên *" /></span>
+								  <span class="wpcf7-form-control-wrap text-525"><input type="text" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Email *" /></span>
 							   </div>
 							   <div class="input_lienhe">
-								  <span class="wpcf7-form-control-wrap text-525"><input type="text" name="text-525" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Email *" /></span>
+								  <span class="wpcf7-form-control-wrap text-663"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Điện thoại *" /></span>
 							   </div>
+							 
 							   <div class="input_lienhe">
-								  <span class="wpcf7-form-control-wrap text-663"><input type="text" name="text-663" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Điện thoại *" /></span>
-							   </div>
-							   <div class="input_lienhe">
-								  <span class="wpcf7-form-control-wrap text-848"><input type="text" name="text-848" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Địa chỉ *" /></span>
-							   </div>
-							   <div class="input_lienhe">
-								  <span class="wpcf7-form-control-wrap tieude"><input type="text" name="tieude" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tiêu đề *" /></span>
-							   </div>
-							   <div class="input_lienhe">
-								  <p>                                <span class="wpcf7-form-control-wrap noidung"><textarea name="noidung" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Nội dung"></textarea></span></p>
+								  <p>                                <span class="wpcf7-form-control-wrap noidung"><textarea name="mess" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Nội dung"></textarea></span></p>
 							   </div>
 							   <div class="input_lienhe input_lienhe1">
 								  <input type="submit" value="Gửi đi" class="wpcf7-form-control has-spinner wpcf7-submit" />
