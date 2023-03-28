@@ -256,17 +256,17 @@ export default {
         //     }
         //   ],
         // },
-        // {
-        //   icon: "mdi mdi-shopping-music menu-icon",
-        //   name: "Quản lý tin nhắn liên hệ",
-        //   route_name: "",
-        //   sub: [
-        //     {
-        //       name: "Danh sách",
-        //       path: "/messcontact",
-        //     }
-        //   ],
-        // },
+        {
+          icon: "mdi mdi-shopping-music menu-icon",
+          name: "Quản lý tin nhắn liên hệ",
+          route_name: "",
+          sub: [
+            {
+              name: "Danh sách",
+              path: "/messcontact",
+            }
+          ],
+        },
         {
           icon: "mdi mdi-newspaper menu-icon",
           name: "Quản lý câu hỏi",
