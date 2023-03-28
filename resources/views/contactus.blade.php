@@ -45,7 +45,7 @@
 						 <h3 class="uppercase" style="box-sizing: border-box; color: rgb(51, 51, 51); width: 640.825px; margin-top: 0px; margin-bottom: 0.5em; text-rendering: optimizespeed; font-size: 1.25em; font-family: Roboto, sans-serif; line-height: 1.2; letter-spacing: 0.05em; text-transform: uppercase; background-color: rgb(255, 255, 255);"><strong><span style="color:#bd221e;">{{$setting->company}}</span></strong></h3>
 						
 						 <h3 class="uppercase" style="box-sizing: border-box; color: rgb(51, 51, 51); width: 640.825px; margin-top: 0px; margin-bottom: 0.5em; text-rendering: optimizespeed; font-size: 1.25em; font-family: Roboto, sans-serif; line-height: 1.2; letter-spacing: 0.05em; text-transform: uppercase; background-color: rgb(255, 255, 255);"><strong><span style="color:#bd221e;">TRỤ SỞ CHÍNH</span></strong></h3>
-						 <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">{{languageName($setting->address1)}}</p>
+						 <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">{!!$setting->address1!!}</p>
 						 <div class="box_hotline_contact">
 							<p>Hotline: <span>{{$setting->phone1}}</span></p>
 							<p>Email: <span>{{$setting->email}}</span></p>
