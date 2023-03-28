@@ -90,8 +90,7 @@ class AppServiceProvider extends ServiceProvider
             });;
             $prosp= Product::where(['status'=>1])->orderBy('id','DESC')->get();
             $prospnoibat= Product::where(['status'=>1,'discountStatus'=>1])->orderBy('id','DESC')->get();
-            $vechungtoi = PageContent::where(['status'=>1])->orderBy('id','DESC')->get();
-            dd($vechungtoi);
+            $vechungtoi = PageContent::where(['status'=>1,'typr'=>'ho-tro-khanh-hang'])->orderBy('id','DESC')->get();
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();
