@@ -21,7 +21,9 @@
 </style>
     <main id="page-content">
         <nav class="site-breadcrumb" aria-label="breadcrumb"
-            style="background-image: url({{ asset('frontend/img/tuan.jpg')}})">
+            style="background-image: url({{ asset('frontend/img/tuan.jpg')}});
+            background-repeat: no-repeat; width:100%;
+        ">
             <div class="container">
                 <div class="h2 text-uppercase break-word text-white"><span class="break-word d-block">
                         {{ $pagecontentdetail->title }}
