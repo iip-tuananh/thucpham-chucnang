@@ -143,7 +143,7 @@ class PageController extends Controller
         $data->location = $request->location;
         $data->save();
         if($data){
-            return \Redirect::to('/')->with('success', 'Gửi tin thành công');
+            return \Redirect::to('/')->with('lienhethanhcong', 'Gửi tin thành công');
         }else{
             return back()->with('error', 'Gửi tin thất bại');
         }
