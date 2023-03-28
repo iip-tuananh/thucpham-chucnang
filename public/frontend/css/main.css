@@ -330,6 +330,10 @@ body{
 #pater{
     background-color: #f4b033;
 }
+nav.site-breadcrumb {
+    background-color: #307f2e;
+    color: white;
+}
 .custom-btn-numbers #qty {
     height: 35px;
     font-size: 1em;
