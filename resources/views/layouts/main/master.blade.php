@@ -1124,7 +1124,7 @@
          );
       </script>
       @endif
-      @if (session()->has('      lienhethanhcong'))
+      @if (session()->has('lienhethanhcong'))
       <script>
          $.notify("Gửi thông tin liên hệ thành công", "success"
          );
