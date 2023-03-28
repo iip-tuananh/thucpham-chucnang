@@ -81,7 +81,7 @@
                <div class="mangxhf w-100">
                  <ul style="color: white">
                 @foreach ($vechungtoi as $item)
-                    {{$item->title}}
+                   <p><a href="{{route('pagecontent',['slug'=>$item->slug])}}">{{$item->title}}</a></p> 
                 @endforeach
            
                  </ul>
