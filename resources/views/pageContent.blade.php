@@ -25,7 +25,7 @@
             background-repeat: no-repeat;    background-size: 100% 100%!important;
         ">
             <div class="container">
-                <div class="h2 text-uppercase break-word text-white"><span class="break-word d-block">
+                <div  style="padding-top:8%" class="h2 text-uppercase break-word text-white"><span class="break-word d-block">
                         {{ $pagecontentdetail->title }}
                     </span></div>
             </div>
