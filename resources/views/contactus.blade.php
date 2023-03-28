@@ -42,14 +42,14 @@
 				<div class="khunglienhe w-100" style="margin-top: 20px;">
 				   <div class="row">
 					  <div class="col-md-6 col-xs-12 noidunglienhe">
-						 <h3 class="uppercase" style="box-sizing: border-box; color: rgb(51, 51, 51); width: 640.825px; margin-top: 0px; margin-bottom: 0.5em; text-rendering: optimizespeed; font-size: 1.25em; font-family: Roboto, sans-serif; line-height: 1.2; letter-spacing: 0.05em; text-transform: uppercase; background-color: rgb(255, 255, 255);"><strong><span style="color:#bd221e;">CÔNG TY TNHH WISE CORRIDOR VIỆT NAM</span></strong></h3>
-						 <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">Mã số doanh nghiệp: 03113814670 do Sở Kế hoạch &amp; Đầu tư TP Hồ Chí Minh cấp lần đầu ngày 18/05/2016</p>
+						 <h3 class="uppercase" style="box-sizing: border-box; color: rgb(51, 51, 51); width: 640.825px; margin-top: 0px; margin-bottom: 0.5em; text-rendering: optimizespeed; font-size: 1.25em; font-family: Roboto, sans-serif; line-height: 1.2; letter-spacing: 0.05em; text-transform: uppercase; background-color: rgb(255, 255, 255);"><strong><span style="color:#bd221e;">{{$setting->company}}</span></strong></h3>
+						
 						 <h3 class="uppercase" style="box-sizing: border-box; color: rgb(51, 51, 51); width: 640.825px; margin-top: 0px; margin-bottom: 0.5em; text-rendering: optimizespeed; font-size: 1.25em; font-family: Roboto, sans-serif; line-height: 1.2; letter-spacing: 0.05em; text-transform: uppercase; background-color: rgb(255, 255, 255);"><strong><span style="color:#bd221e;">TRỤ SỞ CHÍNH</span></strong></h3>
-						 <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">Tầng 11 tòa nhà Agrex Tower, 58 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TPHCM</p>
+						 <p style="box-sizing: border-box; margin-bottom: 1.3em; margin-top: 0px; text-align: justify; color: rgb(51, 51, 51); font-family: Roboto, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);">{{$setting->address1}}</p>
 						 <div class="box_hotline_contact">
-							<p>Hotline: <span>0839 69 88 69</span></p>
-							<p>Email: <span>cskh.vlive@gmail.com</span></p>
-							<p>Website: <span>vlive-international.vn</span></p>
+							<p>Hotline: <span>{{$setting->phone1}}</span></p>
+							<p>Email: <span>{{$setting->email}}</span></p>
+							<p>Website: <span>https://zentrum.vn/</span></p>
 						 </div>
 					  </div>
 					  <div class="col-md-6 col-xs-12 formlienhe">
