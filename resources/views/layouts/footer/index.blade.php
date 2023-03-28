@@ -83,7 +83,7 @@
                 @foreach ($vechungtoi as $item)
                     {{$item->title}}
                 @endforeach
-                <p>2</p>
+           
                  </ul>
                </div>
             </div>
