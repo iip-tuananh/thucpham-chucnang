@@ -79,7 +79,7 @@
             </div>
             <div class="col-md-3 col-xs-12">
                <div class="mangxhf w-100">
-                 <ul>
+                 <ul style="color: white">
                 <p>1</p>
                 <p>2</p>
                  </ul>
