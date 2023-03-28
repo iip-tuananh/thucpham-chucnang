@@ -80,7 +80,9 @@
             <div class="col-md-3 col-xs-12">
                <div class="mangxhf w-100">
                  <ul style="color: white">
-                <p>1</p>
+                @foreach ($vechungtoi as $item)
+                    {{$item->title}}
+                @endforeach
                 <p>2</p>
                  </ul>
                </div>
