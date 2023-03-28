@@ -13,6 +13,12 @@
 @section('js')
 @endsection
 @section('content')
+<style>
+    nav.site-breadcrumb {
+    background-color: #307f2e;
+    color: white;
+}
+</style>
     <main id="page-content">
         <nav class="site-breadcrumb" aria-label="breadcrumb"
             style="background-image: url({{ asset('frontend/images/bg-breadcrumb.jpg') }})">
