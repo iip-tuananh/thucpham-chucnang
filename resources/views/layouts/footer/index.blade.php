@@ -80,8 +80,8 @@
             <div class="col-md-3 col-xs-12">
                <div class="mangxhf w-100">
                  <ul>
-                  <li>1</li>
-                  <li>2</li>
+                <p>1</p>
+                <p>2</p>
                  </ul>
                </div>
             </div>
