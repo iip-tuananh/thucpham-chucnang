@@ -64,7 +64,7 @@
             </div>
             <div class="col-md-3 col-xs-12">
                <div class="mangxhf w-100">
-                 <ul style="color: white;text-align:center;text" >
+                 <ul style="color: white;    text-transform: uppercase;margin-left:" >
                 @foreach ($vechungtoi as $item)
                    <p><a style="color:white"href="{{route('pagecontent',['slug'=>$item->slug])}}">{{$item->title}}</a></p> 
                 @endforeach
