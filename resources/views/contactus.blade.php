@@ -16,12 +16,12 @@
 <div id="content" class="site-content">
 	<div class="page-contact">
 	   <main>
-		  <section class="bannerabout w-100" style="background: url(https://vlive-international.vn/wp-content/themes/v4/assets/images/bannertranglienhe-16401454189.png) no-repeat center; ">
+		  <section class="bannerabout w-100" style="background-color:#307f2e ">
 			 <div class="box_desc_banner">
 				<div class="container">
 				   <div class="box_desc_banner1 active">
 					  <h1>
-						 <p style="    color: #bd221e;"> LIÊN HỆ </p>
+						 <p style="    color: #ffffff;"> LIÊN HỆ </p>
 					  </h1>
 				   </div>
 				</div>
@@ -30,7 +30,7 @@
 		  <section class="nav-bredcrum">
 			 <div class="container">
 				<div class=" w-100 ngaytao-bv "> 
-				   <a href="https://vlive-international.vn/vi/" title="Trang chủ"> Trang chủ </a>  / <span>Liên hệ</span> 
+				   <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Liên hệ</span> 
 				</div>
 			 </div>
 		  </section>
