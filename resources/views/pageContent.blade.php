@@ -15,13 +15,13 @@
 @section('content')
 <style>
     nav.site-breadcrumb {
-    background-color: #307f2e;
-    color: white;
+        height: 300px;
+    color: #307f2e;
 }
 </style>
     <main id="page-content">
         <nav class="site-breadcrumb" aria-label="breadcrumb"
-            style="background-image: url({{ asset('frontend/images/bg-breadcrumb.jpg') }})">
+            style="background-image: url({{ asset('frontend/img/photo-3-16014246092041571340894 (convert.io).jpg')}})">
             <div class="container">
                 <div class="h2 text-uppercase break-word text-white"><span class="break-word d-block">
                         {{ $pagecontentdetail->title }}
