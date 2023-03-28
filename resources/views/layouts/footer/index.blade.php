@@ -62,11 +62,7 @@
                   </p>
                </div>
             </div>
-            <div class="col-md-3 col-xs-12">
-               <div class="mangxhf w-100">
-                  {!!$setting->iframe_map!!}
-               </div>
-            </div>
+           
             <div class="col-md-3 col-xs-12">
            
                     
@@ -80,6 +76,14 @@
                       </ul>
                  
                 </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+               <div class="mangxhf w-100">
+                 <ul>
+                  <li>1</li>
+                  <li>2</li>
+                 </ul>
+               </div>
             </div>
            
      
