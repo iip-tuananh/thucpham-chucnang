@@ -83,6 +83,7 @@
                 @foreach ($vechungtoi as $item)
                    <p><a style="color:white"href="{{route('pagecontent',['slug'=>$item->slug])}}">{{$item->title}}</a></p> 
                 @endforeach
+                <p><a style="color:white"href="{{route('lienHe')}}">Liên Hệ</a></p> 
            
                  </ul>
                </div>
