@@ -657,7 +657,8 @@ span.count {
 
 .bannerabout {
     position: relative;
-    min-height: 315px;
+    /* line-height: 194px; */
+    min-height: 194px;
     background-size: 100% 100%!important
 }
 
@@ -676,14 +677,14 @@ span.count {
     z-index: 9;
     width: 100%;
     text-align: left;
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 40px
 }
 
 .box_desc_banner .box_desc_banner1 {
     float: left;
     text-align: left;
-    line-height: 45px
+    /* line-height: 190px; */
 }
 
 .box_desc_banner1.active {
