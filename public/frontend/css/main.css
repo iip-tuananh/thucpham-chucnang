@@ -314,6 +314,7 @@ img.js-img.position-absolute {
 }
 body{
     overflow-x: hidden !important;
+    font-family: 'Roboto',sans-serif!important;
 }
 @media only screen and (max-width: 768px){
     .title_about .h3 span:before {
