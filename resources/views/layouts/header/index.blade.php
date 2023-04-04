@@ -98,7 +98,7 @@
                             @foreach ($cate->typeCate as $t=>$type)
                             @if($key == 0 && $t== 0)
                             <li >
-                              <a href="javascript:;">Tài Liệu</a>
+                              <a href="javascript:;">Tài Liệu hỗ trợ</a>
                               <ul class="submenu2">
                                  <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                                  <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
@@ -167,9 +167,10 @@
                          @foreach ($cate->typeCate as $t=>$type)
                          @if($key == 0 && $t== 0)
                          <li >
-                           <a href="javascript:;">Tài Liệu</a>
+                           <a href="javascript:;">Tài liệu hõ trợ</a>
                            <ul class="submenu2">
                               <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
+                              <li><a href="{{route('thuvien')}}">Thư viện Zentrum</a></li>
                               <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
                               <li><a href="{{route('allreview')}}">Câu hỏi thường gặp</a></li>
                        

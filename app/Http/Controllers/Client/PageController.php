@@ -173,5 +173,9 @@ class PageController extends Controller
         $data['allreview'] = ReviewCus::where('status','1')->get();
         return view('allreview',$data);
     }
+    public function thuvien(){
+        $data['allthuvien'] = Prize::where('status','1')->get();
+        return view('thuvien',$data);
+    }
   
 }

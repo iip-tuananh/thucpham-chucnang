@@ -53,6 +53,8 @@ Route::group(['namespace'=>'Client','middleware' => ['checkLanguage']], function
     Route::get('chung-nhan.html','PageController@chungnhan')->name('chungnhan');
     Route::get('allvideo.html','PageController@allvideo')->name('allvideo');
     Route::get('allreview.html','PageController@allreview')->name('allreview');
+    Route::get('thuvien.html','PageController@thuvien')->name('thuvien');
+
     
 
     Route::get('gio-hang.html', 'CartController@listCart')->name('listCart');
