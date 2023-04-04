@@ -21,11 +21,11 @@
                       type="text"
                       v-model="item.name"
                       size="default"
-                      placeholder="Tên Founder"
+                      placeholder="Tên"
                       class="w-100"
                     />
                   </div>
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     <label>Chức Vụ</label>
                     <label style="float: right;cursor: pointer" title="Xóa founder" v-if="key != 0" @click="removeObjBanner(key)">
                       <vs-icon icon="clear"></vs-icon>
@@ -37,20 +37,12 @@
                       placeholder="Chức vụ founder"
                       class="w-100"
                     />
-                  </div>
+                  </div> -->
                   <div class="form-group">
-                    <label>Mô tả</label>
-                    <label style="float: right;cursor: pointer" title="Xóa founder" v-if="key != 0" @click="removeObjBanner(key)">
-                      <vs-icon icon="clear"></vs-icon>
-                    </label>
-                    <vs-input
-                      type="text"
-                      v-model="item.content"
-                      size="default"
-                      placeholder="Mô tả founder"
-                      class="w-100"
-                    />
-                  </div>
+                <label>Nội dung</label>
+                <TinyMce v-model="item.content" :class="{ 'is-invalid': submitted && $v.item.content.$error }" />
+                <div v-if="submitted && !$v.item.content.required" class="noti-err">Nội dung không để trống</div>
+              </div>
                   <div class="form-group">
                     <label>Trạng thái</label>
                     <vs-select v-model="item.status">
@@ -62,7 +54,7 @@
                 <hr style="border: 0.5px solid #04040426; width: 100%;">
               </div>
               <vs-button color="primary" @click="saveFounders">Lưu</vs-button>
-              <vs-button color="success" @click="addObjBanner">Thêm Founder</vs-button>
+              <!-- <vs-button color="success" @click="addObjBanner">Thêm Founder</vs-button> -->
             </div>
           </div>
         </div>
@@ -99,10 +91,10 @@ export default {
       this.loadings(true);
       this.saveFounder({data:this.objData}).then(response => {
         this.loadings(false);
-        this.$success('Sửa Founder thành công');
+        this.$success('Sửa thành công');
       }).catch(error => {
         this.loadings(false);
-        this.$error('Sửa Founder thất bại');
+        this.$error('Sửa  thất bại');
       })
     },
     addObjBanner(){
