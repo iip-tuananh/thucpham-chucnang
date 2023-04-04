@@ -424,7 +424,7 @@ span.count {
     text-align: center;
     margin-top: 20px;
     font-family: math;
-    font-size: 19px;
+    font-size: 16px;
     word-spacing: 2px;
     letter-spacing: 0px;
     line-height: 32px;
@@ -510,7 +510,7 @@ span.count {
 }
 
 .box_gtsp .box_item .box_left .des span {
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     font-weight: 100;
 }
