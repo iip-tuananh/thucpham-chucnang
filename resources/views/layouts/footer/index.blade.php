@@ -49,7 +49,7 @@
                   @endphp
                   @foreach ($ad as $item)
                   
-                                    <p><strong>Địa điểm kinh doanh số 1 và văn phòng kinh doanh:</strong> {{$item->address}}</p>
+                                    <p><strong>Địa điểm kinh doanh số 1 và văn phòng làm việc:</strong> {{$item->address}}</p>
                       
                   @endforeach
                  
