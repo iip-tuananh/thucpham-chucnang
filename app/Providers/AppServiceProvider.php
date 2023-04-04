@@ -96,7 +96,6 @@ class AppServiceProvider extends ServiceProvider
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();
             $thuvien = Prize::where(['status' => 1])->get();
-            dd($thuvien);
             $view->with([
                 'promotio' => $promotio,
                 'setting' => $setting,
