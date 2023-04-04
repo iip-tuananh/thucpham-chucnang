@@ -66,6 +66,7 @@
 <script>
 import { mapActions } from "vuex";
 import { required } from "vuelidate/lib/validators";
+import TinyMce from "../_common/tinymce";
 export default {
   name: "product",
   data() {
