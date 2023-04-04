@@ -1756,7 +1756,8 @@ div.images_list {
 
 .des_phanhoi {
     padding: 15px 0;
-    text-align: justify;
+    word-break: break-all;
+    /* text-align: justify; */
     font-size: 15px;
     color: #002554
 }
