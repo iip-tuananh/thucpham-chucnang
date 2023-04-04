@@ -7,13 +7,13 @@
             <div class="card-body" >
               <div class="row" v-for="(item, key) in objData" :key="key">
                 <div class="col-md-3">
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     <image-upload type="avatar" v-model="item.image" :title="'thu-vien-'"></image-upload>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-md-9">
                   <div class="form-group">
-                    <label>Tên ảnh</label>
+                    <label>Tên </label>
                     <label style="float: right;cursor: pointer" title="Xóa ảnh" v-if="key != 0" @click="removeObjPartner(key)">
                       <vs-icon icon="clear"></vs-icon>
                     </label>
@@ -47,7 +47,7 @@
                 <hr style="border: 0.5px solid #04040426; width: 100%;">
               </div>
               <vs-button color="primary" @click="savePrizes">Lưu</vs-button>
-              <vs-button color="success" @click="addObjPartner">Thêm ảnh</vs-button>
+              <vs-button color="success" @click="addObjPartner">Thêm thư viện</vs-button>
             </div>
           </div>
         </div>

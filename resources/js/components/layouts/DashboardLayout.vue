@@ -208,10 +208,10 @@ export default {
               name: "Quản lý logo chứng nhận",
               path: "/partner",
             },
-            // {
-            //   name: "Thư viện ảnh",
-            //   path: "/prize",
-            // },
+            {
+              name: "Thư viện",
+              path: "/prize",
+            },
             // {
             //   name: "Video",
             //   path: "/video",
