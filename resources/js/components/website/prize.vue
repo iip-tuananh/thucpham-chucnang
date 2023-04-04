@@ -22,6 +22,16 @@
                     />
                   </div>
                   <div class="form-group">
+                    <label>Nội dung</label>
+                    <vs-input
+                      type="text"
+                      v-model="item.image"
+                      size="default"
+                      placeholder="Nội Dung"
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="form-group">
                     <label>Link</label>
                     <vs-input
                       type="text"
