@@ -19,7 +19,7 @@
                   <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                   </div>
                   <ul class="ngonngu" >
-                     <li><a  rel="nofollow" href="" style="font-weight: 700">Điều Khoản sử dụng</a></li>
+                     <li><a  rel="nofollow" href="{{route('pagecontent',['slug'=>'dieu-khoan-su-dung'])}}" style="font-weight: 700">Điều Khoản sử dụng</a></li>
                      <li><a  rel="nofollow" href="{{route('lienHe')}}" style="font-weight: 700">Liên Hệ</a></li>
                   </ul>
                 <ul class="ngonngu">	
