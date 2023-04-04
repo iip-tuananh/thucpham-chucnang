@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h3 class="page-title">Quản lý Founder</h3>
+      <h3 class="page-title">Câu chuyện thương hiệu</h3>
       <div class="row">
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
