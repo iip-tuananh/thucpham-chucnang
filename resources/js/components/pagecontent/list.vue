@@ -8,6 +8,7 @@
             <div class="card-body">
               <h4 class="card-title">Danh sách trang nội dung</h4>
               <p class="card-description">Thêm mới hoặc sửa chửa trang nội dung</p>
+              <p class="card-description" style="color: red;">Không thay đổi tên của Điều khoản sử dụng và Giới Thiệu (*)</p>
               <router-link class="nav-link" :to="{name:'pageContentAdd'}">
                <vs-button type="gradient" style="float:right;" >Thêm mới</vs-button>
               </router-link>
