@@ -82,7 +82,9 @@ export default {
     };
   },
   components: {},
-  computed: {},
+  components: {
+    TinyMce
+  },
   watch: {},
   methods: {
     ...mapActions(["saveFounder", "loadings","listFounder"]),
