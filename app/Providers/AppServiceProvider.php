@@ -21,6 +21,7 @@ use App\models\Project;
 use App\models\ReviewCus;
 use App\models\website\Partner;
 use App\models\product\Product;
+use App\models\website\Prize;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -94,6 +95,8 @@ class AppServiceProvider extends ServiceProvider
             $projects = Project::where(['status'=>1])->get();
             $partner = Partner::where(['status' => 1])->get();
             $reviewcus = ReviewCus::where(['status' => 1])->get();
+            $thuvien = Prize::where(['status' => 1])->get();
+            dd($thuvien);
             $view->with([
                 'promotio' => $promotio,
                 'setting' => $setting,
@@ -113,6 +116,7 @@ class AppServiceProvider extends ServiceProvider
                 'prosp'=>$prosp,
                 'prospnoibat'=>$prospnoibat,
                 'vechungtoi'=>$vechungtoi,
+                'thuvien'=>$thuvien,
                 ]);    
         });  
     }
