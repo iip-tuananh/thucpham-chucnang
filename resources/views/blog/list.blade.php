@@ -35,9 +35,6 @@ Tin tức nổi bật và mới nhất
       <div class="container">
          <div class="tabs_tintuc w-100">
             <ul class="tabs">
-               @php
-               $routecu = Route::current();
-               @endphp
                @foreach ($blogCate as $cate)
                @foreach ($cate->typeCate as $type)
                @if ($type->slug== $slug_page)
