@@ -40,8 +40,7 @@
                   </div> -->
                   <div class="form-group">
                 <label>Nội dung</label>
-                <TinyMce v-model="item.content" :class="{ 'is-invalid': submitted && $v.item.content.$error }" />
-                <div v-if="submitted && !$v.item.content.required" class="noti-err">Nội dung không để trống</div>
+                <TinyMce v-model="item.content" />
               </div>
                   <div class="form-group">
                     <label>Trạng thái</label>
