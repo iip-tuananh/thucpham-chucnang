@@ -108,7 +108,7 @@
           <section class="section1 animate__animated animate__fadeInDown">
              <div class="container container_about">
                 <div class=" tieudechay">
-                   <span >Giới thiệu</span>
+                   <span >Giới thiệu </span>
                 </div>
                 <div class="des_about w-100">
                   {!!$gioithieu->description!!} 

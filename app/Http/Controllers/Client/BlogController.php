@@ -33,6 +33,7 @@ class BlogController extends Controller
         ->orderBy('id','DESC')
         ->select(['id','title','image','description','created_at','slug'])
         ->paginate(9);
+
         $data['partner'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
         $data['blognew'] = Blog::where(['status'=>1])
         ->orderBy('id','DESC')
@@ -47,12 +48,15 @@ class BlogController extends Controller
     {
         $data['blog'] = Blog::where(['status'=>1,'type_cate'=>$slug])
         ->orderBy('id','DESC')
-        ->select(['id','title','image','description','created_at','slug'])
-        ->paginate(9);
-        $cate = BlogTypeCate::where('slug', $slug)->first(['name']);
+        ->get();
+   
+        $cate = BlogTypeCate::where('slug', $slug)->first(['category_slug']);
+        $cate_name = BlogTypeCate::where('slug', $slug)->first(['name']);
         $typec = BlogTypeCate::where('slug', $slug)->first(['slug']);
+        $cate_blog= $cate->category_slug;
+        $data['type_blog'] = BlogTypeCate::where('category_slug', $cate_blog)->get();
         $data['slug_page'] = $typec->slug;
-        $data['title_page'] = languageName($cate->name);
+        $data['title_page'] = languageName($cate_name->name);
         return view('blog.list',$data);
     }
     public function detailBlog($slug)

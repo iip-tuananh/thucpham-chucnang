@@ -35,8 +35,8 @@ Tin tức nổi bật và mới nhất
       <div class="container">
          <div class="tabs_tintuc w-100">
             <ul class="tabs">
-               @foreach ($blogCate as $cate)
-               @foreach ($cate->typeCate as $type)
+        
+               @foreach ($type_blog as $type)
                @if ($type->slug== $slug_page)
                <li class="active">
                   @else
@@ -45,7 +45,7 @@ Tin tức nổi bật và mới nhất
                   <h2><a href="{{route('listTypeBlog',['slug'=>$type->slug])}}">{{languageName($type->name)}}</a></h2>
                </li>
                @endforeach
-               @endforeach
+          
             </ul>
          </div>
          <div class="khungtintuc w-100">

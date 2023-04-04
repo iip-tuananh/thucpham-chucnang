@@ -65,7 +65,7 @@
                            <a href="javascript:;">VỀ Chúng tôi</a>
                            <ul >
                               <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
-                              <li><a href="{{route('aboutUs')}}">Giới thiệu tổng quan</a></li>
+                              <li><a href="{{route('aboutUs')}}">Giới thiệu chung</a></li>
                        
                               <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li>
                            </ul>
