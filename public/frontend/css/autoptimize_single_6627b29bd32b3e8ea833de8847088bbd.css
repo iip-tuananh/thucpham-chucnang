@@ -213,7 +213,7 @@ main,footer {
     border-bottom: 1px solid rgba(74,74,74,.11);
     position: relative;
     background: #f1f1f1;
-    width: 100%;
+    width: 110%;
     float: left;
     padding: 10px
 }
