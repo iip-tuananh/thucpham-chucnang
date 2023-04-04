@@ -89,10 +89,10 @@ export default {
       this.loadings(true);
       this.savePrize({data:this.objData}).then(response => {
         this.loadings(false);
-        this.$success('Thêm ảnh thành công');
+        this.$success('Thêm Thành Công');
       }).catch(error => {
         this.loadings(false);
-        this.$error('Thêm ảnh thất bại');
+        this.$error('Thêm thất bại');
       })
     },
     addObjPartner(){
