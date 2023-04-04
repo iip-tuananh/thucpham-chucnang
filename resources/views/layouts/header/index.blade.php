@@ -140,7 +140,7 @@
                      <ul class="submenu1">
                         <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                         <li><a href="{{route('aboutUs')}}">Giới thiệu chung</a></li>
-                 
+                        <li><a href="{{route('cauchuyen')}}">Câu chuyện thương hiệu</a></li>
                         <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li>
                      </ul>
                   </li>
