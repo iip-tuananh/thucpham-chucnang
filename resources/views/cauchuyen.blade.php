@@ -32,7 +32,7 @@ Câu chuyện thương hiệu
                 <div class="row">
                   
                     <article class="post-587 page type-page status-publish hentry">
-                        <div class="entry-content">
+                        <div class="entry-content" style="font-size: 17px">
                                       {{$cauchuyen->content}}
                         </div>
                     </article>
