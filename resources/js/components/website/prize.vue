@@ -1,27 +1,23 @@
 <template>
   <div>
-      <h3 class="page-title">Quản lý thư viện ảnh</h3>
+      <h3 class="page-title">Quản lý thư viện</h3>
       <div class="row">
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
             <div class="card-body" >
               <div class="row" v-for="(item, key) in objData" :key="key">
-                <div class="col-md-3">
-                  <!-- <div class="form-group">
-                    <image-upload type="avatar" v-model="item.image" :title="'thu-vien-'"></image-upload>
-                  </div> -->
-                </div>
-                <div class="col-md-9">
+             
+                <div class="col-md-12">
                   <div class="form-group">
                     <label>Tên </label>
-                    <label style="float: right;cursor: pointer" title="Xóa ảnh" v-if="key != 0" @click="removeObjPartner(key)">
+                    <label style="float: right;cursor: pointer" title="Xóa" v-if="key != 0" @click="removeObjPartner(key)">
                       <vs-icon icon="clear"></vs-icon>
                     </label>
                     <vs-input
                       type="text"
                       v-model="item.name"
                       size="default"
-                      placeholder="Tên ảnh"
+                      placeholder="Tên"
                       class="w-100"
                     />
                   </div>
@@ -31,7 +27,7 @@
                       type="text"
                       v-model="item.link"
                       size="default"
-                      placeholder="Link liên kết với ảnh (bỏ trống nếu không có)"
+                      placeholder="Link liên kết  (bỏ trống nếu không có)"
                       class="w-100"
                     />
                   </div>
