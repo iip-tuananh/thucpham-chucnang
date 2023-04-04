@@ -18,6 +18,10 @@
                <div class="box_bar2_right">
                   <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
                   </div>
+                  <ul class="ngonngu" >
+                     <li><a  rel="nofollow" href="" style="font-weight: 700">Điều Khoản sử dụng</a></li>
+                     <li><a  rel="nofollow" href="{{route('lienHe')}}" style="font-weight: 700">Liên Hệ</a></li>
+                  </ul>
                 <ul class="ngonngu">	
                   <div class="image-item " style="display: flex; color:white">
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" >
@@ -87,11 +91,24 @@
                              
                            </ul>
                         </li>
-                        @foreach ($blogCate as $cate)
+                        @foreach ($blogCate as $key=>$cate)
                         <li >
                            <a href="javascript:;">{{languageName($cate->name)}}</a>
                            <ul >
-                            @foreach ($cate->typeCate as $type)
+                            @foreach ($cate->typeCate as $t=>$type)
+                            @if($key == 0 && $t== 0)
+                            <li >
+                              <a href="javascript:;">Tài Liệu</a>
+                              <ul class="submenu2">
+                                 <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
+                                 <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
+                                 <li><a href="{{route('allreview')}}">Câu hỏi thường gặp</a></li>
+                          
+                                 {{-- <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li> --}}
+                              </ul>
+                           </li>
+                           <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng </a></li>
+                            @endif
                             <li>
                                <a  href="{{route('listTypeBlog',['slug'=>$type->slug])}}">{{languageName($type->name)}}</a>
                                <ul >
@@ -107,15 +124,6 @@
                            </ul>
                         </li>
                      @endforeach
-                     <li >
-                        <a href="javascript:;">Tài Liệu</a>
-                        <ul >
-                           <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
-                           <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
-                    
-                           {{-- <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li> --}}
-                        </ul>
-                     </li>
                      </ul>
                   </nav>
                </div>
@@ -131,7 +139,7 @@
                      <a href="#">VỀ Chúng Tôi</a>
                      <ul class="submenu1">
                         <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
-                        <li><a href="{{route('aboutUs')}}">Giới thiệu tổng quan</a></li>
+                        <li><a href="{{route('aboutUs')}}">Giới thiệu chung</a></li>
                  
                         <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li>
                      </ul>
@@ -152,11 +160,24 @@
                        
                      </ul>
                   </li>
-                  @foreach ($blogCate as $cate)
+                  @foreach ($blogCate as $key=>$cate)
                      <li class=" has_sub">
                         <a href="javascript:;">{{languageName($cate->name)}}</a>
                         <ul class="submenu1">
-                         @foreach ($cate->typeCate as $type)
+                         @foreach ($cate->typeCate as $t=>$type)
+                         @if($key == 0 && $t== 0)
+                         <li >
+                           <a href="javascript:;">Tài Liệu</a>
+                           <ul class="submenu2">
+                              <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
+                              <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
+                              <li><a href="{{route('allreview')}}">Câu hỏi thường gặp</a></li>
+                       
+                              {{-- <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li> --}}
+                           </ul>
+                        </li>
+                        <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng</a></li>
+                         @endif
                          <li>
                             <a  href="{{route('listTypeBlog',['slug'=>$type->slug])}}">{{languageName($type->name)}}</a>
                             <ul class="submenu2">
@@ -166,6 +187,7 @@
                               @endforeach
                             </ul>
                          </li>
+                       
                          @endforeach
                           
                           
@@ -173,16 +195,7 @@
                      </li>
                   @endforeach
               
-                    <li class=" has_sub">
-                     <a href="javascript:;">Tài Liệu</a>
-                     <ul class="submenu1">
-                        <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
-                        <li><a href="{{route('allvideo')}}">Phản hồi khách hàng</a></li>
-                        <li><a href="{{route('allreview')}}">Câu hỏi thường gặp</a></li>
-                 
-                        {{-- <li><a href="{{route('chungnhan')}}">Chứng nhận chất lượng toàn cầu</a></li> --}}
-                     </ul>
-                  </li>
+              
                   <!-- <li class=""><a href="tuyen-dung/">Tuyển dụng</a></li>
                      <li class=" "><a href="lien-he/">Liên hệ</a></li> -->
                </ul>
