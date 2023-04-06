@@ -350,3 +350,6 @@ body{
     border: none;
     user-select:none !important;
 }
+.footer_top img{
+    mix-blend-mode: color-dodge !important;
+}
