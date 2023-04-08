@@ -59,8 +59,9 @@
                 <div class="title_about  w-100">
                    <p class="h3"><span>Tin liên quan</span></p>
                 </div>
-                <div class="swiper mySwiperbloglq">
-                <div class="khungtintuc w-100 swiper-wrapper">
+        
+                <div class="khungtintuc w-100  mySwiperbloglq swiper">
+                  <div class="swiper-wrapper">
                     @foreach ($bloglq as $item)
                     @if($item->type_cate == $blog_detail->type_cate)
                         <div class="item_tintuc item_tintuckhac swiper-slide" style="display: block;">
