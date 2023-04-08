@@ -80,7 +80,7 @@ class AppServiceProvider extends ServiceProvider
             $compare = session()->get('compareProduct', []);
             $blogCate = BlogCategory::with([
                 'typeCate' => function ($query){
-                    $query->orderBy('id','ASC')->select('id','slug','name','avatar','category_slug');
+                    $query->orderBy('id','DESC')->select('id','slug','name','avatar','category_slug');
                 }
             ])
             ->where('status',1)
