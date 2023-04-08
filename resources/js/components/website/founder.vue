@@ -6,7 +6,12 @@
           <div class="card">
             <div class="card-body" >
               <div class="row" v-for="(item, key) in objData" :key="key">
-                <div class="col-md-12">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <image-upload type="avatar" v-model="item.image"></image-upload>
+                  </div>
+                </div>
+                <div class="col-md-9">
                   <div class="form-group">
                     <label>Tên</label>
                     <label style="float: right;cursor: pointer" title="Xóa founder" v-if="key != 0" @click="removeObjBanner(key)">
