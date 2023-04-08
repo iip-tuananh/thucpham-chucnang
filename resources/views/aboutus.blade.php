@@ -42,7 +42,7 @@
          <div class="khungsumenh">
             <div class="left_sumenh_new">
                <div class="title">
-                  <span>Giới thiệu</span>
+                  <span>Zentrum</span>
                </div>
             </div>
             <div class="right_sumenh">
