@@ -18,7 +18,7 @@ Câu chuyện thương hiệu
        <div class="container container-single">
           <div class="nav-bredcrum">
              <div class="ngaytao-bv ">
-                <div id="crumbs"><a href="{{route('home')}}">Trang chủ</a> / <a href="{{route('allreview')}}">Câu chuyện thương hiệu</a></div>
+                <div id="crumbs"><a href="{{route('home')}}">Trang chủ</a> / <a href="javascript:;">Câu chuyện thương hiệu</a></div>
              </div>
           </div>
           <main id="main" class="site-main">
@@ -33,7 +33,7 @@ Câu chuyện thương hiệu
                   
                     <article class="post-587 page type-page status-publish hentry">
                         <div class="entry-content" style="font-size: 17px">
-                                      {{$cauchuyen->content}}
+                                      {{languageName($cauchuyen->content)}}
                         </div>
                     </article>
          

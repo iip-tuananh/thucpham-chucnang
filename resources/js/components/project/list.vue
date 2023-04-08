@@ -8,7 +8,7 @@
               <!-- <router-link class="nav-link" :to="{name:'add_project'}">
                 <vs-button type="gradient" style="float:right;">Thêm mới</vs-button>
               </router-link> -->
-              <vs-input icon="search" placeholder="Search" v-model="keyword" />
+              <!-- <vs-input icon="search" placeholder="Search" v-model="keyword" /> -->
               <vs-table stripe :data="list" max-items="10" pagination>
                 <template slot="thead">
                   <!-- <vs-th>Hình ảnh</vs-th> -->

@@ -178,7 +178,7 @@ class PageController extends Controller
         return view('thuvien',$data);
     }
     public function cauchuyen(){
-        $data['cauchuyen'] = Founder::where('status','1')->first();
+        $data['cauchuyen'] = Project::where('status','1')->first();
         return view('cauchuyen',$data);
     }
   
