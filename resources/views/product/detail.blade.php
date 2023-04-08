@@ -28,11 +28,7 @@ P2
     <div class="k2-single-w">
        <div class="container">
           <div class="row">
-              <div class="nav-bredcrum">
-                 <div class=" w-100  ngaytao-bv ngaytao-bv-sp"> 
-                    <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Sản phẩm</span> / <span>{{languageName($product->name)}}</span>
-                 </div>
-              </div>
+            
              <div class="col-xs-12 col-md-6">
                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
@@ -86,6 +82,11 @@ P2
                </script>
              </div>
              <div class="col-xs-12 col-md-6">
+              <div class="nav-bredcrum">
+                <div class=" w-100  ngaytao-bv ngaytao-bv-sp"> 
+                   <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Sản phẩm</span> / <span>{{languageName($product->name)}}</span>
+                </div>
+             </div>
                 <div class="k2-info-single details-product">
                    <div class="title_detail">
                       <h2 class="product_title entry-title">{{languageName($product->name)}}</h2>
