@@ -63,7 +63,7 @@ class BlogController extends Controller
     {
         $data['blog_detail'] = Blog::with('cate')->where(['slug' => $slug])->first();
         $data['partner'] = Partner::where(['status'=>1])->get(['id','image','name','link']);
-        $data['bloglq'] = Blog::where(['status' => 1])->limit(3)->orderBy('id','ASC')->get();
+        $data['bloglq'] = Blog::where(['status' => 1])->orderBy('id','ASC')->get();
         $data['blognew'] = Blog::where(['status'=>1])
         ->orderBy('id','DESC')
         ->select(['id','title','image','description','created_at','slug'])
