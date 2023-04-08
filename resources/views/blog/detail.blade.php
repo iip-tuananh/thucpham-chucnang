@@ -18,7 +18,7 @@
        <div class="container container-single">
           <div class="nav-bredcrum">
              <div class="ngaytao-bv ">
-                <div id="crumbs"><a href="{{route('home')}}">Trang chủ</a> / <a href="{{route('allListBlog')}}">Tin tức</a> / <span class="current">{{languageName($blog_detail->title)}}</span></div>
+                <div id="crumbs"><a href="{{route('home')}}">Trang chủ</a> / <a href="javascript:;">Tin tức</a> / <span class="current">{{languageName($blog_detail->title)}}</span></div>
              </div>
           </div>
           <main id="main" class="site-main">
