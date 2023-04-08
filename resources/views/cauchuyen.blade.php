@@ -56,7 +56,7 @@ Câu chuyện thương hiệu
                      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
                         <div class="swiper-wrapper">
                            @php
-                               $imgs =json_decode($cautruyen->images);
+                               $imgs =json_decode($cauchuyen->images);
                            @endphp
                            @foreach ($imgs as $img)
                               <div class="swiper-slide">
