@@ -37,7 +37,7 @@
              </div>
           </main>
           <!-- #main -->
-{{--        
+       
           <section class="news_other">
              <div class="container">
                 <div class="title_about  w-100">
@@ -58,7 +58,7 @@
                
                 </div>
              </div>
-          </section> --}}
+          </section>
        </div>
     </div>
  </div>
