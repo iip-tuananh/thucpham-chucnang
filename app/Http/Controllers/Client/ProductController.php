@@ -136,6 +136,7 @@ class ProductController extends Controller
     public function detail_product($slug)
     {   $data['chungnhansp'] = Services::where('status','1')->get();
         $data['video_sp'] = Video::where('status','1')->get();
+        $data['allpro'] = Product::where('status','1')->get();
         $data['product'] = Product::with([
             'typeCate' => function ($query) {
                 $query->select('id', 'name','avatar','slug'); 

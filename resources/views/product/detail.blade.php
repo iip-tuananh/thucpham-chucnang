@@ -387,40 +387,24 @@ P2
         <h3><span>Sản phẩm khác</span></h3>
      </div>
      <div class="khungsp1 w-100">
-        <div class="item_sp1">
-           <div class="img_sp">
-              <a href="https://vlive-international.vn/vi/v-neral/">
-              <img width="759" height="653" src="https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418.png" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418.png 759w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-600x516.png 600w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-300x258.png 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
-           </div>
-           <div class="mota_sp">
-              <h4><a href="https://vlive-international.vn/vi/v-neral/">V-Neral</a></h4>
-              <span><span class="woocommerce-Price-amount amount"><bdi>1.092.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
-              <a class="xemthem" href="https://vlive-international.vn/vi/v-neral/">Xem chi tiết</a>
-           </div>
-        </div>
-        <div class="item_sp1">
-           <div class="img_sp">
-              <a href="https://vlive-international.vn/vi/v-trition/">
-              <img width="761" height="653" src="https://vlive-international.vn/wp-content/uploads/2022/06/asset-72x8-16401547349.png" class="attachment-full size-full wp-post-image" alt="Thực phẩm tế bào V Trition" decoding="async" loading="lazy" srcset="https://vlive-international.vn/wp-content/uploads/2022/06/asset-72x8-16401547349.png 761w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-72x8-16401547349-600x515.png 600w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-72x8-16401547349-300x257.png 300w" sizes="(max-width: 761px) 100vw, 761px">                                            </a>
-           </div>
-           <div class="mota_sp">
-              <h4><a href="https://vlive-international.vn/vi/v-trition/">V-Trition</a></h4>
-              <span><span class="woocommerce-Price-amount amount"><bdi>1.386.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
-              <a class="xemthem" href="https://vlive-international.vn/vi/v-trition/">Xem chi tiết</a>
-           </div>
-        </div>
-        <div class="item_sp1">
-           <div class="img_sp">
-              <a href="https://vlive-international.vn/vi/bo-san-pham-v1/">
-              <img width="760" height="653" src="https://vlive-international.vn/wp-content/uploads/2022/06/asset-62x8-16401496083-1.png" class="attachment-full size-full wp-post-image" alt="Bộ sản phẩm V Live V1" decoding="async" loading="lazy" srcset="https://vlive-international.vn/wp-content/uploads/2022/06/asset-62x8-16401496083-1.png 760w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-62x8-16401496083-1-600x516.png 600w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-62x8-16401496083-1-300x258.png 300w" sizes="(max-width: 760px) 100vw, 760px">                                            </a>
-           </div>
-           <div class="mota_sp">
-              <h4><a href="https://vlive-international.vn/vi/bo-san-pham-v1/">Bộ sản phẩm V Live V1</a></h4>
-              <div class="star-rating" role="img" aria-label="Được xếp hạng 4.67 5 sao"><span style="width:93.4%">Được xếp hạng <strong class="rating">4.67</strong> 5 sao</span></div>
-              <span><span class="woocommerce-Price-amount amount"><bdi>3.688.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
-              <a class="xemthem" href="https://vlive-international.vn/vi/bo-san-pham-v1/">Xem chi tiết</a>
-           </div>
-        </div>
+      @foreach ($allpro as $item)
+      @php
+      $img_prolq = json_decode($item->images);
+      @endphp
+      @if($item->id != $product->id)
+      
+      <div class="item_sp1">
+         <div class="img_sp">
+            <a href="{{route('detailProduct',['slug'=>$item->slug])}}">
+            <img width="759" height="653" src="{{$img_prolq[1]}}" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418.png 759w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-600x516.png 600w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-300x258.png 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
+         </div>
+         <div class="mota_sp">
+            <h4><a href="https://vlive-international.vn/vi/v-neral/">V-Neral</a></h4>
+            <span><span class="woocommerce-Price-amount amount"><bdi>1.092.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
+            <a class="xemthem" href="https://vlive-international.vn/vi/v-neral/">Xem chi tiết</a>
+         </div>
+      </div>
+      @endforeach
      </div>
   </div>
 </section>
