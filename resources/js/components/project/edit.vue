@@ -28,7 +28,7 @@
                     </div>
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Mô tả ngắn</label>
                 <TinyMce
                   v-model="objData.description[0].content"
@@ -40,7 +40,7 @@
                         <TinyMce v-if="index != 0" v-model="objData.description[index].content" />
                     </div>
                 </div>
-              </div>
+              </div> -->
               <!-- <div class="form-group">
                 <label>Vị trí bảng giá</label>
                 <vs-input
