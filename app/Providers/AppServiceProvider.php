@@ -60,7 +60,7 @@ class AppServiceProvider extends ServiceProvider
                 'typeCate' => function ($query) {
                     $query->with(['typetwo'])
                         ->where('status',1)
-                        ->orderBy('id','ASC')
+                        ->orderBy('id','DESC')
                         ->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
                 },
                 'product' => function ($query) {
@@ -84,7 +84,7 @@ class AppServiceProvider extends ServiceProvider
                 }
             ])
             ->where('status',1)
-            ->orderBy('id','DESC')
+            ->orderBy('id','ASC')
             ->get(['id','name','slug','avatar'])->map(function ($query) {
                 $query->setRelation('listBlog', $query->listBlog->take(5));
                 return $query;
