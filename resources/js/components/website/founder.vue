@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h3 class="page-title">Câu chuyện thương hiệu</h3>
+      <h3 class="page-title">Quản lý founder</h3>
       <div class="row">
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
@@ -20,7 +20,7 @@
                       class="w-100"
                     />
                   </div>
-                  <!-- <div class="form-group">
+                  <div class="form-group">
                     <label>Chức Vụ</label>
                     <label style="float: right;cursor: pointer" title="Xóa founder" v-if="key != 0" @click="removeObjBanner(key)">
                       <vs-icon icon="clear"></vs-icon>
@@ -32,7 +32,7 @@
                       placeholder="Chức vụ founder"
                       class="w-100"
                     />
-                  </div> -->
+                  </div>
                   <div class="form-group">
                 <label>Nội dung</label>
                 <TinyMce v-model="item.content" />
@@ -48,7 +48,7 @@
                 <hr style="border: 0.5px solid #04040426; width: 100%;">
               </div>
               <vs-button color="primary" @click="saveFounders">Lưu</vs-button>
-              <!-- <vs-button color="success" @click="addObjBanner">Thêm Founder</vs-button> -->
+              <vs-button color="success" @click="addObjBanner">Thêm Founder</vs-button>
             </div>
           </div>
         </div>

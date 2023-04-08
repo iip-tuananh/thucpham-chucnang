@@ -216,10 +216,10 @@ export default {
             //   name: "Video",
             //   path: "/video",
             // },
-            {
-              name: "Câu chuyện thương hiệu",
-              path: "/founder",
-            },
+            // {
+            //   name: "Câu chuyện thương hiệu",
+            //   path: "/founder",
+            // },
             {
               name: "Cài đặt chung",
               path: "/setting",
