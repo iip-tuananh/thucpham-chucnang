@@ -60,7 +60,7 @@ class AppServiceProvider extends ServiceProvider
                 'typeCate' => function ($query) {
                     $query->with(['typetwo'])
                         ->where('status',1)
-                        ->orderBy('id','DESC')
+                        ->orderBy('id','ASC')
                         ->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
                 },
                 'product' => function ($query) {
