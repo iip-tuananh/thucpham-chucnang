@@ -394,7 +394,7 @@ P2
       @if($item->id != $product->id)
       
       <div class="item_sp1">
-         <div class="img_sp">
+         <div class="img_sp" style="height: 272px">
             <a href="{{route('detailProduct',['slug'=>$item->slug])}}">
             <img width="759" height="653" src="{{$img_prolq[0]}}" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="{{$img_prolq[0]}} 759w, {{$img_prolq[0]}} 600w, {{$img_prolq[0]}} 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
          </div>
