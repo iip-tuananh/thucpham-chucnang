@@ -102,8 +102,7 @@
    .swiper-slide img {
      display: block;
      width: 100%;
-     height: 100%;
-     object-fit: cover;
+     .item_tintuckhac     object-fit: cover;
    }
  </style>
 @endsection
