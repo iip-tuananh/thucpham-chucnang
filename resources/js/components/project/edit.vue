@@ -5,16 +5,16 @@
           <div class="card">
             <div class="card-body">
               
-              <!-- <div class="form-group">
-                <label>Tiêu đề bảng giá</label>
+              <div class="form-group">
+                <label>Tiêu đề</label>
                 <vs-input
                   type="text"
                   size="default"
-                  placeholder="Tên bảng giá"
+                  placeholder="Tên "
                   class="w-100"
                   v-model="objData.name"
                 />
-              </div> -->
+              </div>
               <div class="form-group">
                 <label>Nội dung</label>
                 <TinyMce
