@@ -167,7 +167,7 @@
                          @foreach ($cate->typeCate as $t=>$type)
                          @if($key == 0 && $t== 0)
                          <li >
-                           <a href="javascript:;">Tài liệu hõ trợ</a>
+                           <a href="javascript:;">Tài liệu hỗ trợ</a>
                            <ul class="submenu2">
                               <!-- 	<li><a href="gioi-thieu#trietly">Triết lý của chúng tôi</a></li> -->
                               <li><a href="{{route('thuvien')}}">Thư viện Zentrum</a></li>
