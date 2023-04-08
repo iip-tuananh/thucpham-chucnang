@@ -51,8 +51,8 @@ Câu chuyện thương hiệu
                <br>
                <br>
                <div class="row">
-             
-                  <div class="col-md-6 col col-xs-12">
+                  <div class="col-md-2 col col-xs-12"></div>
+                  <div class="col-md-8 col col-xs-12">
                      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
@@ -124,16 +124,19 @@ Câu chuyện thương hiệu
                         </div>
                       </div>
                   </div>
-                  <div class="col-md-6 col col-xs-12">
-                     
-                    <article class="post-587 page type-page status-publish hentry">
-                     <div class="entry-content" style="font-size: 17px">
-                                   {!!languageName($cauchuyen->content)!!}
-                     </div>
-                 </article>
-                  </div>
+                  <div class="col-md-2 col col-xs-12"></div>
                </div>
-             
+               
+                <div class="row">
+                  
+                    <article class="post-587 page type-page status-publish hentry">
+                        <div class="entry-content" style="font-size: 17px">
+                                      {!!languageName($cauchuyen->content)!!}
+                        </div>
+                    </article>
+         
+                </div>
+  
              </div>
           </main>
   
