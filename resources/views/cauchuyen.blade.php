@@ -33,7 +33,7 @@ Câu chuyện thương hiệu
                   
                     <article class="post-587 page type-page status-publish hentry">
                         <div class="entry-content" style="font-size: 17px">
-                                      {{languageName($cauchuyen->content)}}
+                                      {!!languageName($cauchuyen->content)!!}
                         </div>
                     </article>
          
