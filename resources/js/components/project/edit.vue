@@ -5,7 +5,7 @@
           <div class="card">
             <div class="card-body">
               
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Tiêu đề bảng giá</label>
                 <vs-input
                   type="text"
@@ -14,7 +14,7 @@
                   class="w-100"
                   v-model="objData.name"
                 />
-              </div>
+              </div> -->
               <div class="form-group">
                 <label>Nội dung</label>
                 <TinyMce
@@ -81,10 +81,11 @@
                   v-model="objData.cdt"
                 />
               </div>
+              -->
               <div class="form-group">
                 <label>Ảnh bài viết</label>
                 <ImageMulti v-model="objData.images" :title="'giai-phap'"/> 
-              </div> -->
+              </div> 
               <div class="form-group">
                 <label>Trạng thái</label>
                 <vs-select v-model="objData.status"
@@ -157,7 +158,7 @@ export default {
     ...mapActions(["addProject", "loadings","detailProject","listLanguage"]),
     addProjects(){
       this.errors = [];
-      if(this.objData.name == '') this.errors.push('Tên không được để trống');
+      // if(this.objData.name == '') this.errors.push('Tên không được để trống');
       if(this.objData.content[0].content == '') this.errors.push('Nội dung không được để trống');
     //  if(this.objData.images.length == 0) this.errors.push('Vui lòng chọn ảnh');
       if (this.errors.length > 0) {

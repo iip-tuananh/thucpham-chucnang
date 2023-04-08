@@ -4,10 +4,10 @@
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title" >Danh sách bảng giá</h4>
-              <router-link class="nav-link" :to="{name:'add_project'}">
+              <h4 class="card-title" >Câu chuyện thương hiệu</h4>
+              <!-- <router-link class="nav-link" :to="{name:'add_project'}">
                 <vs-button type="gradient" style="float:right;">Thêm mới</vs-button>
-              </router-link>
+              </router-link> -->
               <vs-input icon="search" placeholder="Search" v-model="keyword" />
               <vs-table stripe :data="list" max-items="10" pagination>
                 <template slot="thead">
@@ -30,7 +30,7 @@
                           icon="edit"
                         ></vs-button>
                       </router-link>
-                      <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button>
+                      <!-- <vs-button vs-type="gradient" size="lagre" color="red" icon="delete_forever" @click="confirmDestroy(tr.id)"></vs-button> -->
                     </vs-td>
                   </vs-tr>
                 </template>
