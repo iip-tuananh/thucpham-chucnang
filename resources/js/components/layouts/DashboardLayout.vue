@@ -117,17 +117,17 @@ export default {
             }
           ],
         },
-        // {
-        //   icon: "mdi mdi-newspaper menu-icon",
-        //   name: "Quản lý dự án",
-        //   route_name: "",
-        //   sub: [
-        //     {
-        //       name: "Danh sách ",
-        //       path: "/project",
-        //     }
-        //   ],
-        // },
+        {
+          icon: "mdi mdi-newspaper menu-icon",
+          name: "Câu chuyện thương hiệu",
+          route_name: "",
+          sub: [
+            {
+              name: "Câu chuyện thương hiệu",
+              path: "/project",
+            }
+          ],
+        },
         {
           icon: "mdi mdi-newspaper menu-icon",
           name: "Quản lý chứng nhận",
