@@ -399,9 +399,9 @@ P2
             <img width="759" height="653" src="{{$img_prolq[0]}}" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="{{$img_prolq[0]}} 759w, {{$img_prolq[0]}} 600w, {{$img_prolq[0]}} 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
          </div>
          <div class="mota_sp">
-            <h4><a href="https://vlive-international.vn/vi/v-neral/">V-Neral</a></h4>
-            <span><span class="woocommerce-Price-amount amount"><bdi>1.092.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
-            <a class="xemthem" href="https://vlive-international.vn/vi/v-neral/">Xem chi tiết</a>
+            <h4><a href="{{route('detailProduct',['slug'=>$item->slug])}}">V-Neral</a></h4>
+            <span><span class="woocommerce-Price-amount amount"><bdi>{{number_format($item->price,'0','','.')}}&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span></span>
+            <a class="xemthem" href="{{route('detailProduct',['slug'=>$item->slug])}}">Xem chi tiết</a>
          </div>
       </div>
       @endif
