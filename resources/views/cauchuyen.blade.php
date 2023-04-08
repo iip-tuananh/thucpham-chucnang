@@ -51,8 +51,8 @@ Câu chuyện thương hiệu
                <br>
                <br>
                <div class="row">
-                  <div class="col-md-4 col col-xs-12"></div>
-                  <div class="col-md-4 col col-xs-12">
+                  <div class="col-md-3 col col-xs-12"></div>
+                  <div class="col-md-6 col col-xs-12">
                      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
@@ -124,7 +124,7 @@ Câu chuyện thương hiệu
                         </div>
                       </div>
                   </div>
-                  <div class="col-md-4 col col-xs-12"></div>
+                  <div class="col-md-3 col col-xs-12"></div>
                </div>
                
                 <div class="row">
