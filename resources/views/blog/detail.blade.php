@@ -9,8 +9,22 @@
 {{url(''.$blog_detail->image)}}
 @endsection
 @section('css')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 @endsection
 @section('js')
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiperbloglq", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
 @endsection
 @section('content')
 <div id="content" class="site-content">
@@ -37,16 +51,19 @@
              </div>
           </main>
           <!-- #main -->
-       
+         
+          
+            
           <section class="news_other">
              <div class="container">
                 <div class="title_about  w-100">
                    <p class="h3"><span>Tin liên quan</span></p>
                 </div>
-                <div class="khungtintuc w-100">
+                <div class="swiper mySwiperbloglq">
+                <div class="khungtintuc w-100 swiper-wrapper">
                     @foreach ($bloglq as $item)
                     @if($item->type_cate == $blog_detail->type_cate)
-                        <div class="item_tintuc item_tintuckhac" style="display: block;">
+                        <div class="item_tintuc item_tintuckhac swiper-slide" style="display: block;">
                         <div class="img_tintuc">
                             <a href="{{route('detailBlog',['slug'=>$item->slug])}}">
                             <img width="2048" height="300px" src="{{$item->image}}" class="attachment-full size-full wp-post-image tuancusi" alt="{{languageName($item->title)}}" decoding="async" loading="lazy" srcset="{{$item->image}} 2048w, {{$item->image}} 768w, {{$item->image}} 1920w, {{$item->image}} 1280w, {{$item->image}} 1536w, {{$item->image}} 300w, {{$item->image}} 450w, {{$item->image}} 600w" sizes="(max-width: 2048px) 100vw, 2048px" />                                   </a>
@@ -57,6 +74,7 @@
                     @endforeach
                
                 </div>
+                </div>
              </div>
           </section>
           
@@ -64,4 +82,27 @@
     </div>
  </div>
  <!-- #content -->
+ <style>
+
+   .swiper {
+     width: 100%;
+     height: 100%;
+   }
+
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+ </style>
 @endsection
