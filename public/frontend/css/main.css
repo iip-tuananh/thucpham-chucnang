@@ -353,3 +353,7 @@ body{
 .footer_top img{
     mix-blend-mode: color-dodge !important;
 }
+.tuancusi{
+    height: 400px;
+    object-fit: cover;
+}
