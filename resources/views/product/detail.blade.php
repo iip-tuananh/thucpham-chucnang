@@ -396,7 +396,7 @@ P2
       <div class="item_sp1">
          <div class="img_sp">
             <a href="{{route('detailProduct',['slug'=>$item->slug])}}">
-            <img width="759" height="653" src="{{$img_prolq[0]}}" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418.png 759w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-600x516.png 600w, https://vlive-international.vn/wp-content/uploads/2022/06/asset-92x8-16401496418-300x258.png 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
+            <img width="759" height="653" src="{{$img_prolq[0]}}" class="attachment-full size-full wp-post-image" alt="Thực phẩm tăng hệ miễn dịch V-Neral" decoding="async" loading="lazy" srcset="{{$img_prolq[0]}} 759w, {{$img_prolq[0]}} 600w, {{$img_prolq[0]}} 300w" sizes="(max-width: 759px) 100vw, 759px">                                            </a>
          </div>
          <div class="mota_sp">
             <h4><a href="https://vlive-international.vn/vi/v-neral/">V-Neral</a></h4>
