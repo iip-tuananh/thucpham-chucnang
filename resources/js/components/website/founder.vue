@@ -1,11 +1,11 @@
 <template>
   <div>
-      <h3 class="page-title">Quản lý founder</h3>
+      <h3 class="page-title">Quản lý Founder</h3>
       <div class="row">
         <div class="col-md-12 grid-margin stretch-card">
           <div class="card">
             <div class="card-body" >
-              <div class="row" v-for="(item, key) in objData" :key="key">
+              <div class="row" v-for="(item, key) in objData">
                 <div class="col-md-3">
                   <div class="form-group">
                     <image-upload type="avatar" v-model="item.image"></image-upload>
@@ -21,7 +21,7 @@
                       type="text"
                       v-model="item.name"
                       size="default"
-                      placeholder="Tên"
+                      placeholder="Tên Founder"
                       class="w-100"
                     />
                   </div>
@@ -34,17 +34,14 @@
                       type="text"
                       v-model="item.position"
                       size="default"
-                      placeholder="Chức vụ founder"
+                      placeholder="Mô tả founder"
                       class="w-100"
                     />
                   </div>
                   <div class="form-group">
-                <label>Nội dung</label>
-                <TinyMce v-model="item.content" />
-              </div>
-                  <div class="form-group">
                     <label>Trạng thái</label>
-                    <vs-select v-model="item.status">
+                    <vs-select v-model="item.status"
+                  >
                       <vs-select-item  value="1" text="Hiện" />
                       <vs-select-item  value="0" text="Ẩn" />
                     </vs-select>
@@ -66,7 +63,6 @@
 <script>
 import { mapActions } from "vuex";
 import { required } from "vuelidate/lib/validators";
-import TinyMce from "../_common/tinymce";
 export default {
   name: "product",
   data() {
@@ -77,15 +73,12 @@ export default {
           status:1,
           name:"",
           position:"",
-          content:"",
         }
       ] 
     };
   },
   components: {},
-  components: {
-    TinyMce
-  },
+  computed: {},
   watch: {},
   methods: {
     ...mapActions(["saveFounder", "loadings","listFounder"]),
@@ -93,10 +86,10 @@ export default {
       this.loadings(true);
       this.saveFounder({data:this.objData}).then(response => {
         this.loadings(false);
-        this.$success('Sửa thành công');
+        this.$success('Sửa Founder thành công');
       }).catch(error => {
         this.loadings(false);
-        this.$error('Sửa  thất bại');
+        this.$error('Sửa Founder thất bại');
       })
     },
     addObjBanner(){
@@ -105,7 +98,6 @@ export default {
           status:1,
           name:"",
           position:"",
-          content:"",
         });
     },
     removeObjBanner(i){
