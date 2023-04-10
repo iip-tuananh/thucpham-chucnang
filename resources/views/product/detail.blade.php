@@ -18,7 +18,10 @@ P2
 @endsection
 @section('content')
 <div id="content" class="site-content">
-   @if(    {{languageName($product->name)}} == 'Natufekte')
+   @php
+       $name = {{languageName($product->name)}};
+   @endphp
+   @if($name == 'Natufekte')
    <div class="k2-page-title" style="background-color: #f4b033">
       <div class="container">
          <h1 class="woocommerce-products-header__title">
