@@ -28,11 +28,7 @@
                         <div>
                            <img style="height:22px;width:30px" src="{{asset('frontend/img/flag-vietnam.png')}}" alt="" loading="lazy">
                         </div>
-                        {{-- <div>
-                           <span style="color: white" class="ngonngu">Tiếng Việt</span>
-                        </div> --}}
                      </a>
-                     |
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Đức" data-lang="de">
                         <div>
                            <img style="height:22px;width:30px"src="{{asset('frontend/img/flag-duc.png')}}" alt="" loading="lazy">
