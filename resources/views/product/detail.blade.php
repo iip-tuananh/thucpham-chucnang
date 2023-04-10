@@ -19,7 +19,7 @@ P2
 @section('content')
 <div id="content" class="site-content">
    @php
-       $name = {{languageName($product->name)}};
+       $name = languageName($product->name);
    @endphp
    @if($name == 'Natufekte')
    <div class="k2-page-title" style="background-color: #f4b033">
