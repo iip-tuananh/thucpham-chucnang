@@ -219,7 +219,7 @@
                         <div class="col-md-6 col-xs-12">
                            <a data-fancybox="" href="{{$item->link}}">
                               <div class="img_phanhoi">
-                                 <img src="{{$item->image}}">
+                                 <img  style="width:100%" src="{{$item->image}}">
                                  <div class="iconplay">
                                     <img src="{{asset('frontend/img/iconplay.png')}}">
                                  </div>
