@@ -69,9 +69,9 @@
             </div>
             <div class="right_tamnhin">
                <div class="mota_tamnhin">
-                  "Zentrum trở thành nhà nhập khẩu và phân phối những sản phẩm thực phẩm từ Gai dầu và dinh dưỡng Organic đạt chuẩn Châu  u nhập khẩu từ CHLB Đức tốt nhất cho sức khỏe, đưa các sản phẩm tiếp cận đến các tỉnh thành tại Việt Nam và các nước khác.
+                  Zentrum trở thành nhà nhập khẩu và phân phối những sản phẩm thực phẩm từ Gai dầu và dinh dưỡng Organic đạt chuẩn Châu  u nhập khẩu từ CHLB Đức tốt nhất cho sức khỏe, đưa các sản phẩm tiếp cận đến các tỉnh thành tại Việt Nam và các nước khác.
 
-                  Với năng lực và kiến thức chuyên môn tốt về y học & dinh dưỡng. Giúp cho khách hàng hiểu về giá trị của dinh dưỡng, sử dụng đúng cách mang lại hiệu quả cao nhất đối với mỗi khẩu phần ăn. Tạo niềm tin cao nhất cho khách hàng về chất lượng sản phẩm và phong cách phục vụ".
+                  Với năng lực và kiến thức chuyên môn tốt về y học & dinh dưỡng. Giúp cho khách hàng hiểu về giá trị của dinh dưỡng, sử dụng đúng cách mang lại hiệu quả cao nhất đối với mỗi khẩu phần ăn. Tạo niềm tin cao nhất cho khách hàng về chất lượng sản phẩm và phong cách phục vụ.
                   
 
                               
@@ -86,7 +86,7 @@
             </div>
             <div class="right_sumenh">
                <div class="mota_sumenh">
-                  "Đưa các sản phẩm từ Gai dầu và các sản phẩm thực phẩm Organic trở thành một phần thiết yếu trong việc chăm sóc sức khoẻ và chúng tôi tin rằng chúng tôi có trách nhiệm truyền tải kiến thức cho càng nhiều người càng tốt về tầm quan trọng và vai trò của endocannabinoid (hệ thống nội sinh) trong cơ thể."
+                  Đưa các sản phẩm từ Gai dầu và các sản phẩm thực phẩm Organic trở thành một phần thiết yếu trong việc chăm sóc sức khoẻ và chúng tôi tin rằng chúng tôi có trách nhiệm truyền tải kiến thức cho càng nhiều người càng tốt về tầm quan trọng và vai trò của endocannabinoid (hệ thống nội sinh) trong cơ thể.
                </div>
                <div class="content_sumenh">
                   <div class="item_muctieu">
@@ -134,6 +134,40 @@
                         <p>Vun đắp trách nhiệm hợp tác và cống hiến cho xã hội</p>
                      </div>
                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="section_tamnhinsumenh" id="tamnhinsumenh">
+      <div class="container">
+         <div class="khungsanglap w-100">
+            <div class="title">
+               <h2><span>SẢN XUẤT &amp; CÔNG NGHỆ</span></h2>
+            </div>
+         </div>
+         <div class="khungtamnhin">
+            <div class="left_tamnhin">
+               <div class="title">
+                  <span>SẢN XUẤT</span>
+               </div>
+            </div>
+            <div class="right_tamnhin">
+               <div class="mota_tamnhin">
+                  Quy trình sản xuất của nhà máy HaMix được kiểm định vô cùng kỹ lưỡng từ đầu vào, có hệ thống quản lý chất gây dị ứng nghiêm ngặt, đảm bảo sản xuất không bị ô nhiễm.
+                  Trung tâm quá trình sản xuất của HaMix là sự kết tụ. Ngoài ra, máy sấy tầng sôi giúp cho quá trình sản xuất trở lên nhanh chóng và công nghệ phủ nhiều loại bột và hạt khác nhau. 
+               </div>
+            </div>
+         </div>
+         <div class="khungsumenh">
+            <div class="left_sumenh">
+               <div class="title">
+                  <span>CÔNG NGHỆ</span>
+               </div>
+            </div>
+            <div class="right_sumenh">
+               <div class="mota_sumenh">
+                  Nhà máy HaMix tự hào đi đầu công nghệ với nhiều trang thiết bị hiện đại, tân tiến bậc nhất Châu Âu. Công nghệ hoàn thiện và các tùy chọn chiết rót. 
                </div>
             </div>
          </div>
