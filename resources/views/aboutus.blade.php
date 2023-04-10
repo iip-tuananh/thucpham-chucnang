@@ -192,7 +192,7 @@
                         <p>{{$item->position}}</p>
                      </div>
                      <div class="content_dd">
-                       {{$item->content}}
+                       {!!$item->content!!}
                      </div>
                   </div>
                @endforeach
