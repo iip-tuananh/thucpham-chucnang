@@ -22,6 +22,11 @@
                      <li><a  rel="nofollow" href="{{route('pagecontent',['slug'=>'dieu-khoan-su-dung'])}}" style="font-weight: 700">Điều Khoản sử dụng</a></li>
                      <li><a  rel="nofollow" href="{{route('lienHe')}}" style="font-weight: 700">Liên Hệ</a></li>
                   </ul>
+                  <style>
+                     .image-item a{
+                        padding: 6px;
+                     }
+                  </style>
                 <ul class="ngonngu">	
                   <div class="image-item " style="display: flex; color:white">
                      <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Việt" data-lang="vi" >
