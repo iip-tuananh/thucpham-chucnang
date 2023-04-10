@@ -18,6 +18,15 @@ P2
 @endsection
 @section('content')
 <div id="content" class="site-content">
+   @if(    {{languageName($product->name)}} == 'Natufekte')
+   <div class="k2-page-title" style="background-color: #f4b033">
+      <div class="container">
+         <h1 class="woocommerce-products-header__title">
+           {{languageName($product->name)}}   
+         </h1>
+      </div>
+   </div>
+   @else
     <div class="k2-page-title" style="background-color: #307f2e">
        <div class="container">
           <h1 class="woocommerce-products-header__title">
@@ -25,6 +34,7 @@ P2
           </h1>
        </div>
     </div>
+    @endif
     <div class="k2-single-w">
        <div class="container">
           <div class="row">
