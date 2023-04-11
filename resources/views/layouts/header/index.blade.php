@@ -115,7 +115,9 @@
                                <ul >
                                  @foreach ($type->listBlog as $blog)
                                  {{-- @dd($blog); --}}
+                                 @if($blog->slug != 'tin-tuc')
                                     <li><a href="{{route('detailBlog',['slug'=>$blog->slug])}}">{{languageName($blog->title)}}</a></li>
+                                    @endif
                                  @endforeach
                                </ul>
                             </li>
