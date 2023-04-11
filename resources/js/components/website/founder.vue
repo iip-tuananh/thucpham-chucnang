@@ -39,6 +39,26 @@
                     />
                   </div>
                   <div class="form-group">
+              <label>Nội dung</label>
+              <TinyMce v-model="objData.content[0].content" />
+              <el-button size="small" @click="showSettingLangExist('content')"
+                >Đa ngôn ngữ</el-button
+              >
+              <div class="dropLanguage" v-if="showLang.content == true">
+                <div
+                  class="form-group"
+                  v-for="(item, index) in lang"
+                  :key="index"
+                >
+                  <label v-if="index != 0">{{ item.name }}</label>
+                  <TinyMce
+                    v-if="index != 0"
+                    v-model="objData.content[index].content"
+                  />
+                </div>
+              </div>
+            </div>
+                  <div class="form-group">
                     <label>Trạng thái</label>
                     <vs-select v-model="item.status"
                   >
