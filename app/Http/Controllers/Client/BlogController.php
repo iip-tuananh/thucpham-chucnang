@@ -54,7 +54,7 @@ class BlogController extends Controller
         $cate_name = BlogTypeCate::where('slug', $slug)->first(['name']);
         $typec = BlogTypeCate::where('slug', $slug)->first(['slug']);
         $cate_blog= $cate->category_slug;
-        $data['type_blog'] = BlogTypeCate::where('category_slug', $cate_blog)->get();
+        $data['type_blog'] = BlogTypeCate::where('category_slug', $cate_blog) ->orderBy('id','DESC')->get();
         $data['slug_page'] = $typec->slug;
         $data['title_page'] = languageName($cate_name->name);
         return view('blog.list',$data);

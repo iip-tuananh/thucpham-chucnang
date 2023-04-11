@@ -143,31 +143,31 @@
       <div class="container">
          <div class="khungsanglap w-100">
             <div class="title">
-               <h2><span>SẢN XUẤT &amp; CÔNG NGHỆ</span></h2>
+               <h2><span>CÔNG NGHỆ &amp; SẢN XUẤT</span></h2>
             </div>
          </div>
          <div class="khungtamnhin">
             <div class="left_tamnhin">
                <div class="title">
-                  <span>SẢN XUẤT</span>
+                  <span>CÔNG NGHỆ</span>
                </div>
             </div>
             <div class="right_tamnhin">
                <div class="mota_tamnhin">
-                  Quy trình sản xuất của nhà máy HaMix được kiểm định vô cùng kỹ lưỡng từ đầu vào, có hệ thống quản lý chất gây dị ứng nghiêm ngặt, đảm bảo sản xuất không bị ô nhiễm.
-                  Trung tâm quá trình sản xuất của HaMix là sự kết tụ. Ngoài ra, máy sấy tầng sôi giúp cho quá trình sản xuất trở lên nhanh chóng và công nghệ phủ nhiều loại bột và hạt khác nhau. 
+                  Nhà máy HaMix tự hào đi đầu công nghệ với nhiều trang thiết bị hiện đại, tân tiến bậc nhất Châu Âu. Công nghệ hoàn thiện và các tùy chọn chiết rót. 
                </div>
             </div>
          </div>
          <div class="khungsumenh">
             <div class="left_sumenh">
                <div class="title">
-                  <span>CÔNG NGHỆ</span>
+                  <span>SẢN XUẤT</span>
                </div>
             </div>
             <div class="right_sumenh">
                <div class="mota_sumenh">
-                  Nhà máy HaMix tự hào đi đầu công nghệ với nhiều trang thiết bị hiện đại, tân tiến bậc nhất Châu Âu. Công nghệ hoàn thiện và các tùy chọn chiết rót. 
+                  Quy trình sản xuất của nhà máy HaMix được kiểm định vô cùng kỹ lưỡng từ đầu vào, có hệ thống quản lý chất gây dị ứng nghiêm ngặt, đảm bảo sản xuất không bị ô nhiễm.
+                  Trung tâm quá trình sản xuất của HaMix là sự kết tụ. Ngoài ra, máy sấy tầng sôi giúp cho quá trình sản xuất trở lên nhanh chóng và công nghệ phủ nhiều loại bột và hạt khác nhau. 
                </div>
             </div>
          </div>
