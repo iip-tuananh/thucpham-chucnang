@@ -58,7 +58,7 @@
       </div>
    </div>
    @foreach ($blogCate as $key=>$cate)
-   @dd($blogCate);
+  <li>{{$cate->slug}}</li>
    @endforeach
    <div class="bottom_bar w-100">
       <div class="container">
