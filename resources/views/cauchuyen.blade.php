@@ -51,8 +51,8 @@ Câu chuyện thương hiệu
                <br>
                <br>
                <div class="row">
-                  <div class="col-md-2 col col-xs-12"></div>
-                  <div class="col-md-8 col col-xs-12">                    
+         
+                  <div class="col-md-12 col col-xs-12">                    
                     <div class="swiper mySwiper">
                       <div class="swiper-wrapper">
                         @php
@@ -71,7 +71,7 @@ Câu chuyện thương hiệu
                       <div class="swiper-pagination"></div>
                     </div>
                   </div>
-                  <div class="col-md-2 col col-xs-12"></div>
+             
                </div>
                
                 <div class="row">
