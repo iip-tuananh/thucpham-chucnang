@@ -58,7 +58,7 @@
       </div>
    </div>
    @foreach ($blogCate as $key=>$cate)
-   @dd($cate);
+   @dd($blogCate);
    @endforeach
    <div class="bottom_bar w-100">
       <div class="container">
