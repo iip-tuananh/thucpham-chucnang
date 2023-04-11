@@ -50,6 +50,8 @@ Câu chuyện thương hiệu
                </div>
                <br>
                <br>
+             </div>
+            </div>
                <div class="row">
               
                   <div class="col-md-12 col col-xs-12">
@@ -81,7 +83,8 @@ Câu chuyện thương hiệu
                   </div>
                   
                </div>
-               
+               <div class="content-single">
+                <div class="container container-single">
                 <div class="row">
                   
                     <article class="post-587 page type-page status-publish hentry">
