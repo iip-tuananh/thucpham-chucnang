@@ -188,12 +188,14 @@
                          @endif
                          <li>
                             <a  href="{{route('listTypeBlog',['slug'=>$type->slug])}}">{{languageName($type->name)}}</a>
+                            @if($cate->slug != 'tin-tuc')
                             <ul class="submenu2">
                               @foreach ($type->listBlog as $blog)
                               {{-- @dd($blog); --}}
                                  <li><a href="{{route('detailBlog',['slug'=>$blog->slug])}}">{{languageName($blog->title)}}</a></li>
                               @endforeach
                             </ul>
+                            @endif
                          </li>
                        
                          @endforeach
