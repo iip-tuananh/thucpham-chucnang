@@ -11,7 +11,9 @@
          <div class="box_bar">
             <div class="box_bar1">
                <span>Hotline: {{$setting->phone1}}</span>&nbsp;&nbsp;&nbsp;
+               @if($setting->phone2 != '')
                <span>Hotline: {{$setting->phone2}}</span>
+               @endif
                
             </div>
             <div class="box_bar2">
