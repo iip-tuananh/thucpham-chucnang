@@ -57,6 +57,9 @@
          </div>
       </div>
    </div>
+   @foreach ($blogCate as $key=>$cate)
+   @dd($cate->slug);
+   @endforeach
    <div class="bottom_bar w-100">
       <div class="container">
          <div class="box_menu w-100">
@@ -93,7 +96,7 @@
                            </ul>
                         </li>
                         @foreach ($blogCate as $key=>$cate)
-                        @dd($cate->slug);
+                   
                         <li >
                            <a href="javascript:;">{{languageName($cate->name)}}</a>
                            <ul >
