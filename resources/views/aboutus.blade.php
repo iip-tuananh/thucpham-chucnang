@@ -155,6 +155,29 @@
             <div class="right_tamnhin">
                <div class="mota_tamnhin">
                   Nhà máy HaMix tự hào đi đầu công nghệ với nhiều trang thiết bị hiện đại, tân tiến bậc nhất Châu Âu. Công nghệ hoàn thiện và các tùy chọn chiết rót. 
+
+               </div>
+               <br>
+               <br>
+               <div class="mota_tamnhin">
+                 <div class="row">
+                  <div class="col-md-4 col-xs-12">
+                     <div>
+                        <img src="{{asset('frontend/img/1.jpg')}}" alt="" srcset="">
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-xs-12">
+                     <div>
+                        <img src="{{asset('frontend/img/2.jpg')}}" alt="" srcset="">
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-xs-12">
+                     <div>
+                        <img src="{{asset('frontend/img/3.jpg')}}" alt="" srcset="">
+                     </div>
+                  </div>
+                 </div>
+                  
                </div>
             </div>
          </div>
