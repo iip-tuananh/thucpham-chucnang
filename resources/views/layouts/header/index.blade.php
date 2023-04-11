@@ -57,9 +57,7 @@
          </div>
       </div>
    </div>
-   @foreach ($blogCate as $key=>$cate)
-  <li>{{$cate->slug}}</li>
-   @endforeach
+ 
    <div class="bottom_bar w-100">
       <div class="container">
          <div class="box_menu w-100">
@@ -116,15 +114,16 @@
                             @endif
                             <li>
                                <a  href="{{route('listTypeBlog',['slug'=>$type->slug])}}">{{languageName($type->name)}}</a>
+                               @if($cate->slug != 'tin-tuc')
                                <ul >
                                  @foreach ($type->listBlog as $blog)
                                  {{-- @dd($blog); --}}
                         
-                                 @if($cate->slug != 'tin-tuc')
+                            
                                     <li><a href="{{route('detailBlog',['slug'=>$blog->slug])}}">{{languageName($blog->title)}}</a></li>
-                                    @endif
-                                 @endforeach
-                               </ul>
+                                    @endforeach
+                                 </ul>
+                                 @endif
                             </li>
                             @endforeach
                              
