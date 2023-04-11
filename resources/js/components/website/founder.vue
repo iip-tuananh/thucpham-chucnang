@@ -40,7 +40,7 @@
                   </div>
                   <div class="form-group">
               <label>Nội dung</label>
-              <TinyMce v-model="objData.content[0].content" />
+              <TinyMce v-model="item.content" />
               <el-button size="small" @click="showSettingLangExist('content')"
                 >Đa ngôn ngữ</el-button
               >
@@ -53,7 +53,7 @@
                   <label v-if="index != 0">{{ item.name }}</label>
                   <TinyMce
                     v-if="index != 0"
-                    v-model="objData.content[index].content"
+                    v-model="item.content[index].content"
                   />
                 </div>
               </div>
@@ -82,6 +82,7 @@
 
 <script>
 import { mapActions } from "vuex";
+import TinyMce from "../_common/tinymce";
 import { required } from "vuelidate/lib/validators";
 export default {
   name: "product",
@@ -93,11 +94,14 @@ export default {
           status:1,
           name:"",
           position:"",
+          content:"",
         }
       ] 
     };
   },
-  components: {},
+  components: {
+    TinyMce
+  },
   computed: {},
   watch: {},
   methods: {
@@ -118,6 +122,7 @@ export default {
           status:1,
           name:"",
           position:"",
+          content:"",
         });
     },
     removeObjBanner(i){
