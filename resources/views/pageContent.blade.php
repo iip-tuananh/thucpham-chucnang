@@ -38,10 +38,6 @@
                         <div class="single-detail-content mb-4">
                             <div class="col-12 px-0">
                                
-                                <div class="single-detail-meta my-3"><span
-                                        class="mr-3 mr-md-5"><i
-                                            class="fas fa-calendar-alt mr-2 text-primary"></i>{{date_format($pagecontentdetail->created_at,'d/m/Y')}}</span>
-                                </div>
                                  
                                 <div class="text-justify the-content">
                                         {!!($pagecontentdetail->content)!!}

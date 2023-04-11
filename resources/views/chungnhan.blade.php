@@ -17,7 +17,7 @@
     <section class="nav-bredcrum">
        <div class="container">
           <div class=" w-100 ngaytao-bv "> 
-             <a href="https://vlive-international.vn/vi/" title="Trang chủ"> Trang chủ </a>  / <span>Hợp tác kinh doanh</span> 
+             <a href="{{route('home')}}" title="Trang chủ"> Trang chủ </a>  / <span>Hợp tác kinh doanh</span> 
           </div>
        </div>
     </section>
