@@ -157,9 +157,23 @@
                   Nhà máy HaMix tự hào đi đầu công nghệ với nhiều trang thiết bị hiện đại, tân tiến bậc nhất Châu Âu. Công nghệ hoàn thiện và các tùy chọn chiết rót. 
 
                </div>
+             
+            </div>
+         </div>
+         <div class="khungsumenh">
+            <div class="left_sumenh">
+               <div class="title">
+                  <span>SẢN XUẤT</span>
+               </div>
+            </div>
+            <div class="right_sumenh">
+               <div class="mota_sumenh">
+                  Quy trình sản xuất của nhà máy HaMix được kiểm định vô cùng kỹ lưỡng từ đầu vào, có hệ thống quản lý chất gây dị ứng nghiêm ngặt, đảm bảo sản xuất không bị ô nhiễm.
+                  Trung tâm quá trình sản xuất của HaMix là sự kết tụ. Ngoài ra, máy sấy tầng sôi giúp cho quá trình sản xuất trở lên nhanh chóng và công nghệ phủ nhiều loại bột và hạt khác nhau. 
+               </div>
                <br>
                <br>
-               <div class="mota_tamnhin">
+               <div class="mota_sumenh">
                  <div class="row">
                   <div class="col-md-4 col-xs-12">
                      <div>
@@ -178,19 +192,6 @@
                   </div>
                  </div>
                   
-               </div>
-            </div>
-         </div>
-         <div class="khungsumenh">
-            <div class="left_sumenh">
-               <div class="title">
-                  <span>SẢN XUẤT</span>
-               </div>
-            </div>
-            <div class="right_sumenh">
-               <div class="mota_sumenh">
-                  Quy trình sản xuất của nhà máy HaMix được kiểm định vô cùng kỹ lưỡng từ đầu vào, có hệ thống quản lý chất gây dị ứng nghiêm ngặt, đảm bảo sản xuất không bị ô nhiễm.
-                  Trung tâm quá trình sản xuất của HaMix là sự kết tụ. Ngoài ra, máy sấy tầng sôi giúp cho quá trình sản xuất trở lên nhanh chóng và công nghệ phủ nhiều loại bột và hạt khác nhau. 
                </div>
             </div>
          </div>
