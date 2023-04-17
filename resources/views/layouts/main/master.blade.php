@@ -26,6 +26,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3Awght%40100%2C300%2C400%2C500%2C700%2C900%26display%3Dswap%7CMontserrat%3Awght%40300%2C400%2C500%2C700%2C900%26display%3Dswap%7CZen+Kaku+Gothic+New%3Awght%40300%2C400%2C500%2C700%2C900%26display%3Dswap&#038;subset=latin%2Clatin-ext&amp;display=swap" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="{{ url('' . $setting->favicon) }}" type="image/x-icon" />
     {{-- <link rel="apple-touch-icon" href="{{ url('' . $setting->favicon) }}"> --}}
     <meta name="robots" content="noodp,index,follow" />
