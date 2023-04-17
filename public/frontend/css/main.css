@@ -359,7 +359,7 @@ body{
     object-fit: contain;
     /* aspect-ratio: 15/2; */
 }
-@media only screen and (max-width:100px) {
+@media only screen and (max-width:1000px) {
     .box_menu nav {
         width: auto !important;
         float: right;
