@@ -373,4 +373,7 @@ body{
         display: flex;
         padding-right: 20px !important;
     }
+    .box_bar1{
+        display: hidden !important;
+    }
 }
