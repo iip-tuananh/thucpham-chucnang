@@ -280,6 +280,9 @@
    .destop-m{
       display: block ;
    }
+   .title.title_box0 {
+    padding: 0px !important;
+}
 }
   </style>
           <section class="section3">
