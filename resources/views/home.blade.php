@@ -293,7 +293,7 @@
                   @if($key %2== 0)
                      <div class="box_item bg-vang animate__animated animate__fadeInLeft">
                         <div class="box_left ">
-                           <div class="title title_box0" style="padding: 40px">
+                           <div class="title title_box0" >
                               <h2>{{languageName($pro->name)}}</h2>
                            </div>
                            <div class="des">
