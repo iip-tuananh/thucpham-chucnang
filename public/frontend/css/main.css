@@ -367,4 +367,10 @@ body{
         justify-content: space-between;
         align-items: center;
     }
+    .box_menu nav>ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        padding-right: 20px;
+    }
 }
