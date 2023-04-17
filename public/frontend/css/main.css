@@ -380,3 +380,10 @@ body{
         font-size: 14px;
     }
 }
+@media only screen and (max-width:350px) {
+    .box_bar2_right ul.ngonngu li a {
+        font-size: 11px;
+        color: #fff;
+        font-weight: 300;
+    }
+}
