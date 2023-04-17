@@ -359,3 +359,12 @@ body{
     object-fit: contain;
     /* aspect-ratio: 15/2; */
 }
+@media only screen and (max-width:100px) {
+    .box_menu nav {
+        width: auto !important;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
