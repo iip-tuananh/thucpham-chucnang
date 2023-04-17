@@ -371,6 +371,6 @@ body{
         list-style: none;
         padding: 0;
         display: flex;
-        padding-right: 20px;
+        padding-right: 20px !important;
     }
 }
