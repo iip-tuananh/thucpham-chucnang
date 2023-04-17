@@ -4389,6 +4389,7 @@ table.affwp-table td,table.affwp-table th {
     }
 
     .menumobile i {
+        font-family: 'FontAwesome' !important;
         font-size: 16px;
         color: #fff
     }
