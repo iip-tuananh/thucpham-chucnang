@@ -373,7 +373,10 @@ body{
         display: flex;
         padding-right: 20px !important;
     }
-    .box_bar1{
-        display: hidden !important;
+    .box_bar1 span {
+        display: none !important;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
     }
 }
