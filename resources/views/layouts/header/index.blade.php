@@ -65,7 +65,7 @@
          <div class="box_menu w-100">
             <div class="menumobile">
                <div id="wrap_menu_res">
-                  <a href="#menu" title="Menu" id="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                  <a href="#menu" title="Menu" id="hamburger"><i class="fa-solid fa-bars"></i></a>
                   <nav id="menu">
                      <ul>
                         <li><a href="{{route('home')}}">Trang chủ</a></li>
